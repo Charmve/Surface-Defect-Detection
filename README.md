@@ -213,7 +213,7 @@ Cracks on the bridge(left) and crack on the road surface.
 
 Magnetic tile dataset by ourselves. Can be downloaded from [https://github.com/abin24/Magnetic-tile-defect-datasets.](https://github.com/abin24/Magnetic-tile-defect-datasets.)  which was used in our paper "Surface defect saliency of magnetic tile", the paper can be reach by [here](https://link.springer.com/article/10.1007/s00371-018-1588-5) or [here](https://ieeexplore.ieee.org/document/8560423)
 
-![dataset](./dataset.jpg) 
+![dataset](./Magnetic-Tile-Defect/dataset.jpg) 
 
 <p align=center>Figure 1. An overview of our dataset.</p>
 
