@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1640</width>
+    <height>777</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1640</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1640</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>PCBAnnotationTool</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1640</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>tools</string>
+    </property>
+    <widget class="QMenu" name="menu_3">
+     <property name="title">
+      <string>new</string>
+     </property>
+     <addaction name="action_broken"/>
+     <addaction name="action_short"/>
+     <addaction name="action_gap"/>
+     <addaction name="action_burr"/>
+     <addaction name="action_cropper"/>
+     <addaction name="action_hole"/>
+    </widget>
+    <addaction name="menu_3"/>
+    <addaction name="action_delete"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>draw</string>
+    </property>
+    <addaction name="action_pen"/>
+    <addaction name="action_eraser"/>
+    <addaction name="action_zoomin"/>
+    <addaction name="action_zoomout"/>
+   </widget>
+   <widget class="QMenu" name="menu_4">
+    <property name="title">
+     <string>shape</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menu_5">
+    <property name="title">
+     <string>help</string>
+    </property>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_4"/>
+   <addaction name="menu_5"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="action_pen">
+   <property name="text">
+    <string>pen</string>
+   </property>
+   <property name="shortcut">
+    <string>Q</string>
+   </property>
+  </action>
+  <action name="action_eraser">
+   <property name="text">
+    <string>eraser</string>
+   </property>
+   <property name="shortcut">
+    <string>W</string>
+   </property>
+  </action>
+  <action name="action_broken">
+   <property name="text">
+    <string>open</string>
+   </property>
+  </action>
+  <action name="action_short">
+   <property name="text">
+    <string>short</string>
+   </property>
+  </action>
+  <action name="action_gap">
+   <property name="text">
+    <string>mousebite</string>
+   </property>
+  </action>
+  <action name="action_burr">
+   <property name="text">
+    <string>spur</string>
+   </property>
+  </action>
+  <action name="action_cropper">
+   <property name="text">
+    <string>copper</string>
+   </property>
+  </action>
+  <action name="action_hole">
+   <property name="text">
+    <string>pinhole</string>
+   </property>
+  </action>
+  <action name="action_delete">
+   <property name="text">
+    <string>delete</string>
+   </property>
+  </action>
+  <action name="action_zoomin">
+   <property name="text">
+    <string>zoom-in(+)</string>
+   </property>
+   <property name="shortcut">
+    <string>A</string>
+   </property>
+  </action>
+  <action name="action_zoomout">
+   <property name="text">
+    <string>zoom-out(-)</string>
+   </property>
+   <property name="shortcut">
+    <string>S</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

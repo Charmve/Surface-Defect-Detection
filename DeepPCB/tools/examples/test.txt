@@ -1,0 +1,3 @@
+/absolute/path/to/examples/grouptest/test/12100000.jpg /absolute/path/to/examples/grouptest/test_not/12100000.txt
+/absolute/path/to/examples/grouptest/test/12100001.jpg /absolute/path/to/examples/grouptest/test_not/12100001.txt
+/absolute/path/to/examples/grouptest/test/12100002.jpg /absolute/path/to/examples/grouptest/test_not/12100002.txt
