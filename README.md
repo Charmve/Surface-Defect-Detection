@@ -70,11 +70,32 @@
 
 <b>3）金属表面：KolektorSDD</b>
 
-地址：http://www.vicos.si/Downloads/KolektorSDD
 
+The dataset is constructed from images of defected electrical commutators that were provided and annotated by Kolektor Group d.o.o.. Specifically, microscopic fractions or cracks were observed on the surface of the plastic embedding in electrical commutators. The surface area of each commutator was captured in eight non-overlapping images. The images were captured in a controlled environment.
 
+<div align=center><img src="https://www.vicos.si/File:Kolektor-SDD.png"></div>
+<br>
 
-<div align=center><img src="https://mmbiz.qpic.cn/mmbiz_png/Z8w2ExrFgDwNaIgv9VUHeCAeXfauWU8dNvhYK1st5CuJsp4vOzcdj7jnrqy6QV29icM0ugRhHr7UcD04eb4KEIQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></div>
+offical link:https://www.vicos.si/Downloads/KolektorSDD
+
+百度网盘链接：https://pan.baidu.com/share/init?surl=HSzHC1ltHvt1hSJh_IY4Jg
+
+提取码：1zlb
+
+The dataset consists of:
+
+- 50 physical items (defected electrical commutators)
+- 8 surfaces per item
+- Altogether 399 images:
+-- 52 images of visible defect
+-- 347 images without any defect
+- Original images of sizes:
+--  width: 500 px
+-- height: from 1240 to 1270 px
+- For training and evaluation images should be resized to 512 x 1408 px
+
+For each item the defect is only visible in at least one image, while two items have defects on two images, which means there were 52 images where the defects are visible. The remaining 347 images serve as negative examples with non-defective surfaces.
+
 
 <br>
 
@@ -168,7 +189,7 @@ https://hci.iwr.uni-heidelberg.de/node/3616
 
 - 弱标签以椭圆形表示，大致表示缺陷区域。         
 
-
+<br>
 
 <b>9）基建表面裂纹检测数据</b>Cracks on the surface of the construction.
 
@@ -193,7 +214,7 @@ Magnetic tile dataset by ourselves. Can be downloaded from [https://github.com/a
 
 ![dataset](./dataset.jpg) 
 
-Figure 1. An overview of our dataset.
+<p align=center>Figure 1. An overview of our dataset.</p>
 
 This is the datasets of the paper "Saliency of magnetic tile surface defects" 
 The images of 6 common magnetic tile defects were collected, and their pixel level ground-truth were labeled.
@@ -223,10 +244,10 @@ RSDDs数据集中的这些缺陷已由一些专业的人类观察员在轨道表
 <b>12）Kylberg Texture Dataset v. 1.0 </b> 
 
 <div align=center><img src="http://www.cb.uu.se/~gustaf/texture/fig_sample.png"></div>
-Figure 1. Example patches from each one of the 28 texture classes.
+<p align=center>Figure 2. Example patches from each one of the 28 texture classes.</p>
 
 Short description
-- 28 texture classes, see Figure 1.
+- 28 texture classes, see Figure 2.
 - 160 unique texture patches per class. (Alternative dataset with 12 rotations per each original patch, 160*12=1920 texture patches per class).
 - Texture patch size: 576x576 pixels.
 - File format: Lossless compressed 8 bit PNG.
@@ -238,33 +259,7 @@ offical link:http://www.cb.uu.se/~gustaf/texture/
 
 <br>
 
-<b>13）Kolektor Surface-Defect Dataset</b>
 
-
-The dataset is constructed from images of defected electrical commutators that were provided and annotated by Kolektor Group d.o.o.. Specifically, microscopic fractions or cracks were observed on the surface of the plastic embedding in electrical commutators. The surface area of each commutator was captured in eight non-overlapping images. The images were captured in a controlled environment.
-
-<div align=center><img src="https://www.vicos.si/File:Kolektor-SDD.png"></div>
-<br>
-
-offical link:https://www.vicos.si/Downloads/KolektorSDD
-
-百度网盘链接：https://pan.baidu.com/share/init?surl=HSzHC1ltHvt1hSJh_IY4Jg
-
-提取码：1zlb
-
-The dataset consists of:
-
-- 50 physical items (defected electrical commutators)
-- 8 surfaces per item
-- Altogether 399 images:
--- 52 images of visible defect
--- 347 images without any defect
-- Original images of sizes:
---  width: 500 px
--- height: from 1240 to 1270 px
-- For training and evaluation images should be resized to 512 x 1408 px
-
-For each item the defect is only visible in at least one image, while two items have defects on two images, which means there were 52 images where the defects are visible. The remaining 347 images serve as negative examples with non-defective surfaces.
 
 
 <br>
