@@ -2,8 +2,6 @@
 🐎📈 collect Surface-Defect-Detection paper and dataset 🐋
 
 
-
-# surface-defect-detection
 分享一些表面缺陷检测的文章，主要检测对象是：金属表面、LCD屏、建筑、输电线等缺陷或异常检物。方法以分类方法、检测方法、重构方法、生成方法为主。电子版论文放在了paper文件的对应日期文件下。
 
 ## 2019.01
