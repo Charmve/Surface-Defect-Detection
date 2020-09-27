@@ -1,7 +1,7 @@
 # Surface-Defect-Detection
 🐎📈 collect Surface-Defect-Detection paper and dataset 🐋
 
-目前, 基于机器视觉的表面 缺陷装备已经在各工业领域广泛替代人工肉眼检测，包括3C、汽车、家电、机械制造、半导体及电子、化工、医药、航空航天、轻工等行业。传统的基于机器 视觉的表面缺陷检测方法，往往采用常规图像处理 算法或人工设计特征加分类器方式。一般来说，通常利用被检表面或缺陷的不同性质进行成像方案的设计，合理的成像方案有助于获得光照均匀的图像，并将物体表面缺陷明显的体现出来。近年来，不少基于深度学习的缺陷检测方法也被广泛应用在各种工业场景中。
+目前, 基于机器视觉的表面缺陷装备已经在各工业领域广泛替代人工肉眼检测，包括3C、汽车、家电、机械制造、半导体及电子、化工、医药、航空航天、轻工等行业。传统的基于机器 视觉的表面缺陷检测方法，往往采用常规图像处理 算法或人工设计特征加分类器方式。一般来说，通常利用被检表面或缺陷的不同性质进行成像方案的设计，合理的成像方案有助于获得光照均匀的图像，并将物体表面缺陷明显的体现出来。近年来，不少基于深度学习的缺陷检测方法也被广泛应用在各种工业场景中。
 
 
 对比计算机视觉中明确的分 类、检测和分割任务, 缺陷检测的需求非常笼统. 实 际上, 其需求可以划分为三个不同的层次: “缺陷是什么”（分类）、“缺陷在哪里”（定位）和“缺陷是多少”（分割）。
@@ -65,6 +65,7 @@
 
 <div align=center><img src="https://mmbiz.qpic.cn/mmbiz_png/Z8w2ExrFgDwNaIgv9VUHeCAeXfauWU8dIY5a7p8M2vrGblgdSaOia5VzQDYIxudcJ9k5k6rANF7MrTjziaJRQoWw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></div>
 
+<br>
 
 <b>3）金属表面：KolektorSDD</b>
 
@@ -74,7 +75,7 @@
 
 <div align=center><img src="https://mmbiz.qpic.cn/mmbiz_png/Z8w2ExrFgDwNaIgv9VUHeCAeXfauWU8dNvhYK1st5CuJsp4vOzcdj7jnrqy6QV29icM0ugRhHr7UcD04eb4KEIQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></div>
 
-
+<br>
 
 <b>4）PCB板检测：DeepPCB</b>
 
@@ -90,7 +91,7 @@
  the corresponding template image
  </div>
 
-
+<br>
 
 
 <b>5）AITEX数据集（面料缺陷）</b>
@@ -109,7 +110,7 @@ https://pan.baidu.com/s/1cfC4Ll5QlnwN5RTuSZ6b7w
 <div align=center><img src="https://mmbiz.qpic.cn/mmbiz_png/Q0FNTB1XHicxJNERSSNPubP0Ga9pfKj8IkvUic7DWHgQBGDXVjJyJWaIDFkCsPPsjODMqmLrh0ZOIdXOm5ibeFz3w/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></div>
 
 
-
+<br>
 
 
 <b>6）天池布匹缺陷数据（竞赛）</b>
@@ -123,7 +124,7 @@ https://pan.baidu.com/s/1LMbujxvr5iB3SwjFGYHspA
 
 在布匹的实际生产过程中，由于各方面因素的影响，会产生污渍、破洞、毛粒等瑕疵，为保证产品质量，需要对布匹进行瑕疵检测。布匹疵点检验是纺织行业生产和质量管理的重要环节，目前人工检测易受主观因素影响，缺乏一致性；并且检测人员在强光下长时间工作对视力影响极大。由于布匹疵点种类繁多、形态变化多样、观察识别难道大，导致布匹疵点智能检测是困扰行业多年的技术瓶颈。本数据涵盖了纺织业中布匹的各类重要瑕疵，每张图片含一个或多种瑕疵。数据包括包括素色布和花色布两类，其中，素色布数据约8000张，用于初赛；花色布数据约12000张，用于复赛。
 
-
+<br>
 
 <b>7）天池铝型材表面瑕疵数据集（竞赛）</b>
 
@@ -138,7 +139,7 @@ https://tianchi.aliyun.com/competition/entrance/231682/information
 
 
 <div align=center><img src="https://mmbiz.qpic.cn/mmbiz_png/Q0FNTB1XHicxJNERSSNPubP0Ga9pfKj8IeudrVjRJ4doibxAtoMqC8LTxZemeZ9SDUzeicSAMrP3yg31MzfD4ygfA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></div>
-
+<br>
 
 <b>8）弱监督学习下的工业光学检测（DAGM 2007）</b>
 
@@ -148,7 +149,7 @@ https://hci.iwr.uni-heidelberg.de/node/3616
 
 <div align=center><img src="https://mmbiz.qpic.cn/mmbiz_png/Z8w2ExrFgDzZJCiczwcBvkghPc7P0sMdkIcMQ8rKaEwhRKhYLnU00KuhweMiaS1Q32ZPGplzYPxyXcicH4zDPFyhQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></div>
 
-
+<br>
 
 数据集介绍：
 
@@ -177,7 +178,7 @@ https://hci.iwr.uni-heidelberg.de/node/3616
 提取码：jajn
 
 <div align=center><img src="https://mmbiz.qpic.cn/mmbiz_png/Z8w2ExrFgDzZJCiczwcBvkghPc7P0sMdkqUbL7Yba9cbGtjKU8JnQZkvsodS5b2xpq1ErehtEMO1ZeO52gm537A/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></div>
-
+<br>
 
 更多数据集可参考：
 
