@@ -142,7 +142,7 @@ https://tianchi.aliyun.com/competition/entrance/231682/information
 <div align=center><img src="https://mmbiz.qpic.cn/mmbiz_png/Q0FNTB1XHicxJNERSSNPubP0Ga9pfKj8IeudrVjRJ4doibxAtoMqC8LTxZemeZ9SDUzeicSAMrP3yg31MzfD4ygfA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></div>
 <br>
 
-<b>8）弱监督学习下的工业光学检测（DAGM 2007）</b>
+<b>8）弱监督学习下的工业光学检测（DAGM 2007）</b> Weakly Supervised Learning for Industrial Optical Inspection
 
 数据下载链接：
 
@@ -170,7 +170,7 @@ https://hci.iwr.uni-heidelberg.de/node/3616
 
 
 
-<b>9）基建表面裂纹检测数据</b>
+<b>9）基建表面裂纹检测数据</b>Cracks on the surface of the construction.
 
 
 
@@ -181,6 +181,93 @@ https://hci.iwr.uni-heidelberg.de/node/3616
 <div align=center><img src="https://mmbiz.qpic.cn/mmbiz_png/Z8w2ExrFgDzZJCiczwcBvkghPc7P0sMdkqUbL7Yba9cbGtjKU8JnQZkvsodS5b2xpq1ErehtEMO1ZeO52gm537A/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></div>
 <br>
 
+Cracks on the bridge(left) and crack on the road surface.
+
+- Bridge cracks. There are 2688 images of bridge crack without pixel-level ground truth. From the authors "Liangfu Li Weifei Ma Li Li Xiaoxiao Gao". Files can be reached by visiting https://github.com/maweifei/Bridge_Crack_Image_Data.
+
+- Crack on road surface. From Shi, Yong, and Cui, Limeng and Qi, Zhiquan and Meng, Fan and Chen, Zhensong. Original dataset can be reached at https://github.com/cuilimeng/CrackForest-dataset. We extract the image files of the pixel level ground truth.
+
+<b>10）磁瓦缺陷数据集 </b>Magnetic tile dataset 
+
+Magnetic tile dataset by ourselves. Can be downloaded from [https://github.com/abin24/Magnetic-tile-defect-datasets.](https://github.com/abin24/Magnetic-tile-defect-datasets.)  which was used in our paper "Surface defect saliency of magnetic tile", the paper can be reach by [here](https://link.springer.com/article/10.1007/s00371-018-1588-5) or [here](https://ieeexplore.ieee.org/document/8560423)
+
+![dataset](./dataset.jpg) 
+
+Figure 1. An overview of our dataset.
+
+This is the datasets of the paper "Saliency of magnetic tile surface defects" 
+The images of 6 common magnetic tile defects were collected, and their pixel level ground-truth were labeled.
+
+<center> 
+
+<b>11）铁轨表面缺陷数据集 </b> RSDDs dataset
+
+
+RSDDs数据集包含两种类型的数据集：第一种是从快车道捕获的I型RSDDs数据集，其中包含67个具有挑战性的图像。第二个是从普通/重型运输轨道捕获的II型RSDDs数据集，其中包含128个具有挑战性的图像。
+
+两个数据集的每幅图像至少包含一个缺陷，并且背景复杂且噪声很大。
+
+RSDDs数据集中的这些缺陷已由一些专业的人类观察员在轨道表面检查领域进行了标记。
+
+<div align=center><img src="http://icn.bjtu.edu.cn/Visint/resources/ShowRails/rail%20I/rail_4.jpg"></div>
+<br>
+
+官方链接：http://icn.bjtu.edu.cn/Visint/resources/RSDDs.aspx
+
+链接：https://pan.baidu.com/share/init?surl=svsnqL0r1kasVDNjppkEwg
+
+提取码：nanr
+
+<br>
+
+<b>12）Kylberg Texture Dataset v. 1.0 </b> 
+
+<div align=center><img src="http://www.cb.uu.se/~gustaf/texture/fig_sample.png"></div>
+Figure 1. Example patches from each one of the 28 texture classes.
+
+Short description
+- 28 texture classes, see Figure 1.
+- 160 unique texture patches per class. (Alternative dataset with 12 rotations per each original patch, 160*12=1920 texture patches per class).
+- Texture patch size: 576x576 pixels.
+- File format: Lossless compressed 8 bit PNG.
+- All patches are normalized with a mean value of 127 and a standard deviation of 40.
+- One directory per texture class.
+- Files are named as follows: blanket1-d-p011-r180.png, where blanket1 is the class name, d original image sample number (possible values are a, b, c, or d), p011 is patch number 11, r180 patch rotated 180 degrees.
+
+offical link:http://www.cb.uu.se/~gustaf/texture/
+
+<br>
+
+<b>13）Kolektor Surface-Defect Dataset</b>
+
+
+The dataset is constructed from images of defected electrical commutators that were provided and annotated by Kolektor Group d.o.o.. Specifically, microscopic fractions or cracks were observed on the surface of the plastic embedding in electrical commutators. The surface area of each commutator was captured in eight non-overlapping images. The images were captured in a controlled environment.
+
+<div align=center><img src="https://www.vicos.si/File:Kolektor-SDD.png"></div>
+<br>
+
+offical link:https://www.vicos.si/Downloads/KolektorSDD
+
+百度网盘链接：https://pan.baidu.com/share/init?surl=HSzHC1ltHvt1hSJh_IY4Jg
+
+提取码：1zlb
+
+The dataset consists of:
+
+- 50 physical items (defected electrical commutators)
+- 8 surfaces per item
+- Altogether 399 images:
+-- 52 images of visible defect
+-- 347 images without any defect
+- Original images of sizes:
+--  width: 500 px
+-- height: from 1240 to 1270 px
+- For training and evaluation images should be resized to 512 x 1408 px
+
+For each item the defect is only visible in at least one image, while two items have defects on two images, which means there were 52 images where the defects are visible. The remaining 347 images serve as negative examples with non-defective surfaces.
+
+
+<br>
 更多数据集可参考：
 
 https://github.com/abin24/Surface-Inspection-defect-detection-dataset
