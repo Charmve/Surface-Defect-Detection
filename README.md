@@ -205,13 +205,13 @@ https://hci.iwr.uni-heidelberg.de/node/3616
 
 Cracks on the bridge(left) and crack on the road surface.
 
-- Bridge cracks. There are 2688 images of bridge crack without pixel-level ground truth. From the authors "Liangfu Li Weifei Ma Li Li Xiaoxiao Gao". Files can be reached by visiting https://github.com/maweifei/Bridge_Crack_Image_Data.
+- Bridge cracks. There are 2688 images of bridge crack without pixel-level ground truth. From the authors "Liangfu Li Weifei Ma Li Li Xiaoxiao Gao". Files can be reached by visiting https://github.com/Charmve/Surface-Defect-Detection/tree/master/Bridge_Crack_Image.
 
-- Crack on road surface. From Shi, Yong, and Cui, Limeng and Qi, Zhiquan and Meng, Fan and Chen, Zhensong. Original dataset can be reached at https://github.com/cuilimeng/CrackForest-dataset. We extract the image files of the pixel level ground truth.
+- Crack on road surface. From Shi, Yong, and Cui, Limeng and Qi, Zhiquan and Meng, Fan and Chen, Zhensong. Original dataset can be reached at https://github.com/Charmve/Surface-Defect-Detection/tree/master/CrackForest. We extract the image files of the pixel level ground truth.
 
 <b>10）磁瓦缺陷数据集 </b>Magnetic tile dataset 
 
-Magnetic tile dataset by ourselves. Can be downloaded from [https://github.com/abin24/Magnetic-tile-defect-datasets.](https://github.com/abin24/Magnetic-tile-defect-datasets.)  which was used in our paper "Surface defect saliency of magnetic tile", the paper can be reach by [here](https://link.springer.com/article/10.1007/s00371-018-1588-5) or [here](https://ieeexplore.ieee.org/document/8560423)
+Magnetic tile dataset by ourselves. Can be downloaded from [https://github.com/Charmve/Surface-Defect-Detection/tree/master/Magnetic-Tile-Defect](https://github.com/Charmve/Surface-Defect-Detection/tree/master/Magnetic-Tile-Defect), which was used in our paper "Surface defect saliency of magnetic tile", the paper can be reach by [here](https://link.springer.com/article/10.1007/s00371-018-1588-5) or [here](https://ieeexplore.ieee.org/document/8560423)
 
 ![dataset](./Magnetic-Tile-Defect/dataset.jpg) 
 
