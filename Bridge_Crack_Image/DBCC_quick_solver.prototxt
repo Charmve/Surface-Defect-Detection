@@ -1,0 +1,13 @@
+net: "examples/mymodel/DBCC_quick_train_test.prototxt"
+test_iter: 500
+test_interval: 500
+base_lr: 0.001
+momentum: 0.9
+weight_decay: 0.004
+lr_policy: "fixed"
+display: 100
+max_iter: 55000
+snapshot: 1000
+snapshot_format: HDF5
+snapshot_prefix: "examples/mymodel/mymodel_quick"
+solver_mode: CPU
