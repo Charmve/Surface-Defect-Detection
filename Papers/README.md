@@ -1,4 +1,4 @@
-# Surface-Defect-Detection
+# -Surface Defect Detection Papers-
 🐎📈 collect Surface-Defect-Detection paper and dataset 🐋
 
 
