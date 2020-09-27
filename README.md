@@ -136,6 +136,7 @@ https://pan.baidu.com/s/1cfC4Ll5QlnwN5RTuSZ6b7w
 
 
 <b>6）天池布匹缺陷数据（竞赛）</b>
+
 数据下载链接：
 
 https://pan.baidu.com/s/1LMbujxvr5iB3SwjFGYHspA
@@ -191,7 +192,7 @@ https://hci.iwr.uni-heidelberg.de/node/3616
 
 <br>
 
-<b>9）基建表面裂纹检测数据</b>Cracks on the surface of the construction.
+<b>9）基建表面裂纹检测数据</b> Cracks on the surface of the construction.
 
 
 
@@ -230,7 +231,7 @@ RSDDs数据集包含两种类型的数据集：第一种是从快车道捕获的
 
 RSDDs数据集中的这些缺陷已由一些专业的人类观察员在轨道表面检查领域进行了标记。
 
-<div align=center><img src="http://icn.bjtu.edu.cn/Visint/resources/ShowRails/rail%20I/rail_4.jpg"></div>
+<div align=center><img src="http://icn.bjtu.edu.cn/Visint/resources/ShowRails/rail%20I/rail_12.jpg"></div>
 <br>
 
 官方链接：http://icn.bjtu.edu.cn/Visint/resources/RSDDs.aspx
@@ -256,9 +257,6 @@ Short description
 - Files are named as follows: blanket1-d-p011-r180.png, where blanket1 is the class name, d original image sample number (possible values are a, b, c, or d), p011 is patch number 11, r180 patch rotated 180 degrees.
 
 offical link:http://www.cb.uu.se/~gustaf/texture/
-
-<br>
-
 
 
 
