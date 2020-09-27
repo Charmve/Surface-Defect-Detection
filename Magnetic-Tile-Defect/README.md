@@ -7,7 +7,7 @@ The images of 6 common magnetic tile defects were collected, and their pixel lev
 
 
 
-Figure 1. An overview of our dataset.
+<p align=center>Figure 1. An overview of our dataset.</p>
 
 
 </center> 
