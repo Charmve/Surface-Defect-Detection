@@ -231,7 +231,7 @@ RSDDs数据集包含两种类型的数据集：第一种是从快车道捕获的
 
 RSDDs数据集中的这些缺陷已由一些专业的人类观察员在轨道表面检查领域进行了标记。
 
-<div align=center><img src="http://icn.bjtu.edu.cn/Visint/resources/ShowRails/rail%20I/rail_12.jpg"></div>
+<div align=center><img src="./rail_dataset.jpg"></div>
 <br>
 
 官方链接：http://icn.bjtu.edu.cn/Visint/resources/RSDDs.aspx
