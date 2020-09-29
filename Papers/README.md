@@ -1,3 +1,19 @@
+<div id="outputFigDisplay" class="fig">
+    <pre id="taag_output_text" style="float:left;" class="flag" contenteditable="true">
+    ____  _                                        
+  / ___|| |__    __ _  _ __  _ __ ___ __   __ ___ 
+ | |    | '_ \  / _` || '__|| '_ ` _ \\ \ / // _ \
+ | |___ | | | || (_| || |   | | | | | |\ V /|  __/
+  \____||_| |_| \__,_||_|   |_| |_| |_| \_/  \___|   
+    </pre>
+</div>
+
+<p align="center">
+  <a href="https://charmve.blog.csdn.net/"><img src="https://img.shields.io/badge/blog-Charmve-blue" alt="css"></a>
+  <a href="https://charmve.blog.csdn.net/"><img src="https://www.geekxh.com/trending.svg?label=html" alt="html"></a>
+  <a href="https://github.com/haizlin/fe-interview/stargazers"><img src="https://img.shields.io/github/stars/geekxh/hello-algorithm.svg" alt="Statr"></a>
+</p>
+
 # -Surface Defect Detection Papers-
 🐎📈 collecting Surface-Defect-Detection paper and dataset 🐋
 
@@ -8,7 +24,7 @@
 
 ### [1]CNN做分类
 
-论文题目：A fast and robust convolutional neural network-based defect detection model in product quality control 
+论文题目：A fast and robust convolutional neural network-based defect detection model in product quality control  [<a href="https://github.com/Charmve/Surface-Defect-Detection/blob/master/Papers/2019.01/A%20fast%20and%20robust%20convolutional%20neural%20network-based%20defect%20detection%20model%20in%20product%20quality%20control.pdf" target="_blank">paper</a>]
 
 摘要：The fast and robust automated quality visual inspection has received increasing attention in the product quality control for production efficiency. To effectively detect defects in products, many methods focus on the handcrafted optical features. However, these methods tend to only work well under specified conditions and have many requirements for the input. So the work in this paper targets on building a deep model to solve this problem. The elaborately designed deep convolutional neural networks (CNN) proposed by us can automatically extract powerful features with less prior knowledge about the images for defect detection, while at the same time is robust to noise. We experimentally evaluate this CNN model on a benchmark dataset and achieve a fast detection result with a high accuracy, surpassing the state-of-the-art methods. 
 
@@ -16,7 +32,7 @@
 
 ### [2]图像金字塔层次结构思想和卷积去噪自编码器网络对纹理缺陷做检测
 
-论文题目：An Unsupervised-Learning-Based Approach for Automated Defect Inspection on Textured Surfaces 
+论文题目：An Unsupervised-Learning-Based Approach for Automated Defect Inspection on Textured Surfaces [<a href="https://github.com/Charmve/Surface-Defect-Detection/blob/master/Papers/2019.01/An%20Unsupervised-Learning-Based%20Approach%20for%20Automated%20Defect%20Inspection%20on%20Textured%20Surfaces.pdf" target="_blank">paper</a>]
 
 摘要：Automated defect inspection has long been a challenging task especially in industrial applications, where collecting and labeling large amounts of defective samples are usually harsh and impracticable. In this paper, we propose an approach to detect and localize defects with only defect-free samples for model
 
@@ -27,7 +43,7 @@ direct pixelwise defect prediction, and the reconstruction residual map generate
 
 ### [3]级联自编码器(CASAE)结构用于金属表面异常的分割和定位
 
-论文题目：Automatic Metallic Surface Defect Detection and Recognition with Convolutional Neural Networks 
+论文题目：Automatic Metallic Surface Defect Detection and Recognition with Convolutional Neural Networks [<a href="https://github.com/Charmve/Surface-Defect-Detection/blob/master/Papers/2019.01/Automatic_Metallic_Surface_Defect_Detection_and_Re.pdf" target="_blank">paper</a>]
 
 摘要：Automatic metallic surface defect inspection has received increased attention in relation
 to the quality control of industrial products. Metallic defect detection is usually performed against
@@ -49,7 +65,7 @@ it can also be extended to other detection applications.
 
 ### [4]Faster R-CNN用于土木行业缺陷检测
 
-论文题目：Autonomous Structural Visual Inspection Using Region-Based Deep Learning for Detecting Multiple Damage Types
+论文题目：Autonomous Structural Visual Inspection Using Region-Based Deep Learning for Detecting Multiple Damage Types [<a href="https://github.com/Charmve/Surface-Defect-Detection/blob/master/Papers/2019.01/Autonomous%20Structural%20Visual%20Inspection%20Using%20Region-Based%20Deep%20Learning%20for%20Detecting%20Multiple%20Damage%20Types.pdf" target="_blank">paper</a>]
 
 摘要： Computer vision-based techniques were developed to overcome the limitations of visual inspection by trained human resources and to detect structural damage in images remotely, but most methods detect only specific types of damage, such as concrete or steel cracks. To provide quasi real-time simultaneous detection of multiple types of damages, a Faster Region-based Convolutional Neural Network (Faster R-CNN)-based structural visual inspection method is proposed. To realize this, a database including 2,366 images (with 500 × 375 pixels) labeled for five types of damages—concrete crack, steel corrosion with two levels (medium and high), bolt corrosion, and steel delamination—is developed. Then, the architecture of the Faster R-CNN is modified, trained, validated, and tested using this database. Results show 90.6%, 83.4%, 82.1%, 98.1%, and 84.7% average precision (AP) ratings for the five damage types, respectively, with a mean AP of 87.8%. The robustness of the trained Faster R-CNN is evaluated and demonstrated using 11 new 6,000 × 4,000-pixel images taken of different structures. Its performance is also compared to that of the traditional CNN-based method. Considering that the proposed method provides a remarkably fast test speed (0.03 seconds per image with 500 × 375 resolution), a framework for quasi real-time damage detection on video using the trained networks is developed. 
 
@@ -59,7 +75,7 @@ it can also be extended to other detection applications.
 
 ### [1]主动学习用于缺陷分类
 
-论文题目：Deep Active Learning for Civil Infrastructure Defect Detection and Classification 
+论文题目：Deep Active Learning for Civil Infrastructure Defect Detection and Classification [<a href="https://github.com/Charmve/Surface-Defect-Detection/blob/master/Papers/2019.02/Deep%20Active%20Learning%20for%20Civil%20Infrastructure%20Defect%20detection%20and%20clssification.pdf" target="_blank">paper</a>]
 
 论文摘要：Automatic detection and classification of defects in infrastructure surface images can largely
 boost its maintenance efficiency. Given enough labeled images, various supervised learning
@@ -78,7 +94,7 @@ accuracy.
 
 ### [2]CNN的一个实验在LCD屏异常检测
 
-论文题目：Defect Detection of Mobile Phone Surface Based on Convolution Neural Network 
+论文题目：Defect Detection of Mobile Phone Surface Based on Convolution Neural Network  [<a href="https://github.com/Charmve/Surface-Defect-Detection/blob/master/Papers/2019.02/Defect%20Detection%20of%20Mobile%20Phone%20Surface%20based%20on%20convlution%20nerual%20networks.pdf" target="_blank">paper</a>]
 
 论文摘要：Automatic surface defect detection of mobile phone in large scale needs to
 process high resolution images and handle various defects while achieving high
@@ -95,7 +111,7 @@ detection rate of the designed CNN can achieve as high as 99.5%.
 
 ### [3] 深度学习&迁移学习
 
-论文题目：Defects Detection Based on Deep Learning and Transfer Learning 
+论文题目：Defects Detection Based on Deep Learning and Transfer Learning  [<a href="https://github.com/Charmve/Surface-Defect-Detection/blob/master/Papers/2019.02/Defects%20Detection%20Based%20on%20Deep%20Learning%20and%20Transfer%20Learning.pdf" target="_blank">paper</a>]
 
 论文摘要：Defect detection is an important step in the feld of industrial production. Through the study of deep
 learning and transfer learning, this paper proposes a method of defect detection based on deep learning
@@ -114,13 +130,13 @@ establishes the mapping relationship, and can quickly detect defects with a high
 
 ### [1]分割网络用于磁瓦缺陷检测
 
-论文题目：Surface Defect Saliency of Magnetic Tile 
+论文题目：Surface Defect Saliency of Magnetic Tile  [<a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers/2019.03" target="_blank">paper</a>]
 
 论文摘要：Vision-based detection on surface defects has long postulated in the magnetic tile automation process. In this work, we introduce a real-time and multi-module neural network model called MCuePush U-Net, specifically designed for the image saliency detection of magnetic tile. We show that the model exceeds the state-of-the-art, in which it both effectively and explicitly maps multiple surface defects from low-contrast images. Our model significantly reduces time cost of machinery from 0.5s per image to 0.07s, and enhances saliency accuracy on surface defect detection. 
 
 ### [2]经典的PHOT算法
 
-论文题目：The Phase Only Transform for unsupervised surface defect detection 
+论文题目：The Phase Only Transform for unsupervised surface defect detection  [<a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers/2019.03" target="_blank">paper</a>]
 
 论文摘要：We present a simple, fast, and effective method to detect defects on textured surfaces. Our method is unsupervised and contains no learning stage or information on the texture being inspected. The new method is based on the Phase Only Transform (PHOT) which correspond to the Discrete Fourier Transform (DFT), normalized by the magnitude. The PHOT removes any regularities, at arbitrary
 scales, from the image while preserving only irregular patterns considered to represent defects. The localization is obtained by the inverse transform followed by adaptive thresholding using a simple standard statistical method. The main computational requirement is thus to apply the DFT on the input image. The new method is also easy to implement in a few lines of code. Despite its simplicity, the methods is
@@ -128,7 +144,7 @@ shown to be effective and generic as tested on various inputs, requiring only on
 
 ### [3]经典的DCT算
 
-论文题目：Tiny surface defect inspection of electronic passive components using discrete cosine transform decomposition and cumulative sum techniques 
+论文题目：Tiny surface defect inspection of electronic passive components using discrete cosine transform decomposition and cumulative sum techniques [<a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers/2019.03" target="_blank">paper</a>]
 
 论文摘要：Passive components, owing to their low or no power consumption, are widely used in modern electronic devices. Nevertheless, tiny defects that often appear in the surface of passive components impair not only their appearances but also their functions. This paper proposes a global approach for the automated visual inspection of tiny surface defects in SBL (Surface Barrier Layer) chips, whose random surface texture contains no repetitions of basic texture primitives. The proposed method, taking advantage of the DCT decomposition and the cumulative sum techniques, does not requires textural features, the lack of which often limits the application of feature extraction-based methods. We apply the cumulative sum algorithm to the odd–odd matrix that gathers most power spectra in the decomposed DCT frequency domain, and select the large-magnitude frequency values that represent the background texture of the surface. Then, by reconstructing the frequency matrix without the selected frequency values, we eliminate random texture patterns and retain anomalies in the restored image. Experimental results demonstrate the effectiveness of the proposed method in inspecting tiny defects in random textures. 
 
@@ -136,7 +152,7 @@ shown to be effective and generic as tested on various inputs, requiring only on
 
 ### [1]一种无监督的纳米纤维材料扫描电镜图像（SEM）异常检测方法
 
-论文题目：Anomaly Detection in Nanofibrous Materials by CNN-Based Self-Similarity 
+论文题目：Anomaly Detection in Nanofibrous Materials by CNN-Based Self-Similarity [<a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers/2019.04" target="_blank">paper</a>]
 
 论文摘要：Automatic detection and localization of anomalies in nanofibrous materials help to reduce
 the cost of the production process and the time of the post-production visual inspection process.
@@ -153,7 +169,7 @@ of the art.
 ### [2]Faster R-CNN用于土木建筑领域的混凝土
 
 论文题目：Automatic Defect Detection of Fasteners on theCatenary Support Device Using Deep
-Convolutional Neural Network 
+Convolutional Neural Network  [<a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers/2019.04" target="_blank">paper</a>]
 
 摘要：The excitation and vibration triggered by the longterm operation of railway vehicles inevitably result in defective states of catenary support devices. With the massive construction of high-speed electrified railways, automatic defect detection of diverse and plentiful fasteners on the catenary support device
 is of great significance for operation safety and cost reduction. Nowadays, the catenary support devices are periodically captured by the cameras mounted on the inspection vehicles during the night, but the inspection still mostly relies on human visual interpretation. To reduce the human involvement, this paper
@@ -164,7 +180,7 @@ classifier to diagnose the fasteners’ defects. Extensive experiments and compa
 
 ### [3] 多尺度卷积去噪自动编码器网络模型
 
-论文题目：Automatic Fabric Defect Detection with a Multi-Scale Convolutional Denoising Autoencoder Network Model 
+论文题目：Automatic Fabric Defect Detection with a Multi-Scale Convolutional Denoising Autoencoder Network Model  [<a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers/2019.04" target="_blank">paper</a>]
 
 摘要：Fabric defect detection is a necessary and essential step of quality control in the textile
 manufacturing industry. Traditional fabric inspections are usually performed by manual visual
@@ -190,7 +206,7 @@ and yields good overall performance with high precision and acceptable recall ra
 
 ### [1]CNN做分类
 
-论文题目：Design of deep convolutional neural network architectures for automated feature extraction in industrial inspection 
+论文题目：Design of deep convolutional neural network architectures for automated feature extraction in industrial inspection  [<a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers/2019.05" target="_blank">paper</a>]
 
 论文摘要：Fast and reliable industrial inspection is a main challenge in manufacturing scenarios. However, the defect
 detection performance is heavily dependent on manually defined features for defect representation. In
@@ -204,7 +220,7 @@ defect detection results with low false alarm rates.
 
 ### [2] 威布尔Weibull
 
-论文题目：Non-parametric texture defect detection using Weibull features 
+论文题目：Non-parametric texture defect detection using Weibull features [<a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers/2019.05" target="_blank">paper</a>]
 
 论文摘要：The detection of abnormalities is a very challenging problem in computer vision, especially if these abnormalities must be detected in images of textured surfaces such as textile, stone, or wood. We propose a novel, nonparametric approach for defect detection in textures that only employs two features. We compute the two parameters of a Weibull fit for the distribution of image gradients in local regions. Then, we perform a simple novelty detection algorithm in order to detect arbitrary deviations of the reference texture. Therefore, we evaluate the Euclidean distances of all local patches to a reference point in the Weibull space, where the reference point is determined for each texture image individually. Thus, our approach becomes independent of the particular texture type and also independent of a certain defect type.
 For performance evaluation we use the highly challenging database provided by Bosch for a contest on
@@ -212,7 +228,7 @@ industrial optical inspection with different classes of textures and different d
 
 ### [3]神经进化Neuro-Evolution
 
-论文题目：Learning Defect Classifiers for Visual Inspection Images by Neuro-Evolution using Weakly Labelled Training Data
+论文题目：Learning Defect Classifiers for Visual Inspection Images by Neuro-Evolution using Weakly Labelled Training Data  [<a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers/2019.05" target="_blank">paper</a>]
 
 论文摘要： This article presents results from experiments where a detector for defects in visual inspection images was learned from scratch by EANT2, a method for evolutionary reinforcement learning. The detector is constructed as a neural network that takes as input statistical data on filter responses
 from a bank of image filters applied to an image region. Training is done on example images with weakly labelled defects. Experiments show good results of EANT2 in an application area where evolutionary methods are rare. 
@@ -221,7 +237,7 @@ from a bank of image filters applied to an image region. Training is done on exa
 
 ### [1]GAN用于缺陷检测
 
-论文题目：A Surface Defect Detection Method Based on Positive Samples 
+论文题目：A Surface Defect Detection Method Based on Positive Samples  [<a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers/2019.06" target="_blank">paper</a>]
 
 论文摘要：Surface defect detection and classification based on machine vision can greatly improve the efficiency of industrial production. With enough labeled images, defect detection methods based on convolution neural network have achieved the detection effect of state-of-art. However in practical applications, the defect samples or negative samples are usually difficult to be collected before‐
 hand and manual labelling is time-consuming. In this paper, a novel defect detection framework only based on training of positive samples is proposed. The basic detection concept is to establish a reconstruction network which can repair defect areas in the samples if they are existed, and then make a comparison between the input sample and the restored one to indicate the accurate defect areas. We combine GAN and autoencoder for defect image reconstruction and use LBP for image local contrast to detect defects. In the training process of the algorithm, only positive samples is needed, without defect samples and manual label. This paper carries out verification experiments for concentrated fabric images and the dataset of DAGM 2007. Experiments show that the proposed GAN+LBP algorithm and supervised training algorithm with sufficient training samples have fairly high detection accuracy. Because of its unsupervised characteristics, it has higher practical application value. 
@@ -230,19 +246,19 @@ hand and manual labelling is time-consuming. In this paper, a novel defect detec
 
 ### [2]GAN用于异常检测
 
-论文题目：GANomaly: Semi-Supervised Anomaly Detection via Adversarial Training  
+论文题目：GANomaly: Semi-Supervised Anomaly Detection via Adversarial Training   [<a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers/2019.06" target="_blank">paper</a>]
 
 论文摘要：Anomaly detection is a classical problem in computer vision, namely the determination of the normal from the abnormal when datasets are highly biased towards one class (normal) due to the insufficient sample size of the other class (abnormal). While this can be addressed as a supervised learning problem, a significantly more challenging problem is that of detecting the unknown/unseen anomaly case that takes us instead into the space of a one-class, semi-supervised learning paradigm. We introduce such a novel anomaly detection model, by using a conditional generative adversarial network that jointly learns the generation of high-dimensional image space and the inference of latent space. Employing encoder-decoder-encoder sub-networks in the generator network enables the model to map the input image to a lower dimension vector, which is then used to reconstruct the generated output image. The use of the additional encoder network maps this generated image to its latent representation. Minimizing the distance between these images and the latent vectors during training aids in learning the data distribution for the normal samples. As a result, a larger distance metric from this learned data distribution at inference time is indicative of an outlier from that distribution | an anomaly. Experimentation over several benchmark datasets, from varying domains, shows the model efficacy and superiority over previous state-of-the-art approaches. 
 
 ### [3]GAN用于缺陷分类
 
-论文题目：Surface defect classification of steels with a new semi-supervised learning method 
+论文题目：Surface defect classification of steels with a new semi-supervised learning method [<a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers/2019.06" target="_blank">paper</a>]
 
 论文摘要：Defect inspection is extremely crucial to ensure the quality of steel surface. It affects not only the subsequent production, but also the quality of the end-products. However, due to the rare occurrence and appearance variations of defects, surface defect identification of steels has always been a challenging task. Recently, deep learning methods have shown outstanding performance in image classification, especially when there are enough training samples. Since most sample images of steel surface are unlabeled, a new semi-supervised learning method is proposed to classify surface defects of steels. The new method is named CAE-SGAN, as it is based on Convolutional Autoencoder (CAE) and semi-supervised Generative Adversarial Networks (SGAN). CAE-SGAN first trains a stacked CAE through massive unlabeled data. Considering the appearance variations of defects, the passthrough layer is used to help CAE extract fine-grained features. After CAE is trained, the encoder network of CAE is reserved as the feature extractor and fed into a softmax layer to form a new classifier. SGAN is introduced for semi-supervised learning to further improve the generalization ability of the new method. The classifier is trained with images collected from real production lines and images randomly generated by SGAN. Extensive experiments are carried out with samples captured from different steel production lines, and the results indicate that CAESGAN had yielded best performances compared with traditional methods. Especially for hot rolled plates, the classification rate is improved by around 16%. 
 
 ### [4]YOLO用于缺陷检测
 
-论文题目：Real-time Detection of Steel Strip Surface Defects Based on Improved YOLO Detection Network
+论文题目：Real-time Detection of Steel Strip Surface Defects Based on Improved YOLO Detection Network [<a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers/2019.06" target="_blank">paper</a>]
 
 论文摘要：The surface defects of steel strip have diverse and complex features, and surface
 defects caused by different production lines tend to have different characteristics. Therefore,
@@ -261,20 +277,20 @@ production line.
 
 ### [1]半监督方法的异常检测
 
-论文题目：A semi-supervised convolutional neural network-based method for steel
+论文题目：A semi-supervised convolutional neural network-based method for steel [<a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers/2019.10" target="_blank">paper</a>]
 
 论文摘要：Automatic defect recognition is one of the research hotspots in steel production, but most of the current methods focus on supervised learning, which relies on large-scale labeled samples. In some real-world cases, it is difcult to collect and label enough samples for model training, and this might impede the application of most current works. The semi-supervised learning, using both labeled and unlabeled samples for model training, can overcome this problem well. In this paper, a semi-supervised learning method using the convolutional neural network (CNN) is proposed for steel surface defect recognition. The proposed method requires fewer labeled samples, and the unlabeled data can be used to help training. And, the CNN is improved by Pseudo-Label. The experimental results on a benchmark dataset of steel surface defect recognition indicate that the proposed method can achieve good performances with limited labeled data, which achieves an accuracy of 90.7% with 17.53% improvement. Furthermore, the proposed method has been applied to a real-world case from a Chinese steel company, and obtains an accuracy of 86.72% which signifcantly better than the original method in this workshop. 
 
 ### [2]小样本下用语义分割方法做检测
 
-论文题目：Segmentation-based deep-learning approach for surface-defect detection
+论文题目：Segmentation-based deep-learning approach for surface-defect detection [<a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers/2019.10" target="_blank">paper</a>]
 
 论文摘要：Automated surface-anomaly detection using machine learning has become an interesting and promising area of research, with a very high and direct impact on the application domain of visual inspection. Deep-learning methods have become the most suitable approaches for this task. They allow the inspection system to learn to detect the surface anomaly by simply showing it a number of exemplar images. This paper presents a segmentation-based deep-learning architecture that is designed for the detection and segmentation of surface anomalies and is demonstrated on a specific domain of surface-crack detection. The design of the architecture enables the model to be trained using a small number of samples, which is an important requirement for practical applications. The proposed model is compared with the related deep-learning methods, including the state-ofthe-art commercial software, showing that the proposed approach outperforms the related methods on the specific domain of surface-crack detection. The large number of experiments also shed light on the required precision of the annotation, the number of required training samples and on the required computational cost. Experiments are performed on a newly created dataset based on a real-world quality control case and demonstrates that the proposed approach is able to
 learn on a small number of defected surfaces, using only approximately 25-30 defective training samples, instead of hundreds or thousands, which is usually the case in deeplearning applications. This makes the deep-learning method practical for use in industry where the number of available defective samples is limited. The dataset is also made publicly available to encourage the development and evaluation of new methods for surface-defect detection. 
 
 ### [3]SDD-CNN用于检测
 
-论文题目：SDD-CNN: Small Data-Driven Convolution Neural Networks for Subtle Roller Defect Inspection 
+论文题目：SDD-CNN: Small Data-Driven Convolution Neural Networks for Subtle Roller Defect Inspection  [<a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers/2019.10" target="_blank">paper</a>]
 
 论文摘要：Roller bearings are some of the most critical and widely used components in rotating machinery. Appearance defect inspection plays a key role in bearing quality control. However, in real industries, bearing defects are usually extremely subtle and have a low probability of occurrence. This leads to distribution discrepancies between the number of positive and negative samples, which makes intelligent data-driven inspection methods difficult to develop and deploy. This paper presents a small data-driven convolution neural network (SDD-CNN) for roller subtle defect inspection via an ensemble method for small data preprocessing. First, label dilation (LD) is applied to solve the problem of an imbalance in class distribution. Second, a semi-supervised data augmentation (SSDA) method is proposed to extend the dataset in a more efficient and controlled way. In this method, a coarse CNN model is trained to generate ground truth class activation and guide the random cropping of images. Third, four variants of the CNN model, namely, SqueezeNet v1.1, Inception v3, VGG-16, and ResNet-18, are introduced and employed to inspect and classify the surface defects of rollers. Finally, a rich set of experiments and assessments is conducted, indicating that these SDD-CNN models, particularly the SDD-Inception v3 model, perform exceedingly well in the roller defect classification task with a top-1 accuracy reaching 99.56%. In addition, the convergence time and classification accuracy for an SDD-CNN model achieve significant improvement compared to that for the original CNN. Overall, using an SDD-CNN architecture, this paper provides a clear path toward a higher precision and efficiency for roller defect inspection in smart manufacturing. 
 
@@ -282,7 +298,7 @@ learn on a small number of defected surfaces, using only approximately 25-30 def
 
 ### [1] FCN用于缺陷检测
 
-论文题目：A High-Efficiency Fully Convolutional Networks for Pixel-Wise Surface Defect Detection
+论文题目：A High-Efficiency Fully Convolutional Networks for Pixel-Wise Surface Defect Detection [<a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers/2019.11" target="_blank">paper</a>]
 
 论文摘要：In this paper, we propose a highly efficient deep learning-based method for pixel-wise surface
 defect segmentation algorithm in machine vision. Our method is composed of a segmentation stage (stage
@@ -297,7 +313,7 @@ accuracy, and simultaneously we use depthwise&pointwise convolution layer, strid
 
 又一篇比较不错的GAN网络做表面异常检测，值得细看哈！
 
-论文题目：Unsupervised fabric defect detection based on a deep convolutional generative adversarial network
+论文题目：Unsupervised fabric defect detection based on a deep convolutional generative adversarial network [<a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers/2019.11" target="_blank">paper</a>]
 
 论文摘要：Detecting and locating surface defects in textured materials is a crucial but challenging problem due to factors such as texture variations and lack of adequate defective samples prior to testing. In this paper we present a novel unsupervised method for automatically detecting defects in fabrics based on a deep convolutional generative adversarial network (DCGAN). The proposed method extends the standard DCGAN, which consists of a discriminator and a generator, by introducing a new encoder component. With the assistance of this encoder, our model can reconstruct a given query image such that no defects but only normal textures will be preserved in the reconstruction. Therefore, when subtracting the reconstruction from the original image, a residual map can be created to highlight potential defective regions. Besides, our model generates a likelihood map for the image under inspection where each pixel value indicates the probability of occurrence of defects at that location. The residual map and the likelihood map are then synthesized together to form an enhanced fusion map. Typically, the fusion map exhibits uniform gray levels over defect-free regions but distinct deviations over defective areas, which can be further thresholded to produce a binarized segmentation result. Our model can be unsupervisedly trained by feeding with a set of small-sized image patches picked from a few defect-free examples. The training is divided into several successively performed stages, each under an individual training strategy. The performance of the proposed method has been extensively evaluated by a variety of real fabric samples.
 The experimental results in comparison with other methods demonstrate its effectiveness in fabric defect detection. 
