@@ -351,7 +351,7 @@ Study papers in the fields of computer vision, NLP, and machine learning algorit
 <br>
 
 
-### 本项目包括
+### 该项目包括
 
 | 👀 [迈微论文研读](https://github.com/ChromeWei/PaperWeeklyAI)| 🐒 [AI进阶指南](https://github.com/ChromeWei/PaperWeeklyAI/tree/master/00_GuideBooksPDF(English%2BChinese)) | 📚 [超清电子书10000本](https://github.com/ChromeWei/hello-algorithm/tree/master/%E6%B8%85%E6%99%B0%E7%89%88%E7%94%B5%E5%AD%90%E4%B9%A61000%E6%9C%AC) |  🐒 [计算机IT必备](https://github.com/ChromeWei/hello-algorithm/tree/master/%E4%B8%93%E6%A0%8F)  | 🚀 [大厂面经汇总指南](https://github.com/ChromeWei/hello-algorithm/tree/master/%E5%A4%A7%E5%8E%82%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB100%E7%AF%87) | 
 | :--- | :---- | :--- | :--- | :--- |
@@ -366,4 +366,4 @@ Study papers in the fields of computer vision, NLP, and machine learning algorit
 <br>
 
 <br>
-* *Update by Sep 29，2020 @[<a href="https://github.com/Charmve" target="_blank">Charmve</a>],follow me*
+* <i>Update by Sep 29，2020 @[<a href="https://github.com/Charmve" target="_blank">Charmve</a>],follow me</i>
