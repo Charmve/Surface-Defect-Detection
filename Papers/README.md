@@ -320,7 +320,6 @@ accuracy, and simultaneously we use depthwise&pointwise convolution layer, strid
 论文摘要：Detecting and locating surface defects in textured materials is a crucial but challenging problem due to factors such as texture variations and lack of adequate defective samples prior to testing. In this paper we present a novel unsupervised method for automatically detecting defects in fabrics based on a deep convolutional generative adversarial network (DCGAN). The proposed method extends the standard DCGAN, which consists of a discriminator and a generator, by introducing a new encoder component. With the assistance of this encoder, our model can reconstruct a given query image such that no defects but only normal textures will be preserved in the reconstruction. Therefore, when subtracting the reconstruction from the original image, a residual map can be created to highlight potential defective regions. Besides, our model generates a likelihood map for the image under inspection where each pixel value indicates the probability of occurrence of defects at that location. The residual map and the likelihood map are then synthesized together to form an enhanced fusion map. Typically, the fusion map exhibits uniform gray levels over defect-free regions but distinct deviations over defective areas, which can be further thresholded to produce a binarized segmentation result. Our model can be unsupervisedly trained by feeding with a set of small-sized image patches picked from a few defect-free examples. The training is divided into several successively performed stages, each under an individual training strategy. The performance of the proposed method has been extensively evaluated by a variety of real fabric samples.
 The experimental results in comparison with other methods demonstrate its effectiveness in fabric defect detection. 
 
-## Repo: [PaperWeeklyAI] 
 
 # PaperWeeklyAI
 
@@ -338,7 +337,6 @@ Study papers in the fields of computer vision, NLP, and machine learning algorit
 </p>
 
 <div align=center><img src="https://image.jiqizhixin.com/uploads/editor/d8595d93-e8c9-4abf-91f4-105384736912/%E5%9B%BE%E7%89%8712.jpg" height="330" width="330"></div>
-
 <div align=center size = 3><b>△微信扫一扫，关注我</b></div>
 <br>
 
@@ -368,4 +366,4 @@ Study papers in the fields of computer vision, NLP, and machine learning algorit
 <br>
 
 <br>
-* *Update by Sep 29，2020 @Charmve
+* *Update by Sep 29，2020 @[<a href="https://github.com/Charmve" target="_blank">Charmve</a>],follow me*
