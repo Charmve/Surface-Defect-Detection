@@ -1,4 +1,4 @@
-<div id="outputFigDisplay" class="fig">
+<div id="outputFigDisplay" class="fig" align="center">
     <pre id="taag_output_text" style="float:left;" class="flag" contenteditable="true">
     ____  _                                        
   / ___|| |__    __ _  _ __  _ __ ___ __   __ ___ 
@@ -317,6 +317,53 @@ accuracy, and simultaneously we use depthwise&pointwise convolution layer, strid
 
 论文摘要：Detecting and locating surface defects in textured materials is a crucial but challenging problem due to factors such as texture variations and lack of adequate defective samples prior to testing. In this paper we present a novel unsupervised method for automatically detecting defects in fabrics based on a deep convolutional generative adversarial network (DCGAN). The proposed method extends the standard DCGAN, which consists of a discriminator and a generator, by introducing a new encoder component. With the assistance of this encoder, our model can reconstruct a given query image such that no defects but only normal textures will be preserved in the reconstruction. Therefore, when subtracting the reconstruction from the original image, a residual map can be created to highlight potential defective regions. Besides, our model generates a likelihood map for the image under inspection where each pixel value indicates the probability of occurrence of defects at that location. The residual map and the likelihood map are then synthesized together to form an enhanced fusion map. Typically, the fusion map exhibits uniform gray levels over defect-free regions but distinct deviations over defective areas, which can be further thresholded to produce a binarized segmentation result. Our model can be unsupervisedly trained by feeding with a set of small-sized image patches picked from a few defect-free examples. The training is divided into several successively performed stages, each under an individual training strategy. The performance of the proposed method has been extensively evaluated by a variety of real fabric samples.
 The experimental results in comparison with other methods demonstrate its effectiveness in fabric defect detection. 
+
+## Repo: [PaperWeeklyAI] 
+
+# PaperWeeklyAI
+
+https://github.com/Charmve/PaperWeeklyAI
+
+Study papers in the fields of computer vision, NLP, and machine learning algorithms every week.
+
+<p align="center">
+  <a href="https://charmve.blog.csdn.net/"><img src="https://img.shields.io/badge/blog-Charmve-blue" alt="css"></a>
+  <a href="https://charmve.blog.csdn.net/"><img src="https://www.geekxh.com/trending.svg?label=html" alt="html"></a>
+  <a href="https://github.com/haizlin/fe-interview/stargazers"><img src="https://img.shields.io/github/stars/geekxh/hello-algorithm.svg" alt="Statr"></a>
+</p>
+<p align="center">
+    紧跟前沿科研动态，每周研读论文！
+</p>
+
+<div align=center><img src="https://image.jiqizhixin.com/uploads/editor/d8595d93-e8c9-4abf-91f4-105384736912/%E5%9B%BE%E7%89%8712.jpg" height="330" width="330"></div>
+
+<div align=center size = 3><b>△微信扫一扫，关注我</b></div>
+<br>
+
+从今年三月份开始，我将开源的方向调整为机器学习、计算机视觉、深度学习、NLP、AI前沿技术动态的相关文章发布，从入门学习指导（我自己的机器学习路线总结，入过很多坑）到现在的顶会论文总结、前沿论文研读。公众号主页底部有菜单分类。
+
+<div align=center><img src="https://github.com/ChromeWei/PaperWeeklyAI/blob/master/MaiweiAI-com.png?raw=true" ></div>
+  
+<p align="center">
+    <b>公众号菜单栏分类</b>
+</p>
+
+<br>
+
+
+### 本项目包括
+
+| 👀 [迈微论文研读](https://github.com/ChromeWei/PaperWeeklyAI)| 🐒 [AI进阶指南](https://github.com/ChromeWei/PaperWeeklyAI/tree/master/00_GuideBooksPDF(English%2BChinese)) | 📚 [超清电子书10000本](https://github.com/ChromeWei/hello-algorithm/tree/master/%E6%B8%85%E6%99%B0%E7%89%88%E7%94%B5%E5%AD%90%E4%B9%A61000%E6%9C%AC) |  🐒 [计算机IT必备](https://github.com/ChromeWei/hello-algorithm/tree/master/%E4%B8%93%E6%A0%8F)  | 🚀 [大厂面经汇总指南](https://github.com/ChromeWei/hello-algorithm/tree/master/%E5%A4%A7%E5%8E%82%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB100%E7%AF%87) | 
+| :--- | :---- | :--- | :--- | :--- |
+| 🍄 [NLP论文研读](https://github.com/ChromeWei/hello-algorithm/tree/master/%E5%A4%A7%E5%8E%82%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB100%E7%AF%87/Java)  | 🌽 [机器学习/深度学习理论篇](https://github.com/ChromeWei/hello-algorithm/tree/master/%E5%A4%A7%E5%8E%82%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB100%E7%AF%87/C%26C%2B%2B) | 🐒 [超清思维导图集锦](https://github.com/ChromeWei/hello-algorithm/tree/master/%E8%B6%85%E6%B8%85%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE100%E5%BC%A0) | 👺 [专栏：学习os](https://github.com/ChromeWei/hello-algorithm/tree/master/%E4%B8%93%E6%A0%8F/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F)|🍏 [面试：C++](https://github.com/ChromeWei/hello-algorithm/tree/master/%E5%A4%A7%E5%8E%82%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB100%E7%AF%87/C%26C%2B%2B) |
+| 🍐 [CV顶会](https://github.com/ChromeWei/hello-algorithm/tree/master/%E5%A4%A7%E5%8E%82%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB100%E7%AF%87/%E6%9E%B6%E6%9E%84%E5%B8%88) | 🍉 [机器学习实战篇](https://github.com/ChromeWei/PaperWeeklyAI/tree/master/00_GuideBooksPDF(English%2BChinese)) | 👺 [机器学习/Linux电子书](https://github.com/ChromeWei/PaperWeeklyAI/tree/master/00_GuideBooksPDF(English%2BChinese))|  📡 [专栏：学习网络](https://github.com/ChromeWei/hello-algorithm/tree/master/%E4%B8%93%E6%A0%8F/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C) |🌽 [面试：C](https://github.com/ChromeWei/hello-algorithm/tree/master/%E5%A4%A7%E5%8E%82%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB100%E7%AF%87/C%26C%2B%2B)|
+| 📡 [AI论文必读篇目10篇](https://github.com/ChromeWei/PaperWeeklyAI/tree/master/00_GuideBooksPDF(English%2BChinese)/05_AI%E8%AE%BA%E6%96%87%E5%BF%85%E8%AF%BB%E7%AF%87%E7%9B%AE10%E7%AF%87) | 📚 [机器学习/Linux电子书](https://github.com/ChromeWei/PaperWeeklyAI/tree/master/00_GuideBooksPDF(English%2BChinese)) | | 📺 [专栏：学习linux](https://github.com/ChromeWei/hello-algorithm/tree/master/%E4%B8%93%E6%A0%8F/Linux) | 🚀 [面试：Python](https://github.com/ChromeWei/hello-algorithm/tree/master/%E5%A4%A7%E5%8E%82%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB100%E7%AF%87/Python) |🍇 [面试：Java](https://github.com/ChromeWei/hello-algorithm/tree/master/%E5%A4%A7%E5%8E%82%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB100%E7%AF%87/Java) |
+|🎅 [CVPR2020论文30篇](https://github.com/ChromeWei/PaperWeeklyAI/tree/master/00_GuideBooksPDF(English%2BChinese)/06_CVPR2020%E8%AE%BA%E6%96%8730%E7%AF%87)  | 🚀 [面试：Python](https://github.com/ChromeWei/hello-algorithm/tree/master/%E5%A4%A7%E5%8E%82%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB100%E7%AF%87/Python) | |🍖 [面试：架构师](https://github.com/ChromeWei/hello-algorithm/tree/master/%E5%A4%A7%E5%8E%82%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB100%E7%AF%87/%E6%9E%B6%E6%9E%84%E5%B8%88) |🍅 [面试：前端](https://github.com/ChromeWei/hello-algorithm/tree/master/%E5%A4%A7%E5%8E%82%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB100%E7%AF%87/%E5%89%8D%E7%AB%AF)  |
+|  | 📝 [专栏：学习剑指offer](https://github.com/ChromeWei/hello-algorithm/tree/master/%E4%B8%93%E6%A0%8F/%E5%89%91%E6%8C%87offer)  | |🎅 [专栏：学习mysql](https://github.com/ChromeWei/hello-algorithm/tree/master/%E4%B8%93%E6%A0%8F/Mysql)  |🍄 [面试：Mysql](https://github.com/ChromeWei/hello-algorithm/tree/master/%E5%A4%A7%E5%8E%82%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB100%E7%AF%87/Mysql)  |
+| | | | 🆎 [专栏：学习设计模式](https://github.com/ChromeWei/hello-algorithm/tree/master/%E4%B8%93%E6%A0%8F/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F) |  |
+
+
+<br>
 
 <br>
 * *Update by Sep 29，2020 @Charmve
