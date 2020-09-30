@@ -284,4 +284,4 @@ https://github.com/abin24/Surface-Inspection-defect-detection-dataset
 详见本仓库 [Papers](https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers)
 
 <br>
-* <i>Update by Sep 27，2020 @[<a href="https://github.com/Charmve" target="_blank">Charmve</a>], follow me</i>
+* <i>Update by Sep 27，2020 @<a href="https://github.com/Charmve" target="_blank">Charmve</a>, follow me</i>
