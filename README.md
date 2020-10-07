@@ -3,6 +3,11 @@
 <p>🐎📈 Constantly summarizing open source data sets in the field of surface defect research is very important. 
 Important critical papers from year 2017 have been collected and compiled, which can be viewed in the [<b><i>Papers</i></b>](https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers) folder. 🐋 </p>
 
+<p align="center">
+  <a href=" "><img src="https://img.shields.io/badge/-English-green" alt="English Version"></a>
+  <a href="https://charmve.blog.csdn.net/"><img src="https://img.shields.io/badge/-Chinese-red" alt="Chinese Version"></a>
+</p>
+
 <div align=center><img src="https://mmbiz.qpic.cn/mmbiz_png/Z8w2ExrFgDwNaIgv9VUHeCAeXfauWU8dNvhYK1st5CuJsp4vOzcdj7jnrqy6QV29icM0ugRhHr7UcD04eb4KEIQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></div>
 <br>
 
