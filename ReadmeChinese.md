@@ -11,10 +11,10 @@
 <div align=center><img src="https://mmbiz.qpic.cn/mmbiz_png/Z8w2ExrFgDwNaIgv9VUHeCAeXfauWU8dNvhYK1st5CuJsp4vOzcdj7jnrqy6QV29icM0ugRhHr7UcD04eb4KEIQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></div>
 
 <br>
-目前, 基于机器视觉的表面缺陷装备已经在各工业领域广泛替代人工肉眼检测，包括3C、汽车、家电、机械制造、半导体及电子、化工、医药、航空航天、轻工等行业。传统的基于机器视觉的表面缺陷检测方法，往往采用常规图像处理算法或人工设计特征加分类器方式。一般来说，通常利用被检表面或缺陷的不同性质进行成像方案的设计，合理的成像方案有助于获得光照均匀的图像，并将物体表面缺陷明显的体现出来。近年来，不少基于深度学习的缺陷检测方法也被广泛应用在各种工业场景中。
+<p>目前, 基于机器视觉的表面缺陷装备已经在各工业领域广泛替代人工肉眼检测，包括3C、汽车、家电、机械制造、半导体及电子、化工、医药、航空航天、轻工等行业。传统的基于机器视觉的表面缺陷检测方法，往往采用常规图像处理算法或人工设计特征加分类器方式。一般来说，通常利用被检表面或缺陷的不同性质进行成像方案的设计，合理的成像方案有助于获得光照均匀的图像，并将物体表面缺陷明显的体现出来。近年来，不少基于深度学习的缺陷检测方法也被广泛应用在各种工业场景中。</p>
 <br>
 
-对比计算机视觉中明确的分类、检测和分割任务, 缺陷检测的需求非常笼统. 实际上, 其需求可以划分为三个不同的层次: “缺陷是什么”（<b>分类</b>）、“缺陷在哪里”（<b>定位</b>）和“缺陷是多少”（<b>分割</b>）。
+<p>对比计算机视觉中明确的分类、检测和分割任务, 缺陷检测的需求非常笼统. 实际上, 其需求可以划分为三个不同的层次: “缺陷是什么”（<b>分类</b>）、“缺陷在哪里”（<b>定位</b>）和“缺陷是多少”（<b>分割</b>）。</p>
 
 ## 一、表面缺陷检测关键问题
 
@@ -52,7 +52,7 @@
 
 ### 2、实时性问题
 
-基于深度学习的缺陷检测方法在工业应用中包括三个主要环节: 数据标注、模型训练与模型推断. 在实际工业应用中的实时性更关注模型推断这一环节. 目前大多数缺陷检测方法都集中在分类或识别的准确性上, 而很少关注模型推断的效率。有不少方法用于加速模型, 例如模型权重量化和模型剪枝等。另外，虽然现有深度学习模型使用GPU作为通用计算单元, 但随着技术发展, 相信FPGA会成为一个具有吸引力的替代方案。
+基于深度学习的缺陷检测方法在工业应用中包括三个主要环节: 数据标注、模型训练与模型推断. 在实际工业应用中的实时性更关注模型推断这一环节. 目前大多数缺陷检测方法都集中在分类或识别的准确性上, 而很少关注模型推断的效率。有不少方法用于加速模型, 例如模型权重量化和模型剪枝等。另外，虽然现有深度学习模型使用GPU作为通用计算单元(GPGPU), 但随着技术发展, 相信FPGA会成为一个具有吸引力的替代方案。
 
 ## 二、工业表面缺陷检测常用数据集
 
@@ -76,7 +76,7 @@
 
 <div align=center><img src="https://mmbiz.qpic.cn/mmbiz_png/Z8w2ExrFgDwNaIgv9VUHeCAeXfauWU8dIY5a7p8M2vrGblgdSaOia5VzQDYIxudcJ9k5k6rANF7MrTjziaJRQoWw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></div>
 
-
+<br>
 该数据集包含2,624个300x300像素功能和缺陷太阳能电池的8位灰度图像样本，具有从44个不同的太阳能模块中提取的不同程度的退化。带注释的图像中的缺陷是内部或外部类型的缺陷，已知会降低太阳能模块的功率效率。
 
 所有图像的大小和透视图均已标准化。另外，在提取太阳能电池之前，消除了由用于捕获EL图像的相机镜头引起的任何失真。
@@ -96,11 +96,11 @@
 <div align=center><img src="https://mmbiz.qpic.cn/mmbiz_png/Z8w2ExrFgDwNaIgv9VUHeCAeXfauWU8dNvhYK1st5CuJsp4vOzcdj7jnrqy6QV29icM0ugRhHr7UcD04eb4KEIQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></div>
 <br>
 
-官方链接:https://www.vicos.si/Downloads/KolektorSDD
+官方链接：https://www.vicos.si/Downloads/KolektorSDD
 
-百度网盘链接：https://pan.baidu.com/share/init?surl=HSzHC1ltHvt1hSJh_IY4Jg
+百度网盘链接：https://pan.baidu.com/share/init?surl=HSzHC1ltHvt1hSJh_IY4Jg (提取码：``1zlb``)
 
-提取码：1zlb
+
 
 该数据集包括：
 
@@ -126,10 +126,12 @@
 <img src="https://github.com/tangsanli5201/DeepPCB/blob/master/fig/template.jpg" width="375" style="margin:20"> 
  </div>
 <div align=center>
- an example of the tested image 
+ a. 测试机图片样例 
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
- the corresponding template image
+  b. 对应的模板图片
  </div>
+
+<p align=center>图1. PCB板检测数据集</p>
 
 <br>
 
@@ -138,10 +140,7 @@
 
 数据集下载链接：
 
-https://pan.baidu.com/s/1cfC4Ll5QlnwN5RTuSZ6b7w
-
-提取码：b9uy
-
+https://pan.baidu.com/s/1cfC4Ll5QlnwN5RTuSZ6b7w (提取码：``b9uy``)
 
 
 该数据库由七个不同织物结构的245张4096 x 256像素图像组成。数据库中有140个无缺陷图像，每种类型的织物20个，除此之外，有105幅纺织行业中常见的不同类型的织物缺陷（12种缺陷）图像。图像的大尺寸允许用户使用不同的窗口尺寸，从而增加了样本数量。Internet上的数据库还包含所有具有缺陷的图像的分割mask，使得白色像素表示缺陷区域，其余像素为黑色。
@@ -157,10 +156,7 @@ https://pan.baidu.com/s/1cfC4Ll5QlnwN5RTuSZ6b7w
 
 数据下载链接：
 
-https://pan.baidu.com/s/1LMbujxvr5iB3SwjFGYHspA
-
-提取码：gat2
-
+https://pan.baidu.com/s/1LMbujxvr5iB3SwjFGYHspA (提取码：``gat2``)
 
 
 在布匹的实际生产过程中，由于各方面因素的影响，会产生污渍、破洞、毛粒等瑕疵，为保证产品质量，需要对布匹进行瑕疵检测。布匹疵点检验是纺织行业生产和质量管理的重要环节，目前人工检测易受主观因素影响，缺乏一致性；并且检测人员在强光下长时间工作对视力影响极大。由于布匹疵点种类繁多、形态变化多样、观察识别难道大，导致布匹疵点智能检测是困扰行业多年的技术瓶颈。本数据涵盖了纺织业中布匹的各类重要瑕疵，每张图片含一个或多种瑕疵。数据包括包括素色布和花色布两类，其中，素色布数据约8000张，用于初赛；花色布数据约12000张，用于复赛。
@@ -175,7 +171,7 @@ https://tianchi.aliyun.com/competition/entrance/231682/information
 
 
 
-数据介绍：在铝型材的实际生产过程中，由于各方面因素的影响，铝型材表面会产生裂纹、起皮、划伤等瑕疵，这些瑕疵会严重影响铝型材的质量。为保证产品质量，需要人工进行肉眼目测。然而，铝型材的表面自身会含有纹路，与瑕疵的区分度不高。传统人工肉眼检查十分费力，不能及时准确的判断出表面瑕疵，质检的效率难以把控。近年来，深度学习在图像识别等领域取得了突飞猛进的成果。铝型材制造商迫切希望采用最新的AI技术来革新现有质检流程，自动完成质检任务，减少漏检发生率，提高产品的质量，使铝型材产品的生产管理者彻底摆脱了无法全面掌握产品表面质量的状态。大赛数据集里有1万份来自实际生产中有瑕疵的铝型材监测影像数据，每个影像包含一个或多种瑕疵。供机器学习的样图会明确标识影像中所包含的瑕疵类型。
+数据集介绍：在铝型材的实际生产过程中，由于各方面因素的影响，铝型材表面会产生裂纹、起皮、划伤等瑕疵，这些瑕疵会严重影响铝型材的质量。为保证产品质量，需要人工进行肉眼目测。然而，铝型材的表面自身会含有纹路，与瑕疵的区分度不高。传统人工肉眼检查十分费力，不能及时准确的判断出表面瑕疵，质检的效率难以把控。近年来，深度学习在图像识别等领域取得了突飞猛进的成果。铝型材制造商迫切希望采用最新的AI技术来革新现有质检流程，自动完成质检任务，减少漏检发生率，提高产品的质量，使铝型材产品的生产管理者彻底摆脱了无法全面掌握产品表面质量的状态。大赛数据集里有1万份来自实际生产中有瑕疵的铝型材监测影像数据，每个影像包含一个或多种瑕疵。供机器学习的样图会明确标识影像中所包含的瑕疵类型。
 
 
 
@@ -214,18 +210,18 @@ https://hci.iwr.uni-heidelberg.de/node/3616
 
 
 
-数据集是github上的一个项目，主要是一些基建（水泥表面裂纹），可以访问项目连接：https://github.com/cuilimeng/CrackForest-dataset 或者百度云链接：https://pan.baidu.com/s/1108j5QbDr7T3XQvDxAzVpg
+数据集是github上的一个项目，主要是一些基建（水泥表面裂纹），可以访问项目连接：https://github.com/cuilimeng/CrackForest-dataset 或者百度云链接：https://pan.baidu.com/s/1108j5QbDr7T3XQvDxAzVpg （提取码：``jajn``）下载。
 
-提取码：jajn
+
 
 <div align=center><img src="https://mmbiz.qpic.cn/mmbiz_png/Z8w2ExrFgDzZJCiczwcBvkghPc7P0sMdkqUbL7Yba9cbGtjKU8JnQZkvsodS5b2xpq1ErehtEMO1ZeO52gm537A/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></div>
 <br>
 
-Cracks on the bridge(left) and crack on the road surface.
+<p align=center>图2. 桥梁裂缝（左）和路面裂缝</p>
 
-- Bridge cracks. There are 2688 images of bridge crack without pixel-level ground truth. From the authors "Liangfu Li Weifei Ma Li Li Xiaoxiao Gao". Files can be reached by visiting https://github.com/Charmve/Surface-Defect-Detection/tree/master/Bridge_Crack_Image.
+- <b>桥梁裂缝</b>. 有2688张没有像素级地面真实情况的桥梁裂缝图像，来自于"Liangfu Li, Weifei Ma, Li Li, Xiaoxiao Gao". 数据集可通过此链接访问： https://github.com/Charmve/Surface-Defect-Detection/tree/master/Bridge_Crack_Image.
 
-- Crack on road surface. From Shi, Yong, and Cui, Limeng and Qi, Zhiquan and Meng, Fan and Chen, Zhensong. Original dataset can be reached at https://github.com/Charmve/Surface-Defect-Detection/tree/master/CrackForest. We extract the image files of the pixel level ground truth.
+- <b>路面裂缝</b>. 该数据集来自于 Shi Yong, and Cui Limeng and Qi Zhiquan and Meng Fan and Chen Zhensong. 原始数据集可通过此链接访问 https://github.com/Charmve/Surface-Defect-Detection/tree/master/CrackForest. 我们提取像素级地面真相的图像文件。
 
 <b>10）磁瓦缺陷数据集 </b>Magnetic tile dataset 
 
@@ -233,7 +229,7 @@ Cracks on the bridge(left) and crack on the road surface.
 
 ![dataset](./Magnetic-Tile-Defect/dataset.jpg) 
 
-<p align=center>Figure 1. An overview of our dataset.</p>
+<p align=center>图3. 数据集概述.</p>
 
 这同样也是论文“Saliency of magnetic tile surface defects”的数据集，它收集了6个常见磁砖缺陷的图像，并标记了它们的像素级地面真相。
 
@@ -253,19 +249,18 @@ RSDDs数据集中的这些缺陷已由一些专业的人类观察员在轨道表
 
 官方链接：http://icn.bjtu.edu.cn/Visint/resources/RSDDs.aspx
 
-链接：https://pan.baidu.com/share/init?surl=svsnqL0r1kasVDNjppkEwg
+链接：https://pan.baidu.com/share/init?surl=svsnqL0r1kasVDNjppkEwg （提取码：``nanr``）
 
-提取码：nanr
 
 <br>
 
 <b>12）Kylberg纹理数据集 v.1.0 </b> 
 
 <div align=center><img src="http://www.cb.uu.se/~gustaf/texture/fig_sample.png"></div>
-<p align=center>图2. 28个纹理类中的每一个的示例补丁。</p>
+<p align=center>图4. 28个纹理类中的每一个的示例补丁。</p>
 
 该数据集：
-- 28个纹理类，请参见图2。
+- 28个纹理类，请参见图4。
 - 每个分类下有160个独特的纹理补丁。（每个原始补丁有12个旋转的替代数据集，每个类160 * 12 = 1920个纹理补丁）
 - 纹理补丁大小：576x576像素。
 - 文件格式：无损压缩8位PNG。
