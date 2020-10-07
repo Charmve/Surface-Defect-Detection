@@ -126,7 +126,7 @@ Download Link：https://github.com/Charmve/Surface-Defect-Detection/tree/master/
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
  the corresponding template image
  </div>
-
+<p align=center>Figure 1. PCB Inspection Dataset.</p>
 <br>
 
 
@@ -217,11 +217,11 @@ CrackForest Dataset is an annotated road crack image database which can reflect 
 <div align=center><img src="https://mmbiz.qpic.cn/mmbiz_png/Z8w2ExrFgDzZJCiczwcBvkghPc7P0sMdkqUbL7Yba9cbGtjKU8JnQZkvsodS5b2xpq1ErehtEMO1ZeO52gm537A/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></div>
 <br>
 
-<b> Cracks on the Bridge(left) and Cracks on the Road Surface</b>
+<p align=center>Figure 2. Cracks on the Bridge(left) and Cracks on the Road Surface.</p>
 
-- Bridge cracks. There are 2688 images of bridge crack without pixel-level ground truth. From the authors "Liangfu Li Weifei Ma Li Li Xiaoxiao Gao". Files can be reached by visiting https://github.com/Charmve/Surface-Defect-Detection/tree/master/Bridge_Crack_Image.
+- <b>Bridge cracks</b>. There are 2688 images of bridge crack without pixel-level ground truth. From the authors "Liangfu Li, Weifei Ma, Li Li, Xiaoxiao Gao". Files can be reached by visiting https://github.com/Charmve/Surface-Defect-Detection/tree/master/Bridge_Crack_Image.
 
-- Crack on road surface. From Shi, Yong, and Cui, Limeng and Qi, Zhiquan and Meng, Fan and Chen, Zhensong. Original dataset can be reached at https://github.com/Charmve/Surface-Defect-Detection/tree/master/CrackForest. We extract the image files of the pixel level ground truth.
+- <b>Crack on road surface</b>. From Shi Yong, and Cui Limeng and Qi Zhiquan and Meng Fan and Chen Zhensong. Original dataset can be reached at https://github.com/Charmve/Surface-Defect-Detection/tree/master/CrackForest. We extract the image files of the pixel level ground truth.
 
 <br>
 <b>10）Magnetic Tile Dataset </b>
@@ -230,7 +230,7 @@ Magnetic tile dataset by githuber: abin24, which can be downloaded from [https:/
 
 ![dataset](./Magnetic-Tile-Defect/dataset.jpg) 
 
-<p align=center>Figure 1. An overview of our dataset.</p>
+<p align=center>Figure 3. An overview of our dataset.</p>
 
 This is also the datasets of the paper "Saliency of magnetic tile surface defects". 
 The images of 6 common magnetic tile defects were collected, and their pixel level ground-truth were labeled.
@@ -257,10 +257,10 @@ Download Link：https://pan.baidu.com/share/init?surl=svsnqL0r1kasVDNjppkEwg (pa
 <b>12）Kylberg Texture Dataset v.1.0 </b> 
 
 <div align=center><img src="http://www.cb.uu.se/~gustaf/texture/fig_sample.png"></div>
-<p align=center>Figure 2. Example patches from each one of the 28 texture classes.</p>
+<p align=center>Figure 4. Example patches from each one of the 28 texture classes.</p>
 
 Short description
-- 28 texture classes, see Figure 2.
+- 28 texture classes, see Figure 4.
 - 160 unique texture patches per class. (Alternative dataset with 12 rotations per each original patch, 160*12=1920 texture patches per class).
 - Texture patch size: 576x576 pixels.
 - File format: Lossless compressed 8 bit PNG.
