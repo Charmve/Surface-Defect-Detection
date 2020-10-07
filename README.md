@@ -1,52 +1,52 @@
 # Surface Defect Detection: dataset & papers
 
-🐎📈 Constantly summarizing open source data sets in the field of surface defect research is very important. 
-Important critical papers from year 2017 have been collected and compiled, which can be viewed in the [<b><i>Papers</i></b>](https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers) folder. 🐋
+<p>🐎📈 Constantly summarizing open source data sets in the field of surface defect research is very important. 
+Important critical papers from year 2017 have been collected and compiled, which can be viewed in the [<b><i>Papers</i></b>](https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers) folder. 🐋 </p>
 
-<br>
-At present, surface defect equipment based on machine vision has widely replaced artificial visual inspection in various industrial fields, including 3C, automobiles, home appliances, machinery manufacturing, semiconductors and electronics, chemical, pharmaceutical, aerospace, light industry and other industries. Traditional surface defect detection methods based on machine vision often use conventional image processing algorithms or artificially designed features plus classifiers. Generally speaking, imaging schemes are usually designed by using the different properties of the inspected surface or defects. A reasonable imaging scheme helps to obtain images with uniform illumination and clearly reflect the surface defects of the object. In recent years, many defect detection methods based on deep learning have also been widely used in various industrial scenarios.
+<div align=center><img src="https://mmbiz.qpic.cn/mmbiz_png/Z8w2ExrFgDwNaIgv9VUHeCAeXfauWU8dNvhYK1st5CuJsp4vOzcdj7jnrqy6QV29icM0ugRhHr7UcD04eb4KEIQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></div>
 <br>
 
-Compared with the clear classification, detection and segmentation tasks in computer vision, the requirements for defect detection are very general. In fact, its requirements can be divided into three different levels: "what is the defect" (<strong>classification</strong>), "where is the defect" (<strong>positioning</strong>) And "How many defects are" (<strong>split</strong>).
+<p>At present, surface defect equipment based on machine vision has widely replaced artificial visual inspection in various industrial fields, including 3C, automobiles, home appliances, machinery manufacturing, semiconductors and electronics, chemical, pharmaceutical, aerospace, light industry and other industries. Traditional surface defect detection methods based on machine vision often use conventional image processing algorithms or artificially designed features plus classifiers. Generally speaking, imaging schemes are usually designed by using the different properties of the inspected surface or defects. A reasonable imaging scheme helps to obtain images with uniform illumination and clearly reflect the surface defects of the object. In recent years, many defect detection methods based on deep learning have also been widely used in various industrial scenarios.</p>
+
+<p>Compared with the clear classification, detection and segmentation tasks in computer vision, the requirements for defect detection are very general. In fact, its requirements can be divided into three different levels: "what is the defect" (<strong>classification</strong>), "where is the defect" (<strong>positioning</strong>) And "How many defects are" (<strong>split</strong>).</p>
 
 
 ## 1. Key Issues in Surface Defect Detection
 
 
-### Small Sample Problem
+### 1）Small Sample Problem
 
 
-The current deep learning methods are widely used in various computer vision tasks, and surface defect detection is generally regarded as its specific application in the industrial field. In traditional understanding, the reason why deep learning methods cannot be directly applied to surface defect detection is because in a real industrial environment, there are too few industrial defect samples that can be provided.
+<p>The current deep learning methods are widely used in various computer vision tasks, and surface defect detection is generally regarded as its specific application in the industrial field. In traditional understanding, the reason why deep learning methods cannot be directly applied to surface defect detection is because in a real industrial environment, there are too few industrial defect samples that can be provided.</p>
 
 
-相比于ImageNet数据集中1400多万张样本数据, 表面缺陷检测中面临的最关键的问题是小样本问题, 在很多真实的工业场景下甚至只有几张或几十张缺陷图片。 
-Compared with the more than 14 million sample data in the ImageNet dataset, the most critical problem faced in surface defect detection is <b>small sample problem</b>. In many real industrial scenarios, there are even only a few or dozens of defective images. In fact, for the small sample problem which is one of the key problems in industrial surface defect detection, there are currently 4 different solutions:
+<p>Compared with the more than 14 million sample data in the ImageNet dataset, the most critical problem faced in surface defect detection is <b>small sample problem</b>. In many real industrial scenarios, there are even only a few or dozens of defective images. In fact, for the small sample problem which is one of the key problems in industrial surface defect detection, there are currently 4 different solutions:</p>
 
 
-<b>1）Data Amplification and Generation</b>
+<b>- Data Amplification and Generation</b>
 
-The most commonly used defect image expansion method is to use multiple image processing operations such as mirroring, rotation, translation, distortion, filtering, and contrast adjustment on the original defect samples to obtain more samples. Another more common method is data synthesis, where individual defects are often fused and superimposed on normal (non-defective) samples to form defective samples.
-
-
-
-<b>2）Network Pre-training and Transfer Learning</b>
-
-Generally speaking, using small samples to train deep learning networks can easily lead to <strong>overfitting</strong>, so methods based on pre-training networks or transfer learning are currently one of the most commonly used methods for samples.
+<p> The most commonly used defect image expansion method is to use multiple image processing operations such as mirroring, rotation, translation, distortion, filtering, and contrast adjustment on the original defect samples to obtain more samples. Another more common method is data synthesis, where individual defects are often fused and superimposed on normal (non-defective) samples to form defective samples.</p>
 
 
-<b>3）Reasonable Network Structure Design</b>
 
-The need for samples can also be greatly reduced by designing a reasonable network structure. Based on the compressed sampling theorem to compress and expand small sample data, we use CNN to directly classify the compressed sampling data features. Compared with the original image input, compressing the input can greatly reduce the network's demand for samples. In addition, the surface defect detection method based on the twin network can also be regarded as a special network design, which can greatly reduce the sample requirement.
+<b>- Network Pre-training and Transfer Learning</b>
+
+<p>Generally speaking, using small samples to train deep learning networks can easily lead to <strong>overfitting</strong>, so methods based on pre-training networks or transfer learning are currently one of the most commonly used methods for samples.</p>
 
 
-<b>4）Unsupervised or Semi-supervised Method</b>
+<b>- Reasonable Network Structure Design</b>
+
+<p>The need for samples can also be greatly reduced by designing a reasonable network structure. Based on the compressed sampling theorem to compress and expand small sample data, we use CNN to directly classify the compressed sampling data features. Compared with the original image input, compressing the input can greatly reduce the network's demand for samples. In addition, the surface defect detection method based on the twin network can also be regarded as a special network design, which can greatly reduce the sample requirement.</p>
+
+
+<b>- Unsupervised or Semi-supervised Method</b>
 
 In the unsupervised model, only normal samples are used for training, so there is no need for defective samples. The semi-supervised method can use unlabeled samples to solve the network training problem in the case of small samples.
 
 
-### Real-time Problem
+### 2）Real-time Problem
 
-The defect detection methods based on deep learning include three main links in industrial applications: <b>data annotation</b>, <b>model training</b>, and <b>model inference</b>. Real-time in actual industrial applications pays more attention to model inference. At present, most defect detection methods are concentrated in the accuracy of classification or recognition, little attention is paid to the efficiency of model inference. There are many methods for accelerating the model, such as model weighting and model pruning. In addition, although the existing deep learning model uses GPU as a general-purpose computing unit(GPGPU), with the development of technology, it is believed that FPGA will become an attractive alternative.
+<p>The defect detection methods based on deep learning include three main links in industrial applications: <b>data annotation</b>, <b>model training</b>, and <b>model inference</b>. Real-time in actual industrial applications pays more attention to model inference. At present, most defect detection methods are concentrated in the accuracy of classification or recognition, little attention is paid to the efficiency of model inference. There are many methods for accelerating the model, such as model weighting and model pruning. In addition, although the existing deep learning model uses GPU as a general-purpose computing unit(GPGPU), with the development of technology, it is believed that FPGA will become an attractive alternative.</p>
 
 ## 2. Common Datasets for Industrial Surface Defect Detection
 
@@ -56,14 +56,14 @@ Official Link：http://faculty.neu.edu.cn/yunhyan/NEU_surface_defect_database.ht
 
 <div align=center><img src="https://mmbiz.qpic.cn/mmbiz_png/Z8w2ExrFgDwNaIgv9VUHeCAeXfauWU8dV2r2icJmopdRh7QRQyiaibjbUyxdDkBt6vXzL3icyBEYIQHlLBT322D5kg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></div>
 
-The surface defect dataset released by Northeastern University (NEU) collects six typical surface defects of hot-rolled steel strips, namely rolling scale (RS), plaque (Pa), cracking (Cr), pitting surface (PS), inclusions (In) and scratches (Sc). The dataset includes 1,800 grayscale images, six different types of typical surface defects each of which contains 300 samples. For defect detection tasks, the dataset provides annotations that indicate the category and location of the defect in each image. For each defect, the yellow box is the border indicating its location, and the green label is the category score.
+<p>The surface defect dataset released by Northeastern University (NEU) collects six typical surface defects of hot-rolled steel strips, namely rolling scale (RS), plaque (Pa), cracking (Cr), pitting surface (PS), inclusions (In) and scratches (Sc). The dataset includes 1,800 grayscale images, six different types of typical surface defects each of which contains 300 samples. For defect detection tasks, the dataset provides annotations that indicate the category and location of the defect in each image. For each defect, the yellow box is the border indicating its location, and the green label is the category score.</p>
 
 <div align=center><img src="https://mmbiz.qpic.cn/mmbiz_png/Z8w2ExrFgDwNaIgv9VUHeCAeXfauWU8dSjNOVrR5xByfz4FbNj4tibpHkicPrhs8Ku01sp0Y7qjVFb0h2kaxoZQw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></div>
 <br>
 
 <b>2）Solar Panels: elpv-dataset</b>
 
-A dataset of functional and defective solar cells extracted from EL images of solar modules.
+<p>A dataset of functional and defective solar cells extracted from EL images of solar modules.</p>
 
 link：https://github.com/zae-bayern/elpv-dataset
 
@@ -85,7 +85,7 @@ The dataset is constructed from images of defected electrical commutators that w
 <div align=center><img src="https://mmbiz.qpic.cn/mmbiz_png/Z8w2ExrFgDwNaIgv9VUHeCAeXfauWU8dNvhYK1st5CuJsp4vOzcdj7jnrqy6QV29icM0ugRhHr7UcD04eb4KEIQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></div>
 <br>
 
-- offical link:https://www.vicos.si/Downloads/KolektorSDD
+- Official Link:https://www.vicos.si/Downloads/KolektorSDD
 
 - Wangpan Link：https://pan.baidu.com/share/init?surl=HSzHC1ltHvt1hSJh_IY4Jg (password：``1zlb``)
 
@@ -97,8 +97,8 @@ The dataset consists of:
 - Altogether 399 images:
 -- 52 images of visible defect
 -- 347 images without any defect
-- Original images of sizes:
---  width: 500 px
+- Original images of sizes:<br>
+-- width: 500 px<br>
 -- height: from 1240 to 1270 px
 - For training and evaluation images should be resized to 512 x 1408 px
 
@@ -109,7 +109,7 @@ For each item the defect is only visible in at least one image, while two items 
 
 <b>4）PCB Inspection：DeepPCB</b>
 
-Link：https://github.com/Charmve/Surface-Defect-Detection/tree/master/DeepPCB
+Download Link：https://github.com/Charmve/Surface-Defect-Detection/tree/master/DeepPCB
 
 <div align=center><img src="https://github.com/tangsanli5201/DeepPCB/blob/master/fig/test.jpg" width="375" style="margin:20">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -124,13 +124,11 @@ Link：https://github.com/Charmve/Surface-Defect-Detection/tree/master/DeepPCB
 <br>
 
 
-<b>5）Fabric Defects: AITEX</b>
+<b>5）Fabric Defects Dataset: AITEX</b>
 
 Wangpan Link：
 
 https://pan.baidu.com/s/1cfC4Ll5QlnwN5RTuSZ6b7w (password：``b9uy``)
-
-
 
 
 This dataset consists of 245 4096x256 pixel images with seven different fabric structures. There are 140 non-defect images in the dataset, 20 of each type of fabric. In addition, there are 105 images of different types of fabric defects (12 types) common in the textile industry. The image size allows users to use different window sizes, thereby the number of samples can be increased. The online dataset also contains segmentation masks of all defective images, so that white pixels represent defective areas and the remaining pixels are black.
@@ -140,8 +138,8 @@ This dataset consists of 245 4096x256 pixel images with seven different fabric s
 
 <br>
 
-
 <b>6）Fabric Defect Dataset (Tianchi)</b>
+
 Wangpan Link：
 
 https://pan.baidu.com/s/1LMbujxvr5iB3SwjFGYHspA (password：``gat2``)
@@ -158,7 +156,7 @@ This dataset covers all kinds of important defects in fabrics in the textile ind
 
 <b>7）Aluminium Profile Surface Defect Dataset（Tianchi）</b>
 
-Download link：
+Download Link：
 
 https://tianchi.aliyun.com/competition/entrance/231682/information
 
@@ -174,7 +172,7 @@ In the dataset of the competition, there are 10,000 pieces of monitoring image d
 
 <b>8）Weakly Supervised Learning for Industrial Optical Inspection（DAGM 2007）</b> 
 
-Download link：
+Download Link：
 
 https://hci.iwr.uni-heidelberg.de/node/3616
 
@@ -204,7 +202,7 @@ Dataset introduction:
 
 CrackForest Dataset is an annotated road crack image database which can reflect urban road surface condition in general.
 
-- github link：https://github.com/cuilimeng/CrackForest-dataset 
+- Github Link：https://github.com/cuilimeng/CrackForest-dataset 
 
 - Download link：https://pan.baidu.com/s/1108j5QbDr7T3XQvDxAzVpg (password：``jajn``)
 
@@ -243,9 +241,9 @@ These defects in the RSDDs dataset have been marked by professional human observ
 <div align=center><img src="rail-dataset.jpg"></div>
 <br>
 
-official link：http://icn.bjtu.edu.cn/Visint/resources/RSDDs.aspx
+Official Link：http://icn.bjtu.edu.cn/Visint/resources/RSDDs.aspx
 
-Download link：https://pan.baidu.com/share/init?surl=svsnqL0r1kasVDNjppkEwg (password：``nanr``)
+Download Link：https://pan.baidu.com/share/init?surl=svsnqL0r1kasVDNjppkEwg (password：``nanr``)
 
 
 <br>
@@ -264,8 +262,7 @@ Short description
 - One directory per texture class.
 - Files are named as follows: blanket1-d-p011-r180.png, where blanket1 is the class name, d original image sample number (possible values are a, b, c, or d), p011 is patch number 11, r180 patch rotated 180 degrees.
 
-offical link:http://www.cb.uu.se/~gustaf/texture/
-
+Offical Link:http://www.cb.uu.se/~gustaf/texture/
 
 
 <br>
