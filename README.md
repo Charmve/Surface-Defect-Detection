@@ -4,8 +4,8 @@
 Important critical papers from year 2017 have been collected and compiled, which can be viewed in the [<b><i>Papers</i></b>](https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers) folder. 🐋 </p>
 
 <p align="center">
-  Language: 
-  <a href=" "><img src="https://img.shields.io/badge/-English-green" alt="English Version"></a>
+  <font size=3>Language: </font>
+  <a href="https://github.com/Charmve/Surface-Defect-Detection/blob/master/README.md"><img src="https://img.shields.io/badge/-English-green" alt="English Version"></a>
   <a href="https://github.com/Charmve/Surface-Defect-Detection/blob/master/ReadmeChinese.md"><img src="https://img.shields.io/badge/-Chinese-red" alt="Chinese Version"></a>
 </p>
 
