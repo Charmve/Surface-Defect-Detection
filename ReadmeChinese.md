@@ -3,9 +3,8 @@
 🐎📈 我不断总结表面缺陷研究领域中的开源数据集（这个非常关键），收集整理了自17年以来的重要论文，可以在[Papers](https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers)文件夹下查看。 🐋
 
 <p align="center">
-  <font size=3>Language: </font>
-  <a href="https://github.com/Charmve/Surface-Defect-Detection/blob/master/README.md"><img src="https://img.shields.io/badge/-English-green" alt="English Version"></a>
-  <a href="https://github.com/Charmve/Surface-Defect-Detection/blob/master/ReadmeChinese.md"><img src="https://img.shields.io/badge/-Chinese-red" alt="Chinese Version"></a>
+  <a href="https://github.com/Charmve/Surface-Defect-Detection/blob/master/README.md"><img src="https://img.shields.io/badge/language-English-green" alt="English Version"></a>
+  <a href="https://github.com/Charmve/Surface-Defect-Detection/blob/master/ReadmeChinese.md"><img src="https://img.shields.io/badge/language-Chinese-red" alt="Chinese Version"></a>
 </p>
 
 <div align=center><img src="https://mmbiz.qpic.cn/mmbiz_png/Z8w2ExrFgDwNaIgv9VUHeCAeXfauWU8dNvhYK1st5CuJsp4vOzcdj7jnrqy6QV29icM0ugRhHr7UcD04eb4KEIQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></div>
