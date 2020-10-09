@@ -1,6 +1,6 @@
 # 表面缺陷检测数据集/论文集
 
-🐎📈 我不断总结表面缺陷研究领域中的开源数据集（这个非常关键），收集整理了自17年以来的重要论文，可以在[Papers](https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers)文件夹下查看。 🐋
+🐎📈 我不断总结表面缺陷研究领域中的开源数据集（这个非常关键），收集整理了自17年以来的重要论文，可以在<a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers">:open_file_folder: [<b><i>Papers</i></b>]</a>文件夹下查看。 🐋
 
 <p align="center">
   <a href="https://github.com/Charmve/Surface-Defect-Detection/blob/master/README.md"><img src="https://img.shields.io/badge/language-English-green" alt="English Version"></a>
@@ -276,7 +276,9 @@ RSDDs数据集中的这些缺陷已由一些专业的人类观察员在轨道表
 
 收集一些表面缺陷检测的文章，主要检测对象是：金属表面、LCD屏、建筑、输电线等缺陷或异常检物。方法以分类方法、检测方法、重构方法、生成方法为主。电子版论文放在了paper文件的对应日期文件下。
 
-详见本仓库 [Papers](https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers)
+详见本仓库 <a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers">:open_file_folder: [<b><i>Papers</i></b>]</a>
+
+<br>
 
 ## 致谢
 
@@ -305,5 +307,3 @@ RSDDs数据集中的这些缺陷已由一些专业的人类观察员在轨道表
         aria-label="Fork Charmve/Surface-Defect-Detection on GitHub">Fork</a>
 </i>
 
-<br>
-* <i>Update by Sep 27，2020 @<a href="https://github.com/Charmve" target="_blank">Charmve</a>, follow me</i>
