@@ -278,5 +278,32 @@ RSDDs数据集中的这些缺陷已由一些专业的人类观察员在轨道表
 
 详见本仓库 [Papers](https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers)
 
+## 致谢
+
+<p>你能看到这个项目，我们应当感谢上述数据集最初的开源的人，他们给我们的学习和研究工作带来了极大的帮助。这个数据集的收集想法起初来自于看了“AI算法修炼营”SFXiang的一篇关于表面缺陷检测的文章，促使我整理一份更为全面的数据集。论文集来自于一位叫“庆志的小徒弟”的CSDNer，现在论文收集只到19年11月份，之后会继续完善。<strong>同时，希望能有更多小伙伴上传新的数据集。Feel free to <a href="https://github.com/Charmve/Surface-Defect-Detection/blob/master/CONTRIBUTING.md" target="_blank">CONTRIBUTE</a>.</strong></p>
+
+<p>最后，我想再次感谢以上数据集的开源贡献者。</p>
+
+<br>
+
+## 提示！
+
+<p>本开源数据集最初是由许多人贡献的，只是太过分散，对寻找数据集是个十分费时费力的过程。很多数据集是研究者论文的训练/测试集，或是企业的开源数据集，因此 <strong>您只能将此数据集用于研究目的。</ strong></p>
+
+<p>如您有任何疑问和想法，欢迎来信交流 :email: yidazhang1@gmail.com</p>
+
+<br>
+* <i>Update by Sep 27，2020 @<a href="https://github.com/Charmve" target="_blank">Charmve</a>, 
+    <a class="github-button"
+        href="https://github.com/Charmve/Surface-Defect-Detection"
+        data-icon="octicon-star" data-show-count="true"
+        aria-label="Star Charmve/Surface-Defect-Detection on GitHub">Star</a> 
+    and 
+    <a class="github-button"
+        href="https://github.com/Charmve/Surface-Defect-Detection/fork"
+        data-icon="octicon-repo-forked" data-show-count="true"
+        aria-label="Fork Charmve/Surface-Defect-Detection on GitHub">Fork</a>
+</i>
+
 <br>
 * <i>Update by Sep 27，2020 @<a href="https://github.com/Charmve" target="_blank">Charmve</a>, follow me</i>
