@@ -1,7 +1,7 @@
 # Surface Defect Detection: dataset & papers
 
 <p>🐎📈 Constantly summarizing open source data sets in the field of surface defect research is very important. 
-Important critical papers from year 2017 have been collected and compiled, which can be viewed in the <a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers">[<b><i>Papers</i></b>]</a> folder. 🐋 </p>
+Important critical papers from year 2017 have been collected and compiled, which can be viewed in the <a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers">:open_file_folder: [<b><i>Papers</i></b>]</a> folder. 🐋 </p>
 
 <p align="center">
   <a href="https://github.com/Charmve/Surface-Defect-Detection/blob/master/README.md"><img src="https://img.shields.io/badge/language-English-green" alt="English Version"></a>
@@ -276,7 +276,7 @@ Offical Link:http://www.cb.uu.se/~gustaf/texture/
 
 I have collected some articles on surface defect detection. The main objects to be tested are: defects or abnormal objects such as metal surfaces, LCD screens, buildings, and power lines. The methods are mainly classified method, detection method, reconstruction method and generation method. The electronic version (PDF) of the paper is placed under the file named corresponding to the date in the 'Paper' folder.
 
-Go to [Papers](https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers).
+Go to <a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers">:open_file_folder: [<b><i>Papers</i></b>]</a>.
 
 <br>
 * <i>Update by Sep 27，2020 @<a href="https://github.com/Charmve" target="_blank">Charmve</a>, follow me</i>
