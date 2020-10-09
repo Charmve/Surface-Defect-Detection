@@ -293,11 +293,15 @@ Go to <a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/P
 This work is originally ntributed by lots of great man for their paper work or industry application. <strong>You can only use this dataset for research purpose.</strong>
 
 <br>
-* <i>Update by Sep 27，2020 @<a href="https://github.com/Charmve" target="_blank">Charmve</a>, <a class="github-button"
-                                    href="https://github.com/Charmve/Design-of-a-3D-Dynamic-Display-System-Based-on-Voice-Control"
-                                    data-icon="octicon-star" data-show-count="true"
-                                    aria-label="Star Charmve/Design-of-a-3D-Dynamic-Display-System-Based-on-Voice-Control on GitHub">Star</a> and <a class="github-button"
-                                    href="https://github.com/Charmve/Design-of-a-3D-Dynamic-Display-System-Based-on-Voice-Control/fork"
-                                    data-icon="octicon-repo-forked" data-show-count="true"
-                                    aria-label="Fork Charmve/Design-of-a-3D-Dynamic-Display-System-Based-on-Voice-Control on GitHub">Fork</a></i>
+* <i>Update by Sep 27，2020 @<a href="https://github.com/Charmve" target="_blank">Charmve</a>, 
+    <a class="github-button"
+        href="https://github.com/Charmve/Surface-Defect-Detection"
+        data-icon="octicon-star" data-show-count="true"
+        aria-label="Star Charmve/Surface-Defect-Detection on GitHub">Star</a> 
+    and 
+    <a class="github-button"
+        href="https://github.com/Charmve/Surface-Defect-Detection/fork"
+        data-icon="octicon-repo-forked" data-show-count="true"
+        aria-label="Fork Charmve/Surface-Defect-Detection on GitHub">Fork</a>
+</i>
 
