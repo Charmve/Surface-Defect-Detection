@@ -8,7 +8,7 @@ Important critical papers from year 2017 have been collected and compiled, which
   <a href="https://github.com/Charmve/Surface-Defect-Detection/blob/master/ReadmeChinese.md"><img src="https://img.shields.io/badge/language-Chinese-red" alt="Chinese Version"></a>
 </p>
 
-<div align=center><img src="https://mmbiz.qpic.cn/mmbiz_png/Z8w2ExrFgDwNaIgv9VUHeCAeXfauWU8dNvhYK1st5CuJsp4vOzcdj7jnrqy6QV29icM0ugRhHr7UcD04eb4KEIQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></div>
+<div align=center><img src="metal_surface.png"></div>
 <br>
 
 <p>At present, surface defect equipment based on machine vision has widely replaced artificial visual inspection in various industrial fields, including 3C, automobiles, home appliances, machinery manufacturing, semiconductors and electronics, chemical, pharmaceutical, aerospace, light industry and other industries. Traditional surface defect detection methods based on machine vision often use conventional image processing algorithms or artificially designed features plus classifiers. Generally speaking, imaging schemes are usually designed by using the different properties of the inspected surface or defects. A reasonable imaging scheme helps to obtain images with uniform illumination and clearly reflect the surface defects of the object. In recent years, many defect detection methods based on deep learning have also been widely used in various industrial scenarios.</p>
@@ -87,7 +87,7 @@ All images are normalized with respect to size and perspective. Additionally, an
 
 The dataset is constructed from images of defected electrical commutators that were provided and annotated by Kolektor Group d.o.o.. Specifically, microscopic fractions or cracks were observed on the surface of the plastic embedding in electrical commutators. The surface area of each commutator was captured in eight non-overlapping images. The images were captured in a controlled environment.
 
-<div align=center><img src="https://mmbiz.qpic.cn/mmbiz_png/Z8w2ExrFgDwNaIgv9VUHeCAeXfauWU8dNvhYK1st5CuJsp4vOzcdj7jnrqy6QV29icM0ugRhHr7UcD04eb4KEIQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></div>
+<div align=center><img src="metal_surface.png"></div>
 <br>
 
 - Official Link:https://www.vicos.si/Downloads/KolektorSDD
