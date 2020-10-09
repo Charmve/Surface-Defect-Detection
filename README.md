@@ -282,7 +282,7 @@ Go to <a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/P
 
 ## Acknowledgements
 
-<p>You can see this repo now, we should be grateful to the people who originally open sourced the above data set. They have brought great help to our study and research work. The idea of collecting this data set originally came from reading an article on surface defect detection by SFXiang of "AI算法修炼营(AI_SuanFa)", which prompted me to organize a more comprehensive data set. The collection of papers comes from a CSDNer named "庆志的小徒弟". These papers are only until November 19, and I will continue to be improved after that. <strong>Hopefully, Feel free to <a href="https://github.com/Charmve/Surface-Defect-Detection/blob/master/CONTRIBUTING.md" target="_blank">contribute</a>.</strong></p>
+<p>You can see this repo now, we should be grateful to the people who originally open sourced the above data set. They have brought great help to our study and research work. The idea of collecting this data set originally came from reading an article on surface defect detection by SFXiang of "AI算法修炼营(AI_SuanFa)", which prompted me to organize a more comprehensive data set. The collection of papers comes from a CSDNer named "庆志的小徒弟". These papers are only until November 19, and I will continue to be improved after that. <strong>Hopefully, feel free to <a href="https://github.com/Charmve/Surface-Defect-Detection/blob/master/CONTRIBUTING.md" target="_blank">CONTRIBUTE</a>.</strong></p>
 
 <p>Finally, I want to thank the open source contributors of the above data set again.</p>
 
