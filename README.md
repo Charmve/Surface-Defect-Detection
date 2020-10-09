@@ -280,11 +280,11 @@ Go to <a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/P
 
 <br>
 
-### Acknowledgements
+## Acknowledgements
 
-You can see this repo now, we should be grateful to the people who originally open sourced the above data set. They have brought great help to our study and research work. The idea of collecting this data set originally came from reading an article on surface defect detection by SFXiang of "AI算法修炼营(AI_SuanFa)", which prompted me to organize a more comprehensive data set. The collection of papers comes from a CSDNer named "庆志的小徒弟". These papers are only until November 19, and I will continue to be improved after that. <strong>Hopefully, Feel free to <a href="https://github.com/Charmve/Surface-Defect-Detection/blob/master/CONTRIBUTING.md" target="_blank">contribute</a>.</strong><br>
-Finally, I want to thank the open source contributors of the above data set again.
+<p>You can see this repo now, we should be grateful to the people who originally open sourced the above data set. They have brought great help to our study and research work. The idea of collecting this data set originally came from reading an article on surface defect detection by SFXiang of "AI算法修炼营(AI_SuanFa)", which prompted me to organize a more comprehensive data set. The collection of papers comes from a CSDNer named "庆志的小徒弟". These papers are only until November 19, and I will continue to be improved after that. <strong>Hopefully, Feel free to <a href="https://github.com/Charmve/Surface-Defect-Detection/blob/master/CONTRIBUTING.md" target="_blank">contribute</a>.</strong></p>
 
+<p>Finally, I want to thank the open source contributors of the above data set again.</p>
 
 <br>
 
@@ -294,3 +294,13 @@ This work is originally ntributed by lots of great man for their paper work or i
 
 <br>
 * <i>Update by Sep 27，2020 @<a href="https://github.com/Charmve" target="_blank">Charmve</a>, Star and Folk</i>
+<ul class="list-inline">
+                                <a class="github-button"
+                                    href="https://github.com/Charmve/Design-of-a-3D-Dynamic-Display-System-Based-on-Voice-Control"
+                                    data-icon="octicon-star" data-show-count="true"
+                                    aria-label="Star Charmve/Design-of-a-3D-Dynamic-Display-System-Based-on-Voice-Control on GitHub">Star</a>
+                                <a class="github-button"
+                                    href="https://github.com/Charmve/Design-of-a-3D-Dynamic-Display-System-Based-on-Voice-Control/fork"
+                                    data-icon="octicon-repo-forked" data-show-count="true"
+                                    aria-label="Fork Charmve/Design-of-a-3D-Dynamic-Display-System-Based-on-Voice-Control on GitHub">Fork</a>
+                            </ul>
