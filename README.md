@@ -255,7 +255,7 @@ Download Link：https://pan.baidu.com/share/init?surl=svsnqL0r1kasVDNjppkEwg (pa
 
 <b>12）Kylberg Texture Dataset v.1.0 </b> 
 
-<div align=center><img src="http://www.cb.uu.se/~gustaf/texture/fig_sample.png"></div>
+<div align=center><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9tbWJpei5xcGljLmNuL21tYml6X3BuZy9aTmRoV05pYjNJUkJkeklpYVlQQTJ5ZmFXaFRMcVF1UElVdmxPTkVRYURGQzdaT3dWOXBhZWtCckNjQ2FxY0dWb2lhdHk2ZWszRlNTSXhjWVIwelI5TUZIZy82NDA?x-oss-process=image/format,png"></div>
 <p align=center>Figure 4. Example patches from each one of the 28 texture classes.</p>
 
 Short description
