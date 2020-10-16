@@ -14,7 +14,6 @@
   <a href="https://github.com/haizlin/fe-interview/stargazers"><img src="https://img.shields.io/github/stars/geekxh/hello-algorithm.svg" alt="Statr"></a>
 </p>
 
-<br>
 
 # -Surface Defect Detection Papers-
 🐎📈 collecting Surface-Defect-Detection paper and dataset 🐋
