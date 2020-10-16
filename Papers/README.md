@@ -10,7 +10,7 @@
 
 <p align="center">
    <a href="https://github.com/Charmve"><img src="https://img.shields.io/badge/Github-Charmve-blue" alt="Github" target="_blank"></a>
-   <img src="https://img.shields.io/badge/language-English-green" alt="English Version" >
+   <a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers/" target="_blank"><img src="https://img.shields.io/badge/language-English-green" alt="English Version"></a>
    <a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers/README_Chinese.md" target="_blank"><img src="https://img.shields.io/badge/language-Chinese-red" alt="Chinese Version"></a>
 </p>
 
