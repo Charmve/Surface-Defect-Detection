@@ -79,7 +79,7 @@ it can also be extended to other detection applications.
 
 Detailed analysis can be seen in this blog：https://blog.csdn.net/qq_27871973/article/details/83817694
 
-### [4]Faster R-CNN用于土木行业缺陷检测
+### [4]Faster R-CNN for Defect Detection in Civil Engineering
 
 <strong>Paper</strong>：Autonomous Structural Visual Inspection Using Region-Based Deep Learning for Detecting Multiple Damage Types [<a href="https://github.com/Charmve/Surface-Defect-Detection/blob/master/Papers/2019.01/Autonomous%20Structural%20Visual%20Inspection%20Using%20Region-Based%20Deep%20Learning%20for%20Detecting%20Multiple%20Damage%20Types.pdf" target="_blank">paper</a>]
 
