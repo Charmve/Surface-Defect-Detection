@@ -19,29 +19,28 @@
 # -Surface Defect Detection Papers-
 🐎📈 collecting Surface-Defect-Detection paper and dataset 🐋
 
-
-分享一些表面缺陷检测的文章，主要检测对象是：金属表面、LCD屏、建筑、输电线等缺陷或异常检物。方法以分类方法、检测方法、重构方法、生成方法为主。电子版论文放在了paper文件的对应日期文件下。
+Share some articles on surface defect inspection, the main inspection objects are: metal surface, LCD screen, building, transmission line and other defects or abnormal inspection objects. The methods are mainly classified method, detection method, reconstruction method and generation method. The electronic version (PDF) of the paper is placed under the file named corresponding to the date in the ``'Paper'`` folder.
 
 ## 2019.01
 
-### [1]CNN做分类
+### [1]CNN for Classfication
 
-论文题目：A fast and robust convolutional neural network-based defect detection model in product quality control  [<a href="https://github.com/Charmve/Surface-Defect-Detection/blob/master/Papers/2019.01/A%20fast%20and%20robust%20convolutional%20neural%20network-based%20defect%20detection%20model%20in%20product%20quality%20control.pdf" target="_blank">paper</a>]
+<strong>Paper</strong>：A fast and robust convolutional neural network-based defect detection model in product quality control  [<a href="https://github.com/Charmve/Surface-Defect-Detection/blob/master/Papers/2019.01/A%20fast%20and%20robust%20convolutional%20neural%20network-based%20defect%20detection%20model%20in%20product%20quality%20control.pdf" target="_blank">paper</a>]
 
-摘要：The fast and robust automated quality visual inspection has received increasing attention in the product quality control for production efficiency. To effectively detect defects in products, many methods focus on the handcrafted optical features. However, these methods tend to only work well under specified conditions and have many requirements for the input. So the work in this paper targets on building a deep model to solve this problem. The elaborately designed deep convolutional neural networks (CNN) proposed by us can automatically extract powerful features with less prior knowledge about the images for defect detection, while at the same time is robust to noise. We experimentally evaluate this CNN model on a benchmark dataset and achieve a fast detection result with a high accuracy, surpassing the state-of-the-art methods. 
+<strong>Abstract<strong>：The fast and robust automated quality visual inspection has received increasing attention in the product quality control for production efficiency. To effectively detect defects in products, many methods focus on the handcrafted optical features. However, these methods tend to only work well under specified conditions and have many requirements for the input. So the work in this paper targets on building a deep model to solve this problem. The elaborately designed deep convolutional neural networks (CNN) proposed by us can automatically extract powerful features with less prior knowledge about the images for defect detection, while at the same time is robust to noise. We experimentally evaluate this CNN model on a benchmark dataset and achieve a fast detection result with a high accuracy, surpassing the state-of-the-art methods. 
 
-个人总结：2017年7月的一篇杂志文章。作者使用一个多层的CNN网络对DAGM2007数据集中的六类缺陷样本进行分类，分类结束之后，对于每一类样本进行缺陷检测。具体做法是：1.使用sliding-window方法在512×512的原图上进行采样，采样大小为128×128；2.对上部分每一类图像采样后的小图像块进行二分类（有缺陷和无缺陷）。最终实验和以前传统方法做的对比，比如SIFT+SVM，效果不错。下图为文章两次分类使用的CNN网络，两次分类的区别在于：1.全连接层的输入分别为6和2；2.输入的图像尺寸不同。
+<strong>Conclusion personally</strong>：2017年7月的一篇杂志文章。作者使用一个多层的CNN网络对DAGM2007数据集中的六类缺陷样本进行分类，分类结束之后，对于每一类样本进行缺陷检测。具体做法是：1.使用sliding-window方法在512×512的原图上进行采样，采样大小为128×128；2.对上部分每一类图像采样后的小图像块进行二分类（有缺陷和无缺陷）。最终实验和以前传统方法做的对比，比如SIFT+SVM，效果不错。下图为文章两次分类使用的CNN网络，两次分类的区别在于：1.全连接层的输入分别为6和2；2.输入的图像尺寸不同。
 
-### [2]图像金字塔层次结构思想和卷积去噪自编码器网络对纹理缺陷做检测
+### [2] 图像金字塔层次结构思想和卷积去噪自编码器网络对纹理缺陷做检测
 
 论文题目：An Unsupervised-Learning-Based Approach for Automated Defect Inspection on Textured Surfaces [<a href="https://github.com/Charmve/Surface-Defect-Detection/blob/master/Papers/2019.01/An%20Unsupervised-Learning-Based%20Approach%20for%20Automated%20Defect%20Inspection%20on%20Textured%20Surfaces.pdf" target="_blank">paper</a>]
 
 摘要：Automated defect inspection has long been a challenging task especially in industrial applications, where collecting and labeling large amounts of defective samples are usually harsh and impracticable. In this paper, we propose an approach to detect and localize defects with only defect-free samples for model
 
-training. This approach is carried out by reconstructing image patches with convolutional denoising autoencoder networks at different Gaussian pyramid levels, and synthesizing detection results from these different resolution channels. Reconstruction residuals of the training patches are used as the indicator for
+<strong>training</strong>. This approach is carried out by reconstructing image patches with convolutional denoising autoencoder networks at different Gaussian pyramid levels, and synthesizing detection results from these different resolution channels. Reconstruction residuals of the training patches are used as the indicator for
 direct pixelwise defect prediction, and the reconstruction residual map generated in each channel is combined to generate the final inspection result. This novel method has two prominent characteristics, which benefit the implementation of automatic defect inspection in practice. First, it is absolutely unsupervised that no human intervention is needed throughout the inspection process. Second, multimodal strategy is utilized in this method to synthesize results from multiple pyramid levels. This strategy is capable of improving the robustness and accuracy of the method. To evaluate this approach, experiments on convergence, noise immunity, and defect inspection accuracy are conducted. Furthermore, comparative tests with some excellent algorithms on actual and simulated data sets are performed. Experimental results demonstrated the effectiveness and superiority of the proposed method on homogeneous and nonregular textured surfaces. 
 
-个人总结：2018年6月的一篇杂志文章。文章和4月在另一篇杂志上的《Automatic Fabric Defect Detection with a Multi-Scale Convolutional Denoising Autoencoder Network Model》一文核心内容上基本一样，作者是同一人。主要框架：结合图像金字塔层次结构思想和卷积去噪自编码器网络（CDAE）对纹理图像缺陷进行检测。具体实施：利用不同高斯金字塔层次的卷积去噪自编码器网络重构image patchs，利用训练patch的重构残差作为直接像素方向缺陷预测的指标，将每个通道生成的重构残差图结合起来，生成最终的检测结果。  论文是无监督的方法做缺陷检测，在布匹丝织物这种重复性背景纹理很强的图集上效果很好，在金属表面、加工部件表面数据集效果一般，甚至很差。在最后的实验部分，作者也是用了DAGM2007数据集做了测试，效果一般，远远达不到工业应用要求，但相对其他方法，部分种类效果有提升。
+<strong>Conclusion personally</strong>：2018年6月的一篇杂志文章。文章和4月在另一篇杂志上的《Automatic Fabric Defect Detection with a Multi-Scale Convolutional Denoising Autoencoder Network Model》一文核心内容上基本一样，作者是同一人。主要框架：结合图像金字塔层次结构思想和卷积去噪自编码器网络（CDAE）对纹理图像缺陷进行检测。具体实施：利用不同高斯金字塔层次的卷积去噪自编码器网络重构image patchs，利用训练patch的重构残差作为直接像素方向缺陷预测的指标，将每个通道生成的重构残差图结合起来，生成最终的检测结果。  论文是无监督的方法做缺陷检测，在布匹丝织物这种重复性背景纹理很强的图集上效果很好，在金属表面、加工部件表面数据集效果一般，甚至很差。在最后的实验部分，作者也是用了DAGM2007数据集做了测试，效果一般，远远达不到工业应用要求，但相对其他方法，部分种类效果有提升。
 
 ### [3]级联自编码器(CASAE)结构用于金属表面异常的分割和定位
 
@@ -63,7 +62,7 @@ successfully detected using an industrial dataset. The experimental results demo
 method meets the robustness and accuracy requirements for metallic defect detection. Meanwhile,
 it can also be extended to other detection applications. 
 
-个人总结：2018年九月一篇杂志文章。作者提出来一种用于金属表面缺陷的检测方法，借助自编码器在图像重建上的性能，设计一种级联自编码器(CASAE)体系结构，用于金属表面异常的分割和定位。再利用CNN将分割后的缺陷区域做细分类。具体的pipeline如下，整体来说文章的思路就是语义粗略分割+卷积细分类。详细的分析可以看：https://blog.csdn.net/qq_27871973/article/details/83817694
+<strong>Conclusion personally</strong>：2018年九月一篇杂志文章。作者提出来一种用于金属表面缺陷的检测方法，借助自编码器在图像重建上的性能，设计一种级联自编码器(CASAE)体系结构，用于金属表面异常的分割和定位。再利用CNN将分割后的缺陷区域做细分类。具体的pipeline如下，整体来说文章的思路就是语义粗略分割+卷积细分类。详细的分析可以看：https://blog.csdn.net/qq_27871973/article/details/83817694
 
 ### [4]Faster R-CNN用于土木行业缺陷检测
 
@@ -71,7 +70,7 @@ it can also be extended to other detection applications.
 
 摘要： Computer vision-based techniques were developed to overcome the limitations of visual inspection by trained human resources and to detect structural damage in images remotely, but most methods detect only specific types of damage, such as concrete or steel cracks. To provide quasi real-time simultaneous detection of multiple types of damages, a Faster Region-based Convolutional Neural Network (Faster R-CNN)-based structural visual inspection method is proposed. To realize this, a database including 2,366 images (with 500 × 375 pixels) labeled for five types of damages—concrete crack, steel corrosion with two levels (medium and high), bolt corrosion, and steel delamination—is developed. Then, the architecture of the Faster R-CNN is modified, trained, validated, and tested using this database. Results show 90.6%, 83.4%, 82.1%, 98.1%, and 84.7% average precision (AP) ratings for the five damage types, respectively, with a mean AP of 87.8%. The robustness of the trained Faster R-CNN is evaluated and demonstrated using 11 new 6,000 × 4,000-pixel images taken of different structures. Its performance is also compared to that of the traditional CNN-based method. Considering that the proposed method provides a remarkably fast test speed (0.03 seconds per image with 500 × 375 resolution), a framework for quasi real-time damage detection on video using the trained networks is developed. 
 
-个人总结：2018年的一篇杂志文章。文章使用Faster R-CNN用于土木建筑领域的混凝土。钢裂纹等损伤检测，文章主要是把Faster R-CNN迁移到行业检测，算是Faster R-CNN模型的实战。
+<strong>Conclusion personally</strong>：2018年的一篇杂志文章。文章使用Faster R-CNN用于土木建筑领域的混凝土。钢裂纹等损伤检测，文章主要是把Faster R-CNN迁移到行业检测，算是Faster R-CNN模型的实战。
 
 ## 2019.02
 
@@ -92,7 +91,7 @@ images and query labels from experts to retrain the network. Experiments demonst
 efficient performance improvements of our method than baselines, achieving 87.5% detection
 accuracy. 
 
-个人总结：主动学习思想结合ResNet网络对行业缺陷样本进行分类，提升准确率。
+<strong>Conclusion personally</strong>：主动学习思想结合ResNet网络对行业缺陷样本进行分类，提升准确率。
 
 ### [2]CNN的一个实验在LCD屏异常检测
 
@@ -166,7 +165,7 @@ under consideration by computing a CNN-based visual similarity with respect to a
 anomaly-free subregions belonging to a training set. The proposed method outperforms the state
 of the art. 
 
-个人总结：详细的分析见：https://blog.csdn.net/qq_27871973/article/details/86007150
+<strong>Conclusion personally</strong>：详细的分析见：https://blog.csdn.net/qq_27871973/article/details/86007150
 
 ### [2]Faster R-CNN用于土木建筑领域的混凝土
 
@@ -178,7 +177,7 @@ is of great significance for operation safety and cost reduction. Nowadays, the 
 proposes a novel vision-based method that applies the deep convolutional neural networks (DCNNs) in the defect detection of the fasteners. Our system cascades three DCNN-based detection stages in a coarse-to-fine manner, including two detectors to sequentially localize the cantilever joints and their fasteners and a
 classifier to diagnose the fasteners’ defects. Extensive experiments and comparisons of the defect detection of catenary support devices along the Wuhan–Guangzhou high-speed railway line indicate that the system can achieve a high detection rate with good adaptation and robustness in complex environments. 
 
-个人总结：2018年2月的一篇杂志论文。作者将深度卷积神经网络(DCNNs)应用到高铁线路紧固件缺陷检测。结合SSD、YOLO等网络方法构建了一个从粗到细的级联检测网络，包括：两个检测器对悬臂节点及其紧固件进行定位，一个分类器对紧固件缺陷进行分类。特别是实验部分，作者做的很充分。
+<strong>Conclusion personally</strong>：2018年2月的一篇杂志论文。作者将深度卷积神经网络(DCNNs)应用到高铁线路紧固件缺陷检测。结合SSD、YOLO等网络方法构建了一个从粗到细的级联检测网络，包括：两个检测器对悬臂节点及其紧固件进行定位，一个分类器对紧固件缺陷进行分类。特别是实验部分，作者做的很充分。
 
 ### [3] 多尺度卷积去噪自动编码器网络模型
 
@@ -202,7 +201,7 @@ viewed as a modality). Third, according to our results, it can address multiple 
 from simple to more complex. Experimental results demonstrate that the proposed model is robust
 and yields good overall performance with high precision and acceptable recall rates. 
 
-个人总结：核心思路同2019.01的第二篇。
+<strong>Conclusion personally</strong>：核心思路同2019.01的第二篇。
 
 ## 2019.05
 
@@ -244,7 +243,7 @@ from a bank of image filters applied to an image region. Training is done on exa
 论文摘要：Surface defect detection and classification based on machine vision can greatly improve the efficiency of industrial production. With enough labeled images, defect detection methods based on convolution neural network have achieved the detection effect of state-of-art. However in practical applications, the defect samples or negative samples are usually difficult to be collected before‐
 hand and manual labelling is time-consuming. In this paper, a novel defect detection framework only based on training of positive samples is proposed. The basic detection concept is to establish a reconstruction network which can repair defect areas in the samples if they are existed, and then make a comparison between the input sample and the restored one to indicate the accurate defect areas. We combine GAN and autoencoder for defect image reconstruction and use LBP for image local contrast to detect defects. In the training process of the algorithm, only positive samples is needed, without defect samples and manual label. This paper carries out verification experiments for concentrated fabric images and the dataset of DAGM 2007. Experiments show that the proposed GAN+LBP algorithm and supervised training algorithm with sufficient training samples have fairly high detection accuracy. Because of its unsupervised characteristics, it has higher practical application value. 
 
-个人总结：详细分析：https://blog.csdn.net/qq_27871973/article/details/84068984
+<strong>Conclusion personally</strong>：详细分析：https://blog.csdn.net/qq_27871973/article/details/84068984
 
 ### [2]GAN用于异常检测
 
@@ -340,26 +339,26 @@ Study papers in the fields of computer vision, NLP, and machine learning algorit
 <div align=center size = 3><b>△微信扫一扫，关注我</b></div>
 <br>
 
-从今年三月份开始，我将开源的方向调整为机器学习、计算机视觉、深度学习、NLP、AI前沿技术动态的相关文章发布，从入门学习指导（我自己的机器学习路线总结，入过很多坑）到现在的顶会论文总结、前沿论文研读。公众号主页底部有菜单分类。
+Starting in March this year, I adjusted the direction of open source to machine learning, computer vision, and AI related articles about cutting-edge technology dynamics. I summarized my own machine learning route and summarized the entry after entering many pits. And then, to now, the summary of top AI conference papers and cutting-edge papers study could be realized. There are menu categories at the bottom of the official account homepage.
 
 <div align=center><img src="https://github.com/ChromeWei/PaperWeeklyAI/blob/master/MaiweiAI-com.png?raw=true" ></div>
   
 <p align="center">
-    <b>公众号菜单栏分类</b>
+    <b>Menu categories of Wechat official account</b>
 </p>
 
 <br>
 
 
-### 该项目包括
+### Content
 
-| 👀 [迈微论文研读](https://github.com/ChromeWei/PaperWeeklyAI)| 🐒 [AI进阶指南](https://github.com/ChromeWei/PaperWeeklyAI/tree/master/00_GuideBooksPDF(English%2BChinese)) | 📚 [超清电子书10000本](https://github.com/ChromeWei/hello-algorithm/tree/master/%E6%B8%85%E6%99%B0%E7%89%88%E7%94%B5%E5%AD%90%E4%B9%A61000%E6%9C%AC) |  🐒 [计算机IT必备](https://github.com/ChromeWei/hello-algorithm/tree/master/%E4%B8%93%E6%A0%8F)  | 🚀 [大厂面经汇总指南](https://github.com/ChromeWei/hello-algorithm/tree/master/%E5%A4%A7%E5%8E%82%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB100%E7%AF%87) | 
+| 👀 [Maiwei AI Paper Study](https://github.com/ChromeWei/PaperWeeklyAI)| 🐒 [AI Advanced Guide](https://github.com/ChromeWei/PaperWeeklyAI/tree/master/00_GuideBooksPDF(English%2BChinese)) | 📚 [10000 PDF openbooks](https://github.com/ChromeWei/hello-algorithm/tree/master/%E6%B8%85%E6%99%B0%E7%89%88%E7%94%B5%E5%AD%90%E4%B9%A61000%E6%9C%AC) |  🐒 [CS/IT Essential](https://github.com/ChromeWei/hello-algorithm/tree/master/%E4%B8%93%E6%A0%8F)  | 🚀 [Interview Guide](https://github.com/ChromeWei/hello-algorithm/tree/master/%E5%A4%A7%E5%8E%82%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB100%E7%AF%87) | 
 | :--- | :---- | :--- | :--- | :--- |
-| 🍄 [NLP论文研读](https://github.com/Charmve/PaperWeeklyAI/tree/master/03_Maiwei%20AI%20PaperWeekly/01_NLP%E8%AE%BA%E6%96%87%E7%A0%94%E8%AF%BB)  | 🌽 [机器学习/深度学习理论篇](https://github.com/Charmve/PaperWeeklyAI/tree/master/00_GuideBooksPDF(English%2BChinese)) | 🐒 [超清思维导图集锦](https://github.com/ChromeWei/hello-algorithm/tree/master/%E8%B6%85%E6%B8%85%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE100%E5%BC%A0) | 👺 [专栏：学习os](https://github.com/ChromeWei/hello-algorithm/tree/master/%E4%B8%93%E6%A0%8F/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F)|🍏 [面试：C&C++](https://github.com/ChromeWei/hello-algorithm/tree/master/%E5%A4%A7%E5%8E%82%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB100%E7%AF%87/C%26C%2B%2B) |
-| 🍐 [CV顶会](https://github.com/Charmve/PaperWeeklyAI/tree/master/03_Maiwei%20AI%20PaperWeekly/02_%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89%E8%AE%BA%E6%96%87) | 🍉 [机器学习实战篇](https://github.com/Charmve/PaperWeeklyAI/tree/master/04_AppliedML) | 👺 [电子书：机器学习&深度学习](https://github.com/ChromeWei/PaperWeeklyAI/tree/master/00_GuideBooksPDF(English%2BChinese))|  📡 [专栏：学习网络](https://github.com/ChromeWei/hello-algorithm/tree/master/%E4%B8%93%E6%A0%8F/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C) | 🍖 [面试：架构师](https://github.com/ChromeWei/hello-algorithm/tree/master/%E5%A4%A7%E5%8E%82%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB100%E7%AF%87/%E6%9E%B6%E6%9E%84%E5%B8%88)|
-| 📡 [AI论文必读篇目10篇](https://github.com/ChromeWei/PaperWeeklyAI/tree/master/00_GuideBooksPDF(English%2BChinese)/05_AI%E8%AE%BA%E6%96%87%E5%BF%85%E8%AF%BB%E7%AF%87%E7%9B%AE10%E7%AF%87) | 📚 [机器学习/Linux电子书](https://github.com/ChromeWei/PaperWeeklyAI/tree/master/00_GuideBooksPDF(English%2BChinese)) | 📝 [电子书：编程与算法](https://github.com/Charmve/PaperWeeklyAI/tree/master/00_GuideBooksPDF(English%2BChinese))  | 📺 [专栏：学习linux](https://github.com/ChromeWei/hello-algorithm/tree/master/%E4%B8%93%E6%A0%8F/Linux) | 🚀 [面试：Python](https://github.com/ChromeWei/hello-algorithm/tree/master/%E5%A4%A7%E5%8E%82%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB100%E7%AF%87/Python) |🍇 [面试：Java](https://github.com/ChromeWei/hello-algorithm/tree/master/%E5%A4%A7%E5%8E%82%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB100%E7%AF%87/Java) |
-|🎅 [CVPR2020论文30篇](https://github.com/ChromeWei/PaperWeeklyAI/tree/master/00_GuideBooksPDF(English%2BChinese)/06_CVPR2020%E8%AE%BA%E6%96%8730%E7%AF%87)  | 🚀 [Python学习](https://github.com/ChromeWei/hello-algorithm/tree/master/%E5%A4%A7%E5%8E%82%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB100%E7%AF%87/Python) | 📚 [电子书：网络编程](https://github.com/ChromeWei/PaperWeeklyAI/tree/master/00_GuideBooksPDF(English%2BChinese))|🎅 [专栏：学习mysql](https://github.com/ChromeWei/hello-algorithm/tree/master/%E4%B8%93%E6%A0%8F/Mysql)  |🍄 [面试：Mysql](https://github.com/ChromeWei/hello-algorithm/tree/master/%E5%A4%A7%E5%8E%82%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB100%E7%AF%87/Mysql) |🍅 [面试：前端](https://github.com/ChromeWei/hello-algorithm/tree/master/%E5%A4%A7%E5%8E%82%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB100%E7%AF%87/%E5%89%8D%E7%AB%AF)  |
-| 🌽 [AppliedML](https://github.com/Charmve/PaperWeeklyAI/tree/master/04_AppliedML) | 📝 [专栏：学习剑指offer](https://github.com/ChromeWei/hello-algorithm/tree/master/%E4%B8%93%E6%A0%8F/%E5%89%91%E6%8C%87offer)  |  | 🆎 [专栏：学习设计模式](https://github.com/ChromeWei/hello-algorithm/tree/master/%E4%B8%93%E6%A0%8F/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F) |
+| 🍄 [NLP Paper Study](https://github.com/Charmve/PaperWeeklyAI/tree/master/03_Maiwei%20AI%20PaperWeekly/01_NLP%E8%AE%BA%E6%96%87%E7%A0%94%E8%AF%BB)  | 🌽 [ML/DL Theory](https://github.com/Charmve/PaperWeeklyAI/tree/master/00_GuideBooksPDF(English%2BChinese)) | 🐒 [Mind Map Collection](https://github.com/ChromeWei/hello-algorithm/tree/master/%E8%B6%85%E6%B8%85%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE100%E5%BC%A0) | 👺 [Column：OS](https://github.com/ChromeWei/hello-algorithm/tree/master/%E4%B8%93%E6%A0%8F/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F)|🍏 [Interview：C&C++](https://github.com/ChromeWei/hello-algorithm/tree/master/%E5%A4%A7%E5%8E%82%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB100%E7%AF%87/C%26C%2B%2B) |
+| 🍐 [CV Top Con](https://github.com/Charmve/PaperWeeklyAI/tree/master/03_Maiwei%20AI%20PaperWeekly/02_%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89%E8%AE%BA%E6%96%87) | 🍉 [Machine Learning in Action](https://github.com/Charmve/PaperWeeklyAI/tree/master/04_AppliedML) | 👺 [PDF：ML&DL](https://github.com/ChromeWei/PaperWeeklyAI/tree/master/00_GuideBooksPDF(English%2BChinese))|  📡 [Column：Network](https://github.com/ChromeWei/hello-algorithm/tree/master/%E4%B8%93%E6%A0%8F/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C) | 🍖 [Interview：架构师](https://github.com/ChromeWei/hello-algorithm/tree/master/%E5%A4%A7%E5%8E%82%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB100%E7%AF%87/%E6%9E%B6%E6%9E%84%E5%B8%88)|
+| 📡 [AI Paper Must-read (10)](https://github.com/ChromeWei/PaperWeeklyAI/tree/master/00_GuideBooksPDF(English%2BChinese)/05_AI%E8%AE%BA%E6%96%87%E5%BF%85%E8%AF%BB%E7%AF%87%E7%9B%AE10%E7%AF%87) | 📚 [PDF：Machine Learning/Linux](https://github.com/ChromeWei/PaperWeeklyAI/tree/master/00_GuideBooksPDF(English%2BChinese)) | 📝 [PDF：Code & Algorithm](https://github.com/Charmve/PaperWeeklyAI/tree/master/00_GuideBooksPDF(English%2BChinese))  | 📺 [Column：Unix/Linux](https://github.com/ChromeWei/hello-algorithm/tree/master/%E4%B8%93%E6%A0%8F/Linux) | 🚀 [Interview：Python](https://github.com/ChromeWei/hello-algorithm/tree/master/%E5%A4%A7%E5%8E%82%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB100%E7%AF%87/Python) |🍇 [Interview：Java](https://github.com/ChromeWei/hello-algorithm/tree/master/%E5%A4%A7%E5%8E%82%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB100%E7%AF%87/Java) |
+|🎅 [CVPR2020 Papers (30)](https://github.com/ChromeWei/PaperWeeklyAI/tree/master/00_GuideBooksPDF(English%2BChinese)/06_CVPR2020%E8%AE%BA%E6%96%8730%E7%AF%87)  | 🚀 [Python学习](https://github.com/ChromeWei/hello-algorithm/tree/master/%E5%A4%A7%E5%8E%82%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB100%E7%AF%87/Python) | 📚 [Interview：Network Program](https://github.com/ChromeWei/PaperWeeklyAI/tree/master/00_GuideBooksPDF(English%2BChinese))|🎅 [Column：Mysql](https://github.com/ChromeWei/hello-algorithm/tree/master/%E4%B8%93%E6%A0%8F/Mysql)  |🍄 [Interview：Mysql](https://github.com/ChromeWei/hello-algorithm/tree/master/%E5%A4%A7%E5%8E%82%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB100%E7%AF%87/Mysql) |🍅 [Interview：Front-end Dep](https://github.com/ChromeWei/hello-algorithm/tree/master/%E5%A4%A7%E5%8E%82%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB100%E7%AF%87/%E5%89%8D%E7%AB%AF)  |
+| 🌽 [AppliedML](https://github.com/Charmve/PaperWeeklyAI/tree/master/04_AppliedML) | 📝 [Column：Jianzhi Offer](https://github.com/ChromeWei/hello-algorithm/tree/master/%E4%B8%93%E6%A0%8F/%E5%89%91%E6%8C%87offer)  |  | 🆎 [Column：Design Model](https://github.com/ChromeWei/hello-algorithm/tree/master/%E4%B8%93%E6%A0%8F/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F) |
 
 
 <br>
