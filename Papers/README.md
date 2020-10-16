@@ -182,9 +182,9 @@ of the art.
 
 <strong>Conclusion personally</strong>：For detailed analysis, see https://blog.csdn.net/qq_27871973/article/details/86007150
 
-### [2] Faster R-CNN is used for concrete in the field of civil engineering
+### [2] Faster R-CNN Concrete Crack Detection
 
-<strong>Paper</strong>：Automatic Defect Detection of Fasteners on theCatenary Support Device Using Deep
+<strong>Paper</strong>：Automatic Defect Detection of Fasteners on the Catenary Support Device Using Deep
 Convolutional Neural Network  [<a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers/2019.04" target="_blank">paper</a>]
 
 <strong>Abstract</strong>：The excitation and vibration triggered by the longterm operation of railway vehicles inevitably result in defective states of catenary support devices. With the massive construction of high-speed electrified railways, automatic defect detection of diverse and plentiful fasteners on the catenary support device
