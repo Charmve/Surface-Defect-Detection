@@ -27,9 +27,19 @@ Share some articles on surface defect inspection, the main inspection objects ar
 
 <strong>Paper</strong>：A fast and robust convolutional neural network-based defect detection model in product quality control  [<a href="https://github.com/Charmve/Surface-Defect-Detection/blob/master/Papers/2019.01/A%20fast%20and%20robust%20convolutional%20neural%20network-based%20defect%20detection%20model%20in%20product%20quality%20control.pdf" target="_blank">paper</a>]
 
-<strong>Abstract<strong>：The fast and robust automated quality visual inspection has received increasing attention in the product quality control for production efficiency. To effectively detect defects in products, many methods focus on the handcrafted optical features. However, these methods tend to only work well under specified conditions and have many requirements for the input. So the work in this paper targets on building a deep model to solve this problem. The elaborately designed deep convolutional neural networks (CNN) proposed by us can automatically extract powerful features with less prior knowledge about the images for defect detection, while at the same time is robust to noise. We experimentally evaluate this CNN model on a benchmark dataset and achieve a fast detection result with a high accuracy, surpassing the state-of-the-art methods. 
+<strong>Abstract</strong>：The fast and robust automated quality visual inspection has received increasing attention in the product quality control for production efficiency. To effectively detect defects in products, many methods focus on the handcrafted optical features. However, these methods tend to only work well under specified conditions and have many requirements for the input. So the work in this paper targets on building a deep model to solve this problem. The elaborately designed deep convolutional neural networks (CNN) proposed by us can automatically extract powerful features with less prior knowledge about the images for defect detection, while at the same time is robust to noise. We experimentally evaluate this CNN model on a benchmark dataset and achieve a fast detection result with a high accuracy, surpassing the state-of-the-art methods. 
 
-<strong>Conclusion personally</strong>：2017年7月的一篇杂志文章。作者使用一个多层的CNN网络对DAGM2007数据集中的六类缺陷样本进行分类，分类结束之后，对于每一类样本进行缺陷检测。具体做法是：1.使用sliding-window方法在512×512的原图上进行采样，采样大小为128×128；2.对上部分每一类图像采样后的小图像块进行二分类（有缺陷和无缺陷）。最终实验和以前传统方法做的对比，比如SIFT+SVM，效果不错。下图为文章两次分类使用的CNN网络，两次分类的区别在于：1.全连接层的输入分别为6和2；2.输入的图像尺寸不同。
+<strong>Conclusion personally</strong>：A magazine article in July 2017. The author uses a multi-layer CNN network to classify the six types of defect samples in the DAGM2007 data set. After the classification is completed, defect detection is performed on each type of sample. 
+The specific methods are: 
+
+1. Use the sliding-window method to sample on the 512×512 original image, the sampling size is 128×128; 
+
+2. Perform two classifications on the small image blocks after each type of image sampling in the above part (with defects) And no defects). The final experiment is compared with previous traditional methods, such as SIFT+SVM, and the effect is good. The following figure shows the CNN network used for the two classifications of the article. 
+
+The difference between the two classifications is: 
+1. The input of the fully connected layer is 6 and 2 respectively; 
+
+2. The input image size is different.
 
 ### [2] 图像金字塔层次结构思想和卷积去噪自编码器网络对纹理缺陷做检测
 
