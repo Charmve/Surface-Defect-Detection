@@ -19,7 +19,7 @@
 # -Surface Defect Detection Papers-
 🐎📈 collecting Surface-Defect-Detection paper and dataset 🐋
 
-Share some articles on surface defect inspection, the main inspection objects are: metal surface, LCD screen, building, transmission line and other defects or abnormal inspection objects. The methods are mainly classified method, detection method, reconstruction method and generation method. The electronic version (PDF) of the paper is placed under the file named corresponding to the date in the ``'Paper'`` folder.
+This repo is sharing some articles on surface defect inspection, the main inspection objects are: metal surface, LCD screen, building, transmission line and other defects or abnormal inspection objects. The methods are mainly classified method, detection method, reconstruction method and generation method. The electronic version (PDF) of the paper is placed under the file named corresponding to the date in the ``'Paper'`` folder.
 
 ## 2019.01
 
