@@ -180,7 +180,7 @@ under consideration by computing a CNN-based visual similarity with respect to a
 anomaly-free subregions belonging to a training set. The proposed method outperforms the state
 of the art. 
 
-<strong>Conclusion personally</strong>：详细的分析见：https://blog.csdn.net/qq_27871973/article/details/86007150
+<strong>Conclusion personally</strong>：For detailed analysis, see https://blog.csdn.net/qq_27871973/article/details/86007150
 
 ### [2] Faster R-CNN is used for concrete in the field of civil engineering
 
@@ -357,8 +357,7 @@ Study papers in the fields of computer vision, NLP, and machine learning algorit
 
 Starting in March this year, I adjusted the direction of open source to machine learning, computer vision, and AI related articles about cutting-edge technology dynamics. I summarized my own machine learning route and summarized the entry after entering many pits. And then, to now, the summary of top AI conference papers and cutting-edge papers study could be realized. There are menu categories at the bottom of the official account homepage.
 
-<div align=center><img src="https://github.com/ChromeWei/PaperWeeklyAI/blob/master/MaiweiAI-com.png?raw=true" ></div>
-  
+<div align=center><img src="https://github.com/ChromeWei/PaperWeeklyAI/blob/master/Menu-MaiweiAI.jpg?raw=true" ></div> 
 <p align="center">
     <b>△ Menu categories of Wechat official account 🍏</b>
 </p>
