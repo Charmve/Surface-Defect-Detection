@@ -55,7 +55,9 @@ In the unsupervised model, only normal samples are used for training, so there i
 
 ## 2. Common Datasets for Industrial Surface Defect Detection
 
-<b>1）Steel Surface: NEU-CLS</b> (can be used for classification and positioning tasks)
+### 1）Steel Surface: NEU-CLS
+
+NEU-CLS can be used for classification and positioning tasks.
 
 Official Link：http://faculty.neu.edu.cn/yunhyan/NEU_surface_defect_database.html
 
@@ -66,7 +68,7 @@ Official Link：http://faculty.neu.edu.cn/yunhyan/NEU_surface_defect_database.ht
 <div align=center><img src="https://mmbiz.qpic.cn/mmbiz_png/Z8w2ExrFgDwNaIgv9VUHeCAeXfauWU8dSjNOVrR5xByfz4FbNj4tibpHkicPrhs8Ku01sp0Y7qjVFb0h2kaxoZQw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></div>
 <br>
 
-<b>2）Solar Panels: elpv-dataset</b>
+### 2）Solar Panels: elpv-dataset
 
 <p>A dataset of functional and defective solar cells extracted from EL images of solar modules.</p>
 
@@ -82,7 +84,7 @@ All images are normalized with respect to size and perspective. Additionally, an
 
 <br>
 
-<b>3）Metal Surface：KolektorSDD</b>
+### 3）Metal Surface：KolektorSDD
 
 
 The dataset is constructed from images of defected electrical commutators that were provided and annotated by Kolektor Group d.o.o.. Specifically, microscopic fractions or cracks were observed on the surface of the plastic embedding in electrical commutators. The surface area of each commutator was captured in eight non-overlapping images. The images were captured in a controlled environment.
@@ -112,7 +114,7 @@ For each item the defect is only visible in at least one image, while two items 
 
 <br>
 
-<b>4）PCB Inspection：DeepPCB</b>
+### 4）PCB Inspection：DeepPCB
 
 Download Link：https://github.com/Charmve/Surface-Defect-Detection/tree/master/DeepPCB
 
@@ -129,7 +131,7 @@ Download Link：https://github.com/Charmve/Surface-Defect-Detection/tree/master/
 <br>
 
 
-<b>5）Fabric Defects Dataset: AITEX</b>
+### 5）Fabric Defects Dataset: AITEX
 
 Wangpan Link：
 
@@ -143,7 +145,7 @@ This dataset consists of 245 4096x256 pixel images with seven different fabric s
 
 <br>
 
-<b>6）Fabric Defect Dataset (Tianchi)</b>
+### 6）Fabric Defect Dataset (Tianchi)
 
 Wangpan Link：
 
@@ -159,7 +161,7 @@ This dataset covers all kinds of important defects in fabrics in the textile ind
 
 <br>
 
-<b>7）Aluminium Profile Surface Defect Dataset（Tianchi）</b>
+### 7）Aluminium Profile Surface Defect Dataset（Tianchi）
 
 Download Link：
 
@@ -175,7 +177,7 @@ In the dataset of the competition, there are 10,000 pieces of monitoring image d
 <div align=center><img src="https://mmbiz.qpic.cn/mmbiz_png/Q0FNTB1XHicxJNERSSNPubP0Ga9pfKj8IeudrVjRJ4doibxAtoMqC8LTxZemeZ9SDUzeicSAMrP3yg31MzfD4ygfA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></div>
 <br>
 
-<b>8）Weakly Supervised Learning for Industrial Optical Inspection（DAGM 2007）</b> 
+### 8）Weakly Supervised Learning for Industrial Optical Inspection（DAGM 2007） 
 
 Download Link：
 
@@ -203,7 +205,7 @@ Dataset introduction:
 
 <br>
 
-<b>9）Cracks on the Surface of the Construction</b> 
+### 9）Cracks on the Surface of the Construction
 
 CrackForest Dataset is an annotated road crack image database which can reflect urban road surface condition in general.
 
@@ -223,7 +225,7 @@ CrackForest Dataset is an annotated road crack image database which can reflect 
 - <b>Crack on road surface</b>. From Shi Yong, and Cui Limeng and Qi Zhiquan and Meng Fan and Chen Zhensong. Original dataset can be reached at https://github.com/Charmve/Surface-Defect-Detection/tree/master/CrackForest. We extract the image files of the pixel level ground truth.
 
 <br>
-<b>10）Magnetic Tile Dataset </b>
+### 10）Magnetic Tile Dataset
 
 Magnetic tile dataset by githuber: abin24, which can be downloaded from [https://github.com/Charmve/Surface-Defect-Detection/tree/master/Magnetic-Tile-Defect](https://github.com/Charmve/Surface-Defect-Detection/tree/master/Magnetic-Tile-Defect), which was used in their paper "Surface defect saliency of magnetic tile", the paper can be reach by [here](https://link.springer.com/article/10.1007/s00371-018-1588-5) or [here](https://ieeexplore.ieee.org/document/8560423)
 
@@ -235,7 +237,7 @@ This is also the datasets of the paper "Saliency of magnetic tile surface defect
 The images of 6 common magnetic tile defects were collected, and their pixel level ground-truth were labeled.
 
 
-<b>11）RSDDs: Rail Surface Defect Datasets</b> 
+### 11）RSDDs: Rail Surface Defect Datasets
 
 The RSDDs dataset contains two types of datasets: the first is a type I RSDDs dataset captured from the fast lane, which contains 67 challenging images. The second is a Type II RSDDs dataset captured from a normal/heavy transportation track, which contains 128 challenging images.
 
@@ -253,7 +255,7 @@ Download Link：https://pan.baidu.com/share/init?surl=svsnqL0r1kasVDNjppkEwg (pa
 
 <br>
 
-<b>12）Kylberg Texture Dataset v.1.0 </b> 
+### 12）Kylberg Texture Dataset v.1.0 
 
 <div align=center><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9tbWJpei5xcGljLmNuL21tYml6X3BuZy9aTmRoV05pYjNJUkJkeklpYVlQQTJ5ZmFXaFRMcVF1UElVdmxPTkVRYURGQzdaT3dWOXBhZWtCckNjQ2FxY0dWb2lhdHk2ZWszRlNTSXhjWVIwelI5TUZIZy82NDA?x-oss-process=image/format,png"></div>
 <p align=center>Figure 4. Example patches from each one of the 28 texture classes.</p>
@@ -265,9 +267,9 @@ Short description
 - File format: Lossless compressed 8 bit PNG.
 - All patches are normalized with a mean value of 127 and a standard deviation of 40.
 - One directory per texture class.
-- Files are named as follows: blanket1-d-p011-r180.png, where blanket1 is the class name, d original image sample number (possible values are a, b, c, or d), p011 is patch number 11, r180 patch rotated 180 degrees.
+- Files are named as follows: ``blanket1-d-p011-r180.png``, where ``blanket1`` is the class name, ``d`` original image sample number (possible values are a, b, c, or d), ``p011`` is patch number 11, ``r180`` patch rotated 180 degrees.
 
-Offical Link:http://www.cb.uu.se/~gustaf/texture/
+Offical Link: http://www.cb.uu.se/~gustaf/texture/
 
 
 <br>
