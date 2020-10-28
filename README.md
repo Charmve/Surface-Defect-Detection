@@ -94,7 +94,7 @@ The dataset is constructed from images of defected electrical commutators that w
 
 - Official Link:https://www.vicos.si/Downloads/KolektorSDD
 
-- Wangpan Link：https://pan.baidu.com/share/init?surl=HSzHC1ltHvt1hSJh_IY4Jg (password：``1zlb``)
+- Download Link：https://pan.baidu.com/share/init?surl=HSzHC1ltHvt1hSJh_IY4Jg (password：``1zlb``)
 
 
 The dataset consists of:
@@ -133,9 +133,7 @@ Download Link：https://github.com/Charmve/Surface-Defect-Detection/tree/master/
 
 ### 5）Fabric Defects Dataset: AITEX
 
-Wangpan Link：
-
-https://pan.baidu.com/s/1cfC4Ll5QlnwN5RTuSZ6b7w (password：``b9uy``)
+Download Link：https://pan.baidu.com/s/1cfC4Ll5QlnwN5RTuSZ6b7w (password：``b9uy``)
 
 
 This dataset consists of 245 4096x256 pixel images with seven different fabric structures. There are 140 non-defect images in the dataset, 20 of each type of fabric. In addition, there are 105 images of different types of fabric defects (12 types) common in the textile industry. The image size allows users to use different window sizes, thereby the number of samples can be increased. The online dataset also contains segmentation masks of all defective images, so that white pixels represent defective areas and the remaining pixels are black.
@@ -147,9 +145,7 @@ This dataset consists of 245 4096x256 pixel images with seven different fabric s
 
 ### 6）Fabric Defect Dataset (Tianchi)
 
-Wangpan Link：
-
-https://pan.baidu.com/s/1LMbujxvr5iB3SwjFGYHspA (password：``gat2``)
+Download Link：https://pan.baidu.com/s/1LMbujxvr5iB3SwjFGYHspA (password：``gat2``)
 
 
 In the actual production process of cloth, due to the influence of various factors, defects such as stains, holes, lint, etc. will occur. In order to ensure the quality of the product, the cloth needs to be inspected for defects. 
@@ -163,9 +159,7 @@ This dataset covers all kinds of important defects in fabrics in the textile ind
 
 ### 7）Aluminium Profile Surface Defect Dataset（Tianchi）
 
-Download Link：
-
-https://tianchi.aliyun.com/competition/entrance/231682/information
+Download Link：https://tianchi.aliyun.com/competition/entrance/231682/information
 
 Due to the influence of various factors in the actual production process of aluminum profile, the surface of the aluminum profile will have cracks, peeling, scratches and other defects, which will seriously affect the quality of the aluminum profile. To ensure product quality, manual visual inspection is required. However, the surface of the aluminum profile itself contains textures, which are not highly distinguishable from defects. 
 
@@ -179,9 +173,7 @@ In the dataset of the competition, there are 10,000 pieces of monitoring image d
 
 ### 8）Weakly Supervised Learning for Industrial Optical Inspection（DAGM 2007） 
 
-Download Link：
-
-https://hci.iwr.uni-heidelberg.de/node/3616
+Download Link：https://hci.iwr.uni-heidelberg.de/node/3616
 
 <div align=center><img src="https://mmbiz.qpic.cn/mmbiz_png/Z8w2ExrFgDzZJCiczwcBvkghPc7P0sMdkIcMQ8rKaEwhRKhYLnU00KuhweMiaS1Q32ZPGplzYPxyXcicH4zDPFyhQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></div>
 
@@ -224,7 +216,6 @@ CrackForest Dataset is an annotated road crack image database which can reflect 
 
 - <b>Crack on road surface</b>. From Shi Yong, and Cui Limeng and Qi Zhiquan and Meng Fan and Chen Zhensong. Original dataset can be reached at https://github.com/Charmve/Surface-Defect-Detection/tree/master/CrackForest. We extract the image files of the pixel level ground truth.
 
-<br>
 ### 10）Magnetic Tile Dataset
 
 Magnetic tile dataset by githuber: abin24, which can be downloaded from [https://github.com/Charmve/Surface-Defect-Detection/tree/master/Magnetic-Tile-Defect](https://github.com/Charmve/Surface-Defect-Detection/tree/master/Magnetic-Tile-Defect), which was used in their paper "Surface defect saliency of magnetic tile", the paper can be reach by [here](https://link.springer.com/article/10.1007/s00371-018-1588-5) or [here](https://ieeexplore.ieee.org/document/8560423)
