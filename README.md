@@ -59,7 +59,7 @@ In the unsupervised model, only normal samples are used for training, so there i
 
 NEU-CLS can be used for classification and positioning tasks.
 
-Official Link：http://faculty.neu.edu.cn/yunhyan/NEU_surface_defect_database.html
+- Official Link：http://faculty.neu.edu.cn/yunhyan/NEU_surface_defect_database.html
 
 <div align=center><img src="https://mmbiz.qpic.cn/mmbiz_png/Z8w2ExrFgDwNaIgv9VUHeCAeXfauWU8dV2r2icJmopdRh7QRQyiaibjbUyxdDkBt6vXzL3icyBEYIQHlLBT322D5kg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></div>
 
@@ -72,7 +72,7 @@ Official Link：http://faculty.neu.edu.cn/yunhyan/NEU_surface_defect_database.ht
 
 <p>A dataset of functional and defective solar cells extracted from EL images of solar modules.</p>
 
-link：https://github.com/zae-bayern/elpv-dataset
+- link：https://github.com/zae-bayern/elpv-dataset
 
 
 <div align=center><img src="https://mmbiz.qpic.cn/mmbiz_png/Z8w2ExrFgDwNaIgv9VUHeCAeXfauWU8dIY5a7p8M2vrGblgdSaOia5VzQDYIxudcJ9k5k6rANF7MrTjziaJRQoWw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></div>
@@ -101,8 +101,8 @@ The dataset consists of:
 
 - 50 physical items (defected electrical commutators)
 - 8 surfaces per item
-- Altogether 399 images:
--- 52 images of visible defect
+- Altogether 399 images:<br>
+-- 52 images of visible defect<br>
 -- 347 images without any defect
 - Original images of sizes:<br>
 -- width: 500 px<br>
@@ -116,7 +116,7 @@ For each item the defect is only visible in at least one image, while two items 
 
 ### 4）PCB Inspection：DeepPCB
 
-Download Link：https://github.com/Charmve/Surface-Defect-Detection/tree/master/DeepPCB
+- Download Link：https://github.com/Charmve/Surface-Defect-Detection/tree/master/DeepPCB
 
 <div align=center><img src="https://github.com/tangsanli5201/DeepPCB/blob/master/fig/test.jpg" width="375" style="margin:20">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -133,7 +133,7 @@ Download Link：https://github.com/Charmve/Surface-Defect-Detection/tree/master/
 
 ### 5）Fabric Defects Dataset: AITEX
 
-Download Link：https://pan.baidu.com/s/1cfC4Ll5QlnwN5RTuSZ6b7w (password：``b9uy``)
+- Download Link：https://pan.baidu.com/s/1cfC4Ll5QlnwN5RTuSZ6b7w (password：``b9uy``)
 
 
 This dataset consists of 245 4096x256 pixel images with seven different fabric structures. There are 140 non-defect images in the dataset, 20 of each type of fabric. In addition, there are 105 images of different types of fabric defects (12 types) common in the textile industry. The image size allows users to use different window sizes, thereby the number of samples can be increased. The online dataset also contains segmentation masks of all defective images, so that white pixels represent defective areas and the remaining pixels are black.
@@ -145,7 +145,7 @@ This dataset consists of 245 4096x256 pixel images with seven different fabric s
 
 ### 6）Fabric Defect Dataset (Tianchi)
 
-Download Link：https://pan.baidu.com/s/1LMbujxvr5iB3SwjFGYHspA (password：``gat2``)
+- Download Link：https://pan.baidu.com/s/1LMbujxvr5iB3SwjFGYHspA (password：``gat2``)
 
 
 In the actual production process of cloth, due to the influence of various factors, defects such as stains, holes, lint, etc. will occur. In order to ensure the quality of the product, the cloth needs to be inspected for defects. 
@@ -159,7 +159,7 @@ This dataset covers all kinds of important defects in fabrics in the textile ind
 
 ### 7）Aluminium Profile Surface Defect Dataset（Tianchi）
 
-Download Link：https://tianchi.aliyun.com/competition/entrance/231682/information
+- Download Link：https://tianchi.aliyun.com/competition/entrance/231682/information
 
 Due to the influence of various factors in the actual production process of aluminum profile, the surface of the aluminum profile will have cracks, peeling, scratches and other defects, which will seriously affect the quality of the aluminum profile. To ensure product quality, manual visual inspection is required. However, the surface of the aluminum profile itself contains textures, which are not highly distinguishable from defects. 
 
@@ -173,7 +173,7 @@ In the dataset of the competition, there are 10,000 pieces of monitoring image d
 
 ### 8）Weakly Supervised Learning for Industrial Optical Inspection（DAGM 2007） 
 
-Download Link：https://hci.iwr.uni-heidelberg.de/node/3616
+- Download Link：https://hci.iwr.uni-heidelberg.de/node/3616
 
 <div align=center><img src="https://mmbiz.qpic.cn/mmbiz_png/Z8w2ExrFgDzZJCiczwcBvkghPc7P0sMdkIcMQ8rKaEwhRKhYLnU00KuhweMiaS1Q32ZPGplzYPxyXcicH4zDPFyhQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></div>
 
@@ -239,9 +239,9 @@ These defects in the RSDDs dataset have been marked by professional human observ
 <div align=center><img src="rail-dataset.jpg"></div>
 <br>
 
-Official Link：http://icn.bjtu.edu.cn/Visint/resources/RSDDs.aspx
+- Official Link：http://icn.bjtu.edu.cn/Visint/resources/RSDDs.aspx
 
-Download Link：https://pan.baidu.com/share/init?surl=svsnqL0r1kasVDNjppkEwg (password：``nanr``)
+- Download Link：https://pan.baidu.com/share/init?surl=svsnqL0r1kasVDNjppkEwg (password：``nanr``)
 
 
 <br>
