@@ -285,7 +285,7 @@ This work is originally ntributed by lots of great man for their paper work or i
 
 If you have any questions or idea, please let me know :email: yidazhang1@gmail.com
 
-Citation
+## Citation
 Use this bibtex to cite this repository:
 ```
 @misc{Surface Defect Detection,
