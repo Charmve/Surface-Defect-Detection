@@ -1,4 +1,4 @@
-# Surface Defect Detection: dataset & papers
+# Surface Defect Detection: Dataset & Papers
 
 <p>🐎📈 Constantly summarizing open source data sets in the field of surface defect research is very important. 
 Important critical papers from year 2017 have been collected and compiled, which can be viewed in the <a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers">:open_file_folder: [<b><i>Papers</i></b>]</a> folder. 🐋 </p>
@@ -271,7 +271,6 @@ I have collected some articles on surface defect detection. The main objects to 
 
 Go to <a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers">:open_file_folder: [<b><i>Papers</i></b>]</a>.
 
-<br>
 
 ## Acknowledgements
 
@@ -279,13 +278,25 @@ Go to <a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/P
 
 <p>Finally, I want to thank the open source contributors of the above data set again.</p>
 
-<br>
 
 ## Notification
 
 This work is originally ntributed by lots of great man for their paper work or industry application. <strong>You can only use this dataset for research purpose.</strong>
 
 If you have any questions or idea, please let me know :email: yidazhang1@gmail.com
+
+Citation
+Use this bibtex to cite this repository:
+```
+@misc{Surface Defect Detection,
+  title={Surface Defect Detection: Dataset and Papers},
+  author={Charmve},
+  year={2020.09},
+  publisher={Github},
+  journal={GitHub repository},
+  howpublished={\url{https://github.com/Charmve/Surface-Defect-Detection}},
+}
+```
 
 <br>
 * <i>Update by Sep 27，2020 @<a href="https://github.com/Charmve" target="_blank">Charmve</a>, 
