@@ -55,7 +55,7 @@
 
 ## 二、工业表面缺陷检测常用数据集
 
-<b>1）钢材表面：NEU-CLS（可用于分类、定位任务）</b>
+<b>1）钢材表面数据集：NEU-CLS（可用于分类、定位任务）</b>
 
 地址：http://faculty.neu.edu.cn/yunhyan/NEU_surface_defect_database.html
 
@@ -66,7 +66,7 @@
 <div align=center><img src="https://mmbiz.qpic.cn/mmbiz_png/Z8w2ExrFgDwNaIgv9VUHeCAeXfauWU8dSjNOVrR5xByfz4FbNj4tibpHkicPrhs8Ku01sp0Y7qjVFb0h2kaxoZQw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></div>
 <br>
 
-<b>2）太阳能板：elpv-dataset</b>
+<b>2）太阳能板数据集：elpv-dataset</b>
 
 从太阳能板的EL图像中提取有缺陷的太阳能电池数据集。
 
@@ -75,15 +75,14 @@
 
 <div align=center><img src="https://mmbiz.qpic.cn/mmbiz_png/Z8w2ExrFgDwNaIgv9VUHeCAeXfauWU8dIY5a7p8M2vrGblgdSaOia5VzQDYIxudcJ9k5k6rANF7MrTjziaJRQoWw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></div>
 
-<br>
-该数据集包含2,624个300x300像素功能和缺陷太阳能电池的8位灰度图像样本，具有从44个不同的太阳能模块中提取的不同程度的退化。带注释的图像中的缺陷是内部或外部类型的缺陷，已知会降低太阳能模块的功率效率。
+<br>该数据集包含2,624个300x300像素功能和缺陷太阳能电池的8位灰度图像样本，具有从44个不同的太阳能模块中提取的不同程度的退化。带注释的图像中的缺陷是内部或外部类型的缺陷，已知会降低太阳能模块的功率效率。
+
+<br>所有图像的大小和透视图均已标准化。另外，在提取太阳能电池之前，消除了由用于捕获EL图像的相机镜头引起的任何失真。
 
 <br>
-所有图像的大小和透视图均已标准化。另外，在提取太阳能电池之前，消除了由用于捕获EL图像的相机镜头引起的任何失真。
-
 <br>
 
-<b>3）金属表面：KolektorSDD</b>
+<b>3）金属表面数据集：KolektorSDD</b>
 
 该数据集是由Kolektor Group提供并注释的有缺陷的电子换向器的图像构成的。
 
@@ -100,8 +99,6 @@
 
 百度网盘链接：https://pan.baidu.com/share/init?surl=HSzHC1ltHvt1hSJh_IY4Jg (提取码：``1zlb``)
 
-
-
 该数据集包括：
 
 - 50个例如变形的电子换向器的物理属性；
@@ -117,7 +114,7 @@
 对于每一个，缺陷仅在至少一张图像中可见，而有两个在图像上有缺陷就意味着有52张图像可见缺陷。其余347张图像用作表面无缺陷的负样本。
 <br>
 
-<b>4）PCB板检测：DeepPCB</b>
+<b>4）PCB板检测数据集：DeepPCB</b>
 
 地址：https://github.com/Charmve/Surface-Defect-Detection/tree/master/DeepPCB
 
@@ -136,7 +133,7 @@
 <br>
 
 
-<b>5）AITEX数据集（面料缺陷）</b>
+<b>5）面料缺陷数据集AITEX</b>
 
 数据集下载链接：
 
@@ -152,7 +149,7 @@ https://pan.baidu.com/s/1cfC4Ll5QlnwN5RTuSZ6b7w (提取码：``b9uy``)
 <br>
 
 
-<b>6）天池布匹缺陷数据（竞赛）</b>
+<b>6）天池布匹缺陷数据集（竞赛）</b>
 
 数据下载链接：
 
@@ -206,7 +203,7 @@ https://hci.iwr.uni-heidelberg.de/node/3616
 
 <br>
 
-<b>9）基建表面裂纹检测数据</b> Cracks on the surface of the construction.
+<b>9）基建表面裂纹检测数据集</b> Cracks on the surface of the construction.
 
 
 
@@ -223,6 +220,8 @@ https://hci.iwr.uni-heidelberg.de/node/3616
 
 - <b>路面裂缝</b>. 该数据集来自于 Shi Yong, and Cui Limeng and Qi Zhiquan and Meng Fan and Chen Zhensong. 原始数据集可通过此链接访问 https://github.com/Charmve/Surface-Defect-Detection/tree/master/CrackForest. 我们提取像素级地面真相的图像文件。
 
+<br>
+
 <b>10）磁瓦缺陷数据集 </b>Magnetic tile dataset 
 
 该数据集是由abin2收集的，现已开源，你可以从这下载 [https://github.com/Charmve/Surface-Defect-Detection/tree/master/Magnetic-Tile-Defect](https://github.com/Charmve/Surface-Defect-Detection/tree/master/Magnetic-Tile-Defect)，它被用在了论文"Surface defect saliency of magnetic tile"中。（点击[这里](https://link.springer.com/article/10.1007/s00371-018-1588-5) 或 [这里](https://ieeexplore.ieee.org/document/8560423)可以查看论文）
@@ -233,7 +232,7 @@ https://hci.iwr.uni-heidelberg.de/node/3616
 
 这同样也是论文“Saliency of magnetic tile surface defects”的数据集，它收集了6个常见磁砖缺陷的图像，并标记了它们的像素级地面真相。
 
-<center> 
+<br>
 
 <b>11）铁轨表面缺陷数据集 </b> RSDDs dataset
 
@@ -272,7 +271,7 @@ RSDDs数据集中的这些缺陷已由一些专业的人类观察员在轨道表
 官方链接:http://www.cb.uu.se/~gustaf/texture/
 
 
-## 三、Surface Defect Detection Papers
+## 三、表面缺陷检测论文集
 
 收集一些表面缺陷检测的文章，主要检测对象是：金属表面、LCD屏、建筑、输电线等缺陷或异常检物。方法以分类方法、检测方法、重构方法、生成方法为主。电子版论文放在了paper文件的对应日期文件下。
 
