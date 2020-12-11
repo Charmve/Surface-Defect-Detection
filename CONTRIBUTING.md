@@ -1,6 +1,6 @@
 # Contribution Guidelines
 
-Please ensure your pull request adheres to the following guidelines:
+Please ensure your [pull request](https://github.com/Charmve/Surface-Defect-Detection/pulls) adheres to the following guidelines:
 
 - Make sure your submission is not a duplicate.
 - Make an individual pull request for each suggestion.
