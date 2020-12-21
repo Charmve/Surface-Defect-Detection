@@ -7,16 +7,41 @@
   <a href="https://github.com/Charmve/Surface-Defect-Detection/blob/master/ReadmeChinese.md"><img src="https://img.shields.io/badge/language-Chinese-red" alt="Chinese Version"></a>
 </p>
 
-<div align=center><img src="https://mmbiz.qpic.cn/mmbiz_png/Z8w2ExrFgDwNaIgv9VUHeCAeXfauWU8dNvhYK1st5CuJsp4vOzcdj7jnrqy6QV29icM0ugRhHr7UcD04eb4KEIQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></div>
-
+<div align=center><img src="metal_surface.png"></div>
 <br>
+
+## 前言
+
 <p>目前, 基于机器视觉的表面缺陷装备已经在各工业领域广泛替代人工肉眼检测，包括3C、汽车、家电、机械制造、半导体及电子、化工、医药、航空航天、轻工等行业。传统的基于机器视觉的表面缺陷检测方法，往往采用常规图像处理算法或人工设计特征加分类器方式。一般来说，通常利用被检表面或缺陷的不同性质进行成像方案的设计，合理的成像方案有助于获得光照均匀的图像，并将物体表面缺陷明显的体现出来。近年来，不少基于深度学习的缺陷检测方法也被广泛应用在各种工业场景中。</p>
 <br>
 
 <p>对比计算机视觉中明确的分类、检测和分割任务, 缺陷检测的需求非常笼统. 实际上, 其需求可以划分为三个不同的层次: “缺陷是什么”（<b>分类</b>）、“缺陷在哪里”（<b>定位</b>）和“缺陷是多少”（<b>分割</b>）。</p>
 
-## 一、表面缺陷检测关键问题
+# 目录
 
+- [Introduction](#introduction)
+- [Key Issues](#1-key-issues-in-surface-defect-detection)
+  - [Small Sample Problem](#1small-sample-problem)
+  - [Real-time Problem](#2real-time-problem)
+- [Common Datasets](#2-common-datasets-for-industrial-surface-defect-detection)
+  - [Steel Surface: NEU-CLS](#1steel-surface-neu-cls)
+  - [Solar Panels: elpv-dataset](#2solar-panels-elpv-dataset)
+  - [Metal Surface：KolektorSDD](#3metal-surfacekolektorsdd)
+  - [PCB Inspection：DeepPCB](#4pcb-inspectiondeeppcb)
+  - [Fabric Defects Dataset: AITEX](#5fabric-defects-dataset-aitex)
+  - [Fabric Defect Dataset (Tianchi)](#6fabric-defect-dataset-tianchi)
+  - [Aluminium Profile Surface Defect Dataset（Tianchi）](#7aluminium-profile-surface-defect-datasettianchi)
+  - [Weakly Supervised Learning for Industrial Optical Inspection（DAGM 2007）](#8weakly-supervised-learning-for-industrial-optical-inspectiondagm-2007)
+  - [Cracks on the Surface of Construction](#9cracks-on-the-surface-of-the-construction)
+  - [Magnetic Tile Dataset](#10magnetic-tile-dataset)
+  - [RSDDs: Rail Surface Defect Datasets](#11rsdds-rail-surface-defect-datasets)
+  - [Kylberg Texture Dataset v.1.0](#12kylberg-texture-dataset-v10)
+- [Papers](#3-surface-defect-detection-papers)
+- [Acknowledgements](#acknowledgements)
+- [Download](#download)
+- [Notification](#notification)
+
+## 一、表面缺陷检测关键问题
 
 ### 1、小样本问题
 
