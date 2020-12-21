@@ -109,7 +109,7 @@ All images are normalized with respect to size and perspective. Additionally, an
 
 👆 [<b>BACK to Table of Contents</b> -->](#contents)
 
-### 3）Metal Surface：KolektorSDD
+### 3）Metal Surface: KolektorSDD
 
 The dataset is constructed from images of defected electrical commutators that were provided and annotated by Kolektor Group d.o.o.. Specifically, microscopic fractions or cracks were observed on the surface of the plastic embedding in electrical commutators. The surface area of each commutator was captured in eight non-overlapping images. The images were captured in a controlled environment.
 
@@ -139,7 +139,7 @@ For each item the defect is only visible in at least one image, while two items 
 
 👆 [<b>BACK to Table of Contents</b> -->](#contents)
 
-### 4）PCB Inspection：DeepPCB
+### 4）PCB Inspection: DeepPCB
 
 - Download Link：https://github.com/Charmve/Surface-Defect-Detection/tree/master/DeepPCB
 
