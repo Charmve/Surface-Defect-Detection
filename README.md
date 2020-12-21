@@ -305,6 +305,8 @@ I have collected some articles on surface defect detection. The main objects to 
 
 Go to <a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers">:open_file_folder: [<b><i>Papers</i></b>]</a>.
 
+<br>
+
 👆 [<b>BACK to Table of Contents</b> -->](#contents)
 
 ## Acknowledgements
@@ -313,11 +315,14 @@ Go to <a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/P
 
 <p>Finally, I want to thank the open source contributors of the above data set again.</p>
 
+👆 [<b>BACK to Table of Contents</b> -->](#contents)
+
 ## Download
 - Download ZIP, click [here](https://github.com/Charmve/Surface-Defect-Detection/archive/master.zip)
   <br>or run ```git clone https://github.com/Charmve/Surface-Defect-Detection.git``` in the terminal<br>
 - Chinese Mainland：百度网盘下载链接:https://pan.baidu.com/s/122WY8F5VKqm3qMirqebRQw ``提取码:i20n``
 
+👆 [<b>BACK to Table of Contents</b> -->](#contents)
 
 ## Notification
 
