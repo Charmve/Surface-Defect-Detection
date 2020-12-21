@@ -20,10 +20,10 @@
 # 目录
 
 - [前言](#前言)
-- [Key Issues](#1-key-issues-in-surface-defect-detection)
-  - [Small Sample Problem](#1small-sample-problem)
-  - [Real-time Problem](#2real-time-problem)
-- [Common Datasets](#2-common-datasets-for-industrial-surface-defect-detection)
+- [表面缺陷检测关键问题](#一表面缺陷检测关键问题)
+  - [小样本问题](#1小样本问题)
+  - [实时性问题](#2实时性问题)
+- [常用数据集](#二工业表面缺陷检测常用数据集)
   - [Steel Surface: NEU-CLS](#1steel-surface-neu-cls)
   - [Solar Panels: elpv-dataset](#2solar-panels-elpv-dataset)
   - [Metal Surface：KolektorSDD](#3metal-surfacekolektorsdd)
@@ -79,8 +79,9 @@
 基于深度学习的缺陷检测方法在工业应用中包括三个主要环节: 数据标注、模型训练与模型推断. 在实际工业应用中的实时性更关注模型推断这一环节. 目前大多数缺陷检测方法都集中在分类或识别的准确性上, 而很少关注模型推断的效率。有不少方法用于加速模型, 例如模型权重量化和模型剪枝等。另外，虽然现有深度学习模型使用GPU作为通用计算单元(GPGPU), 但随着技术发展, 相信FPGA会成为一个具有吸引力的替代方案。
 
 ## 二、工业表面缺陷检测常用数据集
+### 1）钢材表面数据集：NEU-CLS
 
-<b>1）钢材表面数据集：NEU-CLS（可用于分类、定位任务）</b>
+<b>（可用于分类、定位任务）</b>
 
 地址：http://faculty.neu.edu.cn/yunhyan/NEU_surface_defect_database.html
 
@@ -93,7 +94,7 @@
 
 [<b>BACK to Table of Contents</b> -->](#目录)
 
-<b>2）太阳能板数据集：elpv-dataset</b>
+### 2）太阳能板数据集：elpv-dataset
 
 从太阳能板的EL图像中提取有缺陷的太阳能电池数据集。
 
@@ -110,7 +111,7 @@
 
 [<b>BACK to Table of Contents</b> -->](#目录)
 
-<b>3）金属表面数据集：KolektorSDD</b>
+### 3）金属表面数据集：KolektorSDD
 
 该数据集是由Kolektor Group提供并注释的有缺陷的电子换向器的图像构成的。
 
@@ -144,7 +145,7 @@
 
 [<b>BACK to Table of Contents</b> -->](#目录)
 
-<b>4）PCB板检测数据集：DeepPCB</b>
+### 4）PCB板检测数据集：DeepPCB
 
 地址：https://github.com/Charmve/Surface-Defect-Detection/tree/master/DeepPCB
 
@@ -163,7 +164,7 @@
 <br>
 [<b>BACK to Table of Contents</b> -->](#目录)
 
-<b>5）面料缺陷数据集AITEX</b>
+### 5）面料缺陷数据集AITEX
 
 数据集下载链接：
 
@@ -179,7 +180,7 @@ https://pan.baidu.com/s/1cfC4Ll5QlnwN5RTuSZ6b7w (提取码：``b9uy``)
 <br>
 [<b>BACK to Table of Contents</b> -->](#目录)
 
-<b>6）天池布匹缺陷数据集（竞赛）</b>
+### 6）天池布匹缺陷数据集
 
 数据下载链接：
 
@@ -191,7 +192,7 @@ https://pan.baidu.com/s/1LMbujxvr5iB3SwjFGYHspA (提取码：``gat2``)
 <br>
 [<b>BACK to Table of Contents</b> -->](#目录)
 
-<b>7）天池铝型材表面瑕疵数据集（竞赛）</b>
+### 7）天池铝型材表面瑕疵数据集
 
 数据集下载链接：
 
@@ -204,7 +205,9 @@ https://tianchi.aliyun.com/competition/entrance/231682/information
 <br>
 [<b>BACK to Table of Contents</b> -->](#目录)
 
-<b>8）弱监督学习下的工业光学检测（DAGM 2007）</b> Weakly Supervised Learning for Industrial Optical Inspection
+### 8）弱监督学习下的工业光学检测（DAGM 2007）
+
+Weakly Supervised Learning for Industrial Optical Inspection
 
 数据下载链接：
 
@@ -233,9 +236,9 @@ https://hci.iwr.uni-heidelberg.de/node/3616
 <br>
 [<b>BACK to Table of Contents</b> -->](#目录)
 
-<b>9）基建表面裂纹检测数据集</b> Cracks on the surface of the construction.
+### 9）基建表面裂纹检测数据集
 
-数据集是github上的一个项目，主要是一些基建（水泥表面裂纹），可以访问项目连接：https://github.com/cuilimeng/CrackForest-dataset 或者百度云链接：https://pan.baidu.com/s/1108j5QbDr7T3XQvDxAzVpg （提取码：``jajn``）下载。
+``Cracks on the surface of the construction``数据集是github上的一个项目，主要是一些基建（水泥表面裂纹），可以访问项目连接：https://github.com/cuilimeng/CrackForest-dataset 或者百度云链接：https://pan.baidu.com/s/1108j5QbDr7T3XQvDxAzVpg （提取码：``jajn``）下载。
 
 
 
@@ -251,9 +254,9 @@ https://hci.iwr.uni-heidelberg.de/node/3616
 <br>
 [<b>BACK to Table of Contents</b> -->](#目录)
 
-<b>10）磁瓦缺陷数据集 </b>Magnetic tile dataset 
+### 10）磁瓦缺陷数据集
 
-该数据集是由abin2收集的，现已开源，你可以从这下载 [https://github.com/Charmve/Surface-Defect-Detection/tree/master/Magnetic-Tile-Defect](https://github.com/Charmve/Surface-Defect-Detection/tree/master/Magnetic-Tile-Defect)，它被用在了论文"Surface defect saliency of magnetic tile"中。（点击[这里](https://link.springer.com/article/10.1007/s00371-018-1588-5) 或 [这里](https://ieeexplore.ieee.org/document/8560423)可以查看论文）
+Magnetic tile dataset, 该数据集是由abin2收集的，现已开源，你可以从这下载 [https://github.com/Charmve/Surface-Defect-Detection/tree/master/Magnetic-Tile-Defect](https://github.com/Charmve/Surface-Defect-Detection/tree/master/Magnetic-Tile-Defect)，它被用在了论文"Surface defect saliency of magnetic tile"中。（点击[这里](https://link.springer.com/article/10.1007/s00371-018-1588-5) 或 [这里](https://ieeexplore.ieee.org/document/8560423)可以查看论文）
 
 ![dataset](./Magnetic-Tile-Defect/dataset.jpg) 
 
@@ -264,7 +267,7 @@ https://hci.iwr.uni-heidelberg.de/node/3616
 <br>
 [<b>BACK to Table of Contents</b> -->](#目录)
 
-<b>11）铁轨表面缺陷数据集 </b> RSDDs dataset
+### 11）铁轨表面缺陷数据集:RSDDs
 
 
 RSDDs数据集包含两种类型的数据集：第一种是从快车道捕获的I型RSDDs数据集，其中包含67个具有挑战性的图像。第二个是从普通/重型运输轨道捕获的II型RSDDs数据集，其中包含128个具有挑战性的图像。
@@ -284,7 +287,7 @@ RSDDs数据集中的这些缺陷已由一些专业的人类观察员在轨道表
 <br>
 [<b>BACK to Table of Contents</b> -->](#目录)
 
-<b>12）Kylberg纹理数据集 v.1.0 </b> 
+### 12）Kylberg纹理数据集 v.1.0
 
 <div align=center><img src="http://www.cb.uu.se/~gustaf/texture/fig_sample.png"></div>
 <p align=center>图4. 28个纹理类中的每一个的示例补丁。</p>
