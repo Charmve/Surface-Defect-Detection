@@ -29,7 +29,7 @@ Important critical papers from year 2017 have been collected and compiled, which
   - [Metal Surface：KolektorSDD](#3metal-surfacekolektorsdd)
   - [PCB Inspection：DeepPCB](#4pcb-inspectiondeeppcb)
   - [Fabric Defects Dataset: AITEX](#5fabric-defects-dataset-aitex)
-  - [Fabric Defect Dataset (Tianchi)]#6fabric-defect-dataset-tianchi)
+  - [Fabric Defect Dataset (Tianchi)](#6fabric-defect-dataset-tianchi)
   - [Aluminium Profile Surface Defect Dataset（Tianchi）](#7aluminium-profile-surface-defect-datasettianchi)
   - [Weakly Supervised Learning for Industrial Optical Inspection（DAGM 2007）](#8weakly-supervised-learning-for-industrial-optical-inspectiondagm-2007)
   - [Cracks on the Surface of Construction](#9cracks-on-the-surface-of-the-construction)
@@ -338,7 +338,7 @@ Use this bibtex to cite this repository:
 ```
 
 <br>
-* <i>Update by Dec 21，2020 @<a href="https://github.com/Charmve" target="_blank">Charmve</a>, 
+* <i>Update on Dec 21，2020 @<a href="https://github.com/Charmve" target="_blank">Charmve</a>, 
     <a class="github-button"
         href="https://github.com/Charmve/Surface-Defect-Detection"
         data-icon="octicon-star" data-show-count="true"
