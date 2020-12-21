@@ -1,4 +1,4 @@
-# 表面缺陷检测数据集/论文集
+# 工业场景表面缺陷检测数据集及论文集
 
 🐎📈 我不断总结表面缺陷研究领域中的开源数据集（这个非常关键），收集整理了自17年以来的重要论文，可以在<a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers">:open_file_folder: [<b><i>Papers</i></b>]</a>文件夹下查看。 🐋
 
@@ -19,7 +19,7 @@
 
 # 目录
 
-- [Introduction](#introduction)
+- [前言](#前言)
 - [Key Issues](#1-key-issues-in-surface-defect-detection)
   - [Small Sample Problem](#1small-sample-problem)
   - [Real-time Problem](#2real-time-problem)
@@ -72,7 +72,7 @@
 
 在无监督模型中, 只利用正常样本进行训练, 因此不需要缺陷样本. 半监督方法可以利用没有标注的样本来解决小样本情况下的网络训练难题。
 
-
+[<b>BACK to Table of Contents</b> -->](#目录)
 
 ### 2、实时性问题
 
@@ -91,6 +91,8 @@
 <div align=center><img src="https://mmbiz.qpic.cn/mmbiz_png/Z8w2ExrFgDwNaIgv9VUHeCAeXfauWU8dSjNOVrR5xByfz4FbNj4tibpHkicPrhs8Ku01sp0Y7qjVFb0h2kaxoZQw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></div>
 <br>
 
+[<b>BACK to Table of Contents</b> -->](#目录)
+
 <b>2）太阳能板数据集：elpv-dataset</b>
 
 从太阳能板的EL图像中提取有缺陷的太阳能电池数据集。
@@ -105,6 +107,8 @@
 <br>所有图像的大小和透视图均已标准化。另外，在提取太阳能电池之前，消除了由用于捕获EL图像的相机镜头引起的任何失真。
 
 <br>
+
+[<b>BACK to Table of Contents</b> -->](#目录)
 
 <b>3）金属表面数据集：KolektorSDD</b>
 
@@ -138,6 +142,8 @@
 对于每一个，缺陷仅在至少一张图像中可见，而有两个在图像上有缺陷就意味着有52张图像可见缺陷。其余347张图像用作表面无缺陷的负样本。
 <br>
 
+[<b>BACK to Table of Contents</b> -->](#目录)
+
 <b>4）PCB板检测数据集：DeepPCB</b>
 
 地址：https://github.com/Charmve/Surface-Defect-Detection/tree/master/DeepPCB
@@ -155,7 +161,7 @@
 <p align=center>图1. PCB板检测数据集</p>
 
 <br>
-
+[<b>BACK to Table of Contents</b> -->](#目录)
 
 <b>5）面料缺陷数据集AITEX</b>
 
@@ -171,7 +177,7 @@ https://pan.baidu.com/s/1cfC4Ll5QlnwN5RTuSZ6b7w (提取码：``b9uy``)
 
 
 <br>
-
+[<b>BACK to Table of Contents</b> -->](#目录)
 
 <b>6）天池布匹缺陷数据集（竞赛）</b>
 
@@ -183,6 +189,7 @@ https://pan.baidu.com/s/1LMbujxvr5iB3SwjFGYHspA (提取码：``gat2``)
 在布匹的实际生产过程中，由于各方面因素的影响，会产生污渍、破洞、毛粒等瑕疵，为保证产品质量，需要对布匹进行瑕疵检测。布匹疵点检验是纺织行业生产和质量管理的重要环节，目前人工检测易受主观因素影响，缺乏一致性；并且检测人员在强光下长时间工作对视力影响极大。由于布匹疵点种类繁多、形态变化多样、观察识别难道大，导致布匹疵点智能检测是困扰行业多年的技术瓶颈。本数据涵盖了纺织业中布匹的各类重要瑕疵，每张图片含一个或多种瑕疵。数据包括包括素色布和花色布两类，其中，素色布数据约8000张，用于初赛；花色布数据约12000张，用于复赛。
 
 <br>
+[<b>BACK to Table of Contents</b> -->](#目录)
 
 <b>7）天池铝型材表面瑕疵数据集（竞赛）</b>
 
@@ -190,14 +197,12 @@ https://pan.baidu.com/s/1LMbujxvr5iB3SwjFGYHspA (提取码：``gat2``)
 
 https://tianchi.aliyun.com/competition/entrance/231682/information
 
-
-
 数据集介绍：在铝型材的实际生产过程中，由于各方面因素的影响，铝型材表面会产生裂纹、起皮、划伤等瑕疵，这些瑕疵会严重影响铝型材的质量。为保证产品质量，需要人工进行肉眼目测。然而，铝型材的表面自身会含有纹路，与瑕疵的区分度不高。传统人工肉眼检查十分费力，不能及时准确的判断出表面瑕疵，质检的效率难以把控。近年来，深度学习在图像识别等领域取得了突飞猛进的成果。铝型材制造商迫切希望采用最新的AI技术来革新现有质检流程，自动完成质检任务，减少漏检发生率，提高产品的质量，使铝型材产品的生产管理者彻底摆脱了无法全面掌握产品表面质量的状态。大赛数据集里有1万份来自实际生产中有瑕疵的铝型材监测影像数据，每个影像包含一个或多种瑕疵。供机器学习的样图会明确标识影像中所包含的瑕疵类型。
 
-
-
 <div align=center><img src="https://mmbiz.qpic.cn/mmbiz_png/Q0FNTB1XHicxJNERSSNPubP0Ga9pfKj8IeudrVjRJ4doibxAtoMqC8LTxZemeZ9SDUzeicSAMrP3yg31MzfD4ygfA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></div>
+
 <br>
+[<b>BACK to Table of Contents</b> -->](#目录)
 
 <b>8）弱监督学习下的工业光学检测（DAGM 2007）</b> Weakly Supervised Learning for Industrial Optical Inspection
 
@@ -226,10 +231,9 @@ https://hci.iwr.uni-heidelberg.de/node/3616
 - 弱标签以椭圆形表示，大致表示缺陷区域。         
 
 <br>
+[<b>BACK to Table of Contents</b> -->](#目录)
 
 <b>9）基建表面裂纹检测数据集</b> Cracks on the surface of the construction.
-
-
 
 数据集是github上的一个项目，主要是一些基建（水泥表面裂纹），可以访问项目连接：https://github.com/cuilimeng/CrackForest-dataset 或者百度云链接：https://pan.baidu.com/s/1108j5QbDr7T3XQvDxAzVpg （提取码：``jajn``）下载。
 
@@ -245,6 +249,7 @@ https://hci.iwr.uni-heidelberg.de/node/3616
 - <b>路面裂缝</b>. 该数据集来自于 Shi Yong, and Cui Limeng and Qi Zhiquan and Meng Fan and Chen Zhensong. 原始数据集可通过此链接访问 https://github.com/Charmve/Surface-Defect-Detection/tree/master/CrackForest. 我们提取像素级地面真相的图像文件。
 
 <br>
+[<b>BACK to Table of Contents</b> -->](#目录)
 
 <b>10）磁瓦缺陷数据集 </b>Magnetic tile dataset 
 
@@ -257,6 +262,7 @@ https://hci.iwr.uni-heidelberg.de/node/3616
 这同样也是论文“Saliency of magnetic tile surface defects”的数据集，它收集了6个常见磁砖缺陷的图像，并标记了它们的像素级地面真相。
 
 <br>
+[<b>BACK to Table of Contents</b> -->](#目录)
 
 <b>11）铁轨表面缺陷数据集 </b> RSDDs dataset
 
@@ -276,6 +282,7 @@ RSDDs数据集中的这些缺陷已由一些专业的人类观察员在轨道表
 
 
 <br>
+[<b>BACK to Table of Contents</b> -->](#目录)
 
 <b>12）Kylberg纹理数据集 v.1.0 </b> 
 
@@ -294,6 +301,7 @@ RSDDs数据集中的这些缺陷已由一些专业的人类观察员在轨道表
 
 官方链接:http://www.cb.uu.se/~gustaf/texture/
 
+[<b>BACK to Table of Contents</b> -->](#目录)
 
 ## 三、表面缺陷检测论文集
 
@@ -303,6 +311,8 @@ RSDDs数据集中的这些缺陷已由一些专业的人类观察员在轨道表
 
 <br>
 
+[<b>BACK to Table of Contents</b> -->](#目录)
+
 ## 致谢
 
 <p>你能看到这个项目，我们应当感谢上述数据集最初的开源的人，他们给我们的学习和研究工作带来了极大的帮助。这个数据集的收集想法起初来自于看了“AI算法修炼营”SFXiang的一篇关于表面缺陷检测的文章，促使我整理一份更为全面的数据集。论文集来自于一位叫“庆志的小徒弟”的CSDNer，现在论文收集只到19年11月份，之后会继续完善。<strong>同时，希望能有更多小伙伴上传新的数据集。Feel free to <a href="https://github.com/Charmve/Surface-Defect-Detection/blob/master/CONTRIBUTING.md" target="_blank">CONTRIBUTE</a>.</strong></p>
@@ -310,6 +320,12 @@ RSDDs数据集中的这些缺陷已由一些专业的人类观察员在轨道表
 <p>最后，我想再次感谢以上数据集的开源贡献者。</p>
 
 <br>
+[<b>BACK to Table of Contents</b> -->](#目录)
+
+## 下载方式
+- Github 下载ZIP, 点击[这里](https://github.com/Charmve/Surface-Defect-Detection/archive/master.zip)
+  <br>或者在终端运行 ```git clone https://github.com/Charmve/Surface-Defect-Detection.git```。<br>
+- 百度网盘下载链接:https://pan.baidu.com/s/122WY8F5VKqm3qMirqebRQw ``提取码:i20n``
 
 ## 提示！
 
@@ -318,7 +334,7 @@ RSDDs数据集中的这些缺陷已由一些专业的人类观察员在轨道表
 <p>如您有任何疑问和想法，欢迎来信交流 :email: yidazhang1@gmail.com</p>
 
 <br>
-* <i>Update by Sep 27，2020 @<a href="https://github.com/Charmve" target="_blank">Charmve</a>, 
+* <i>Update on Dec 21，2020 @<a href="https://github.com/Charmve" target="_blank">Charmve</a>, 
     <a class="github-button"
         href="https://github.com/Charmve/Surface-Defect-Detection"
         data-icon="octicon-star" data-show-count="true"
