@@ -24,49 +24,44 @@
   - [小样本问题](#1小样本问题)
   - [实时性问题](#2实时性问题)
 - [常用数据集](#二工业表面缺陷检测常用数据集)
-  - [Steel Surface: NEU-CLS](#1steel-surface-neu-cls)
-  - [Solar Panels: elpv-dataset](#2solar-panels-elpv-dataset)
-  - [Metal Surface：KolektorSDD](#3metal-surfacekolektorsdd)
-  - [PCB Inspection：DeepPCB](#4pcb-inspectiondeeppcb)
-  - [Fabric Defects Dataset: AITEX](#5fabric-defects-dataset-aitex)
-  - [Fabric Defect Dataset (Tianchi)](#6fabric-defect-dataset-tianchi)
-  - [Aluminium Profile Surface Defect Dataset（Tianchi）](#7aluminium-profile-surface-defect-datasettianchi)
-  - [Weakly Supervised Learning for Industrial Optical Inspection（DAGM 2007）](#8weakly-supervised-learning-for-industrial-optical-inspectiondagm-2007)
-  - [Cracks on the Surface of Construction](#9cracks-on-the-surface-of-the-construction)
-  - [Magnetic Tile Dataset](#10magnetic-tile-dataset)
-  - [RSDDs: Rail Surface Defect Datasets](#11rsdds-rail-surface-defect-datasets)
-  - [Kylberg Texture Dataset v.1.0](#12kylberg-texture-dataset-v10)
-- [Papers](#3-surface-defect-detection-papers)
-- [Acknowledgements](#acknowledgements)
-- [Download](#download)
-- [Notification](#notification)
+  - [钢材表面数据集：NEU-CLS](#1钢材表面数据集neu-cls)
+  - [太阳能板数据集：elpv-dataset](#2太阳能板数据集elpv-dataset)
+  - [金属表面数据集：KolektorSDD](#3金属表面数据集kolektorsdd)
+  - [PCB板检测数据集：DeepPCB](#4pcb板检测数据集deeppcb)
+  - [面料缺陷数据集：AITEX](#5面料缺陷数据集aitex)
+  - [天池布匹缺陷数据集](#6天池布匹缺陷数据集)
+  - [天池铝型材表面瑕疵数据集](#7天池铝型材表面瑕疵数据集)
+  - [弱监督学习下的工业光学检测（DAGM 2007）](#8弱监督学习下的工业光学检测dagm-2007)
+  - [基建表面裂纹检测数据集](#9基建表面裂纹检测数据集)
+  - [磁瓦缺陷数据集](#10磁瓦缺陷数据集)
+  - [铁轨表面缺陷数据集：RSDDs](#11铁轨表面缺陷数据集rsdds)
+  - [Kylberg纹理数据集 v.1.0](#12kylberg纹理数据集-v10)
+- [论文集](#三表面缺陷检测论文集)
+- [致谢](#致谢)
+- [下载方式](#下载方式)
+- [提示！](#提示)
+
+<br>
 
 ## 一、表面缺陷检测关键问题
 
 ### 1、小样本问题
 
-
 目前深度学习方法广泛应用在各种计算机视觉任务中, 表面缺陷检测一般被看作是其在工业领域的具体应用。在传统的认识中, 深度学习方法无法直接应用在表面缺陷检测中的原因是因为在真实的工业环境中, 所能提供的工业缺陷样本太少。
 
-
 相比于ImageNet数据集中1400多万张样本数据, 表面缺陷检测中面临的最关键的问题是小样本问题, 在很多真实的工业场景下甚至只有几张或几十张缺陷图片。实际上, 针对于工业表面缺陷检测中关键问题之一的小样本问题, 目前有4种不同的解决方式:
-
 
 <b>1）数据扩增、生成</b>
 
 最常用的缺陷图像扩增方法是对原始缺陷样本采用镜像、旋转、平移、扭曲、滤波、对比度调整等多种图像处理操作来获取更多的样本。另外一种较为常见方法是数据合成, 常常将单独缺陷融合叠加到正常(无缺陷)样本上构成缺陷样本。
 
-
-
 <b>2）网络预训练与迁移学习</b>
 
 一般来说,，采用小样本来训练深度学习网络很容易导致过拟合, 因此基于预训练网络或迁移学习的方法是目前针对样本中最常用的方法之一。
 
-
 <b>3）合理的网络结构设计</b>
 
 通过设计合理的网络 结构也可以大大减少样本的需求。基于压缩采样定理来压缩和扩充小样本数据, 使用CNN直接对压缩采样的数据特征进行分类. 相比于原始的图像输入, 通过对输入进行压缩采样能大大降低网络对样本的需求. 此外, 基于孪生网络的表面缺陷检测方法也可以看作是一种特殊的网络设计, 能够大幅减少样本需求。
-
 
 <b>4）无监督或半监督</b>
 
@@ -77,6 +72,8 @@
 ### 2、实时性问题
 
 基于深度学习的缺陷检测方法在工业应用中包括三个主要环节: 数据标注、模型训练与模型推断. 在实际工业应用中的实时性更关注模型推断这一环节. 目前大多数缺陷检测方法都集中在分类或识别的准确性上, 而很少关注模型推断的效率。有不少方法用于加速模型, 例如模型权重量化和模型剪枝等。另外，虽然现有深度学习模型使用GPU作为通用计算单元(GPGPU), 但随着技术发展, 相信FPGA会成为一个具有吸引力的替代方案。
+
+[<b>BACK to Table of Contents</b> -->](#目录)
 
 ## 二、工业表面缺陷检测常用数据集
 ### 1）钢材表面数据集：NEU-CLS
@@ -162,14 +159,14 @@
 <p align=center>图1. PCB板检测数据集</p>
 
 <br>
+
 [<b>BACK to Table of Contents</b> -->](#目录)
 
-### 5）面料缺陷数据集AITEX
+### 5）面料缺陷数据集：AITEX
 
 数据集下载链接：
 
 https://pan.baidu.com/s/1cfC4Ll5QlnwN5RTuSZ6b7w (提取码：``b9uy``)
-
 
 该数据库由七个不同织物结构的245张4096 x 256像素图像组成。数据库中有140个无缺陷图像，每种类型的织物20个，除此之外，有105幅纺织行业中常见的不同类型的织物缺陷（12种缺陷）图像。图像的大尺寸允许用户使用不同的窗口尺寸，从而增加了样本数量。Internet上的数据库还包含所有具有缺陷的图像的分割mask，使得白色像素表示缺陷区域，其余像素为黑色。
 
@@ -178,6 +175,7 @@ https://pan.baidu.com/s/1cfC4Ll5QlnwN5RTuSZ6b7w (提取码：``b9uy``)
 
 
 <br>
+
 [<b>BACK to Table of Contents</b> -->](#目录)
 
 ### 6）天池布匹缺陷数据集
@@ -190,6 +188,7 @@ https://pan.baidu.com/s/1LMbujxvr5iB3SwjFGYHspA (提取码：``gat2``)
 在布匹的实际生产过程中，由于各方面因素的影响，会产生污渍、破洞、毛粒等瑕疵，为保证产品质量，需要对布匹进行瑕疵检测。布匹疵点检验是纺织行业生产和质量管理的重要环节，目前人工检测易受主观因素影响，缺乏一致性；并且检测人员在强光下长时间工作对视力影响极大。由于布匹疵点种类繁多、形态变化多样、观察识别难道大，导致布匹疵点智能检测是困扰行业多年的技术瓶颈。本数据涵盖了纺织业中布匹的各类重要瑕疵，每张图片含一个或多种瑕疵。数据包括包括素色布和花色布两类，其中，素色布数据约8000张，用于初赛；花色布数据约12000张，用于复赛。
 
 <br>
+
 [<b>BACK to Table of Contents</b> -->](#目录)
 
 ### 7）天池铝型材表面瑕疵数据集
@@ -203,6 +202,7 @@ https://tianchi.aliyun.com/competition/entrance/231682/information
 <div align=center><img src="https://mmbiz.qpic.cn/mmbiz_png/Q0FNTB1XHicxJNERSSNPubP0Ga9pfKj8IeudrVjRJ4doibxAtoMqC8LTxZemeZ9SDUzeicSAMrP3yg31MzfD4ygfA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></div>
 
 <br>
+
 [<b>BACK to Table of Contents</b> -->](#目录)
 
 ### 8）弱监督学习下的工业光学检测（DAGM 2007）
@@ -234,6 +234,7 @@ https://hci.iwr.uni-heidelberg.de/node/3616
 - 弱标签以椭圆形表示，大致表示缺陷区域。         
 
 <br>
+
 [<b>BACK to Table of Contents</b> -->](#目录)
 
 ### 9）基建表面裂纹检测数据集
@@ -252,6 +253,7 @@ https://hci.iwr.uni-heidelberg.de/node/3616
 - <b>路面裂缝</b>. 该数据集来自于 Shi Yong, and Cui Limeng and Qi Zhiquan and Meng Fan and Chen Zhensong. 原始数据集可通过此链接访问 https://github.com/Charmve/Surface-Defect-Detection/tree/master/CrackForest. 我们提取像素级地面真相的图像文件。
 
 <br>
+
 [<b>BACK to Table of Contents</b> -->](#目录)
 
 ### 10）磁瓦缺陷数据集
@@ -265,10 +267,10 @@ Magnetic tile dataset, 该数据集是由abin2收集的，现已开源，你可�
 这同样也是论文“Saliency of magnetic tile surface defects”的数据集，它收集了6个常见磁砖缺陷的图像，并标记了它们的像素级地面真相。
 
 <br>
+
 [<b>BACK to Table of Contents</b> -->](#目录)
 
-### 11）铁轨表面缺陷数据集:RSDDs
-
+### 11）铁轨表面缺陷数据集：RSDDs
 
 RSDDs数据集包含两种类型的数据集：第一种是从快车道捕获的I型RSDDs数据集，其中包含67个具有挑战性的图像。第二个是从普通/重型运输轨道捕获的II型RSDDs数据集，其中包含128个具有挑战性的图像。
 
@@ -283,8 +285,8 @@ RSDDs数据集中的这些缺陷已由一些专业的人类观察员在轨道表
 
 链接：https://pan.baidu.com/share/init?surl=svsnqL0r1kasVDNjppkEwg （提取码：``nanr``）
 
-
 <br>
+
 [<b>BACK to Table of Contents</b> -->](#目录)
 
 ### 12）Kylberg纹理数据集 v.1.0
@@ -300,7 +302,6 @@ RSDDs数据集中的这些缺陷已由一些专业的人类观察员在轨道表
 - 所有补丁均以127的平均值和40的标准偏差进行标准化。
 - 每个纹理类一个目录。
 - 文件的命名如下：blanket1-d-p011-r180.png，其中``blanket1``是类名，``d``是原始图像样本编号（可能的值是a，b，c或d），``p011``是补丁编号11，``r180``补丁旋转了180度。
-
 
 官方链接:http://www.cb.uu.se/~gustaf/texture/
 
@@ -323,6 +324,7 @@ RSDDs数据集中的这些缺陷已由一些专业的人类观察员在轨道表
 <p>最后，我想再次感谢以上数据集的开源贡献者。</p>
 
 <br>
+
 [<b>BACK to Table of Contents</b> -->](#目录)
 
 ## 下载方式
@@ -335,6 +337,19 @@ RSDDs数据集中的这些缺陷已由一些专业的人类观察员在轨道表
 <p>本开源数据集最初是由许多人贡献的，只是太过分散，对寻找数据集是个十分费时费力的过程。很多数据集是研究者论文的训练/测试集，或是企业的开源数据集，因此 <strong>您只能将此数据集用于研究目的。</ strong></p>
 
 <p>如您有任何疑问和想法，欢迎来信交流 :email: yidazhang1@gmail.com</p>
+
+## 引用方式
+Use this bibtex to cite this repository:
+```
+@misc{Surface Defect Detection,
+  title={Surface Defect Detection: Dataset and Papers},
+  author={Charmve},
+  year={2020.09},
+  publisher={Github},
+  journal={GitHub repository},
+  howpublished={\url{https://github.com/Charmve/Surface-Defect-Detection}},
+}
+```
 
 <br>
 * <i>Update on Dec 21，2020 @<a href="https://github.com/Charmve" target="_blank">Charmve</a>, 
