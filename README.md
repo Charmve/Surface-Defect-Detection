@@ -19,11 +19,27 @@ Important critical papers from year 2017 have been collected and compiled, which
 
 # Contents
 
-- [Summary](#summary)
-- [1. Key Issues in Surface Defect Detection](#1-key-issues-in-surface-defect-detection)
-  - [1）Small Sample Problem](#curriculum)
-- [Code of Conduct](#code-of-conduct)
-- [Team](#team)
+- [Introduction](#introduction)
+- [Key Issues](#1-key-issues-in-surface-defect-detection)
+  - [Small Sample Problem](#1small-sample-problem)
+  - [Real-time Problem](#2real-time-problem)
+- [Common Datasets](#2-common-datasets-for-industrial-surface-defect-detection)
+  - [Steel Surface: NEU-CLS](#1steel-surface-neu-cls)
+  - [Solar Panels: elpv-dataset](#2solar-panels-elpv-dataset)
+  - [Metal Surface：KolektorSDD](#3metal-surfacekolektorsdd)
+  - [PCB Inspection：DeepPCB](#4pcb-inspectiondeeppcb)
+  - [Fabric Defects Dataset: AITEX](#5fabric-defects-dataset-aitex)
+  - [Fabric Defect Dataset (Tianchi)]#6fabric-defect-dataset-tianchi)
+  - [Aluminium Profile Surface Defect Dataset（Tianchi）](#7aluminium-profile-surface-defect-datasettianchi)
+  - [Weakly Supervised Learning for Industrial Optical Inspection（DAGM 2007）](#8weakly-supervised-learning-for-industrial-optical-inspectiondagm-2007)
+  - [Cracks on the Surface of Construction](#9cracks-on-the-surface-of-the-construction)
+  - [Magnetic Tile Dataset](#10magnetic-tile-dataset)
+  - [RSDDs: Rail Surface Defect Datasets](#11rsdds-rail-surface-defect-datasets)
+  - [Kylberg Texture Dataset v.1.0](#12kylberg-texture-dataset-v10)
+- [Papers](#3-surface-defect-detection-papers)
+- [Acknowledgements](#acknowledgements)
+- [Download](#download)
+- [Notification](#notification)
 
 
 ## 1. Key Issues in Surface Defect Detection
