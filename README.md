@@ -20,8 +20,8 @@ Important critical papers from year 2017 have been collected and compiled, which
 # Contents
 
 - [Summary](#summary)
-- [Community](#community)
-- [Curriculum](#curriculum)
+- [1. Key Issues in Surface Defect Detection](#1-key-issues-in-surface-defect-detection)
+  - [1）Small Sample Problem](#curriculum)
 - [Code of Conduct](#code-of-conduct)
 - [Team](#team)
 
@@ -298,7 +298,7 @@ Go to <a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/P
 
 ## Download
 - Download ZIP, click [here](https://github.com/Charmve/Surface-Defect-Detection/archive/master.zip)
-  <br>or run ```git clone https://github.com/Charmve/Surface-Defect-Detection.git ``` in the terminal
+  <br>or run ```git clone https://github.com/Charmve/Surface-Defect-Detection.git``` in the terminal<br>
 - Chinese Mainland：百度网盘下载链接:https://pan.baidu.com/s/122WY8F5VKqm3qMirqebRQw ``提取码:i20n``
 
 
@@ -322,7 +322,7 @@ Use this bibtex to cite this repository:
 ```
 
 <br>
-* <i>Update by Sep 27，2020 @<a href="https://github.com/Charmve" target="_blank">Charmve</a>, 
+* <i>Update by Dec 21，2020 @<a href="https://github.com/Charmve" target="_blank">Charmve</a>, 
     <a class="github-button"
         href="https://github.com/Charmve/Surface-Defect-Detection"
         data-icon="octicon-star" data-show-count="true"
