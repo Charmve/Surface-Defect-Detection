@@ -67,13 +67,13 @@
 
 在无监督模型中, 只利用正常样本进行训练, 因此不需要缺陷样本. 半监督方法可以利用没有标注的样本来解决小样本情况下的网络训练难题。
 
-[<b>BACK to Table of Contents</b> -->](#目录)
+👆 [<b>BACK to Table of Contents</b> -->](#目录)
 
 ### 2、实时性问题
 
 基于深度学习的缺陷检测方法在工业应用中包括三个主要环节: 数据标注、模型训练与模型推断. 在实际工业应用中的实时性更关注模型推断这一环节. 目前大多数缺陷检测方法都集中在分类或识别的准确性上, 而很少关注模型推断的效率。有不少方法用于加速模型, 例如模型权重量化和模型剪枝等。另外，虽然现有深度学习模型使用GPU作为通用计算单元(GPGPU), 但随着技术发展, 相信FPGA会成为一个具有吸引力的替代方案。
 
-[<b>BACK to Table of Contents</b> -->](#目录)
+👆 [<b>BACK to Table of Contents</b> -->](#目录)
 
 ## 二、工业表面缺陷检测常用数据集
 ### 1）钢材表面数据集：NEU-CLS
@@ -89,7 +89,7 @@
 <div align=center><img src="https://mmbiz.qpic.cn/mmbiz_png/Z8w2ExrFgDwNaIgv9VUHeCAeXfauWU8dSjNOVrR5xByfz4FbNj4tibpHkicPrhs8Ku01sp0Y7qjVFb0h2kaxoZQw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></div>
 <br>
 
-[<b>BACK to Table of Contents</b> -->](#目录)
+👆 [<b>BACK to Table of Contents</b> -->](#目录)
 
 ### 2）太阳能板数据集：elpv-dataset
 
@@ -106,7 +106,7 @@
 
 <br>
 
-[<b>BACK to Table of Contents</b> -->](#目录)
+👆 [<b>BACK to Table of Contents</b> -->](#目录)
 
 ### 3）金属表面数据集：KolektorSDD
 
@@ -140,7 +140,7 @@
 对于每一个，缺陷仅在至少一张图像中可见，而有两个在图像上有缺陷就意味着有52张图像可见缺陷。其余347张图像用作表面无缺陷的负样本。
 <br>
 
-[<b>BACK to Table of Contents</b> -->](#目录)
+👆 [<b>BACK to Table of Contents</b> -->](#目录)
 
 ### 4）PCB板检测数据集：DeepPCB
 
@@ -160,7 +160,7 @@
 
 <br>
 
-[<b>BACK to Table of Contents</b> -->](#目录)
+👆 [<b>BACK to Table of Contents</b> -->](#目录)
 
 ### 5）面料缺陷数据集：AITEX
 
@@ -173,10 +173,9 @@ https://pan.baidu.com/s/1cfC4Ll5QlnwN5RTuSZ6b7w (提取码：``b9uy``)
 
 <div align=center><img src="https://mmbiz.qpic.cn/mmbiz_png/Q0FNTB1XHicxJNERSSNPubP0Ga9pfKj8IkvUic7DWHgQBGDXVjJyJWaIDFkCsPPsjODMqmLrh0ZOIdXOm5ibeFz3w/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></div>
 
-
 <br>
 
-[<b>BACK to Table of Contents</b> -->](#目录)
+👆 [<b>BACK to Table of Contents</b> -->](#目录)
 
 ### 6）天池布匹缺陷数据集
 
@@ -189,7 +188,7 @@ https://pan.baidu.com/s/1LMbujxvr5iB3SwjFGYHspA (提取码：``gat2``)
 
 <br>
 
-[<b>BACK to Table of Contents</b> -->](#目录)
+👆 [<b>BACK to Table of Contents</b> -->](#目录)
 
 ### 7）天池铝型材表面瑕疵数据集
 
@@ -203,7 +202,7 @@ https://tianchi.aliyun.com/competition/entrance/231682/information
 
 <br>
 
-[<b>BACK to Table of Contents</b> -->](#目录)
+👆 [<b>BACK to Table of Contents</b> -->](#目录)
 
 ### 8）弱监督学习下的工业光学检测（DAGM 2007）
 
@@ -235,7 +234,7 @@ https://hci.iwr.uni-heidelberg.de/node/3616
 
 <br>
 
-[<b>BACK to Table of Contents</b> -->](#目录)
+👆 [<b>BACK to Table of Contents</b> -->](#目录)
 
 ### 9）基建表面裂纹检测数据集
 
@@ -254,7 +253,7 @@ https://hci.iwr.uni-heidelberg.de/node/3616
 
 <br>
 
-[<b>BACK to Table of Contents</b> -->](#目录)
+👆 [<b>BACK to Table of Contents</b> -->](#目录)
 
 ### 10）磁瓦缺陷数据集
 
@@ -268,7 +267,7 @@ Magnetic tile dataset, 该数据集是由abin2收集的，现已开源，你可�
 
 <br>
 
-[<b>BACK to Table of Contents</b> -->](#目录)
+👆 [<b>BACK to Table of Contents</b> -->](#目录)
 
 ### 11）铁轨表面缺陷数据集：RSDDs
 
@@ -287,7 +286,7 @@ RSDDs数据集中的这些缺陷已由一些专业的人类观察员在轨道表
 
 <br>
 
-[<b>BACK to Table of Contents</b> -->](#目录)
+👆 [<b>BACK to Table of Contents</b> -->](#目录)
 
 ### 12）Kylberg纹理数据集 v.1.0
 
@@ -305,7 +304,7 @@ RSDDs数据集中的这些缺陷已由一些专业的人类观察员在轨道表
 
 官方链接:http://www.cb.uu.se/~gustaf/texture/
 
-[<b>BACK to Table of Contents</b> -->](#目录)
+👆 [<b>BACK to Table of Contents</b> -->](#目录)
 
 ## 三、表面缺陷检测论文集
 
@@ -315,7 +314,7 @@ RSDDs数据集中的这些缺陷已由一些专业的人类观察员在轨道表
 
 <br>
 
-[<b>BACK to Table of Contents</b> -->](#目录)
+👆 [<b>BACK to Table of Contents</b> -->](#目录)
 
 ## 致谢
 
@@ -325,7 +324,7 @@ RSDDs数据集中的这些缺陷已由一些专业的人类观察员在轨道表
 
 <br>
 
-[<b>BACK to Table of Contents</b> -->](#目录)
+👆 [<b>BACK to Table of Contents</b> -->](#目录)
 
 ## 下载方式
 - Github 下载ZIP, 点击[这里](https://github.com/Charmve/Surface-Defect-Detection/archive/master.zip)
@@ -334,7 +333,7 @@ RSDDs数据集中的这些缺陷已由一些专业的人类观察员在轨道表
 
 <br>
 
-[<b>BACK to Table of Contents</b> -->](#目录)
+👆 [<b>BACK to Table of Contents</b> -->](#目录)
 
 ## 提示！
 
