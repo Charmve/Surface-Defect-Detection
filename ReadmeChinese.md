@@ -332,9 +332,13 @@ RSDDs数据集中的这些缺陷已由一些专业的人类观察员在轨道表
   <br>或者在终端运行 ```git clone https://github.com/Charmve/Surface-Defect-Detection.git```。<br>
 - 百度网盘下载链接:https://pan.baidu.com/s/122WY8F5VKqm3qMirqebRQw ``提取码:i20n``
 
+<br>
+
+[<b>BACK to Table of Contents</b> -->](#目录)
+
 ## 提示！
 
-<p>本开源数据集最初是由许多人贡献的，只是太过分散，对寻找数据集是个十分费时费力的过程。很多数据集是研究者论文的训练/测试集，或是企业的开源数据集，因此 <strong>您只能将此数据集用于研究目的。</ strong></p>
+<p>本开源数据集最初是由许多人贡献的，只是太过分散，对寻找数据集是个十分费时费力的过程。很多数据集是研究者论文的训练/测试集，或是企业的开源数据集，因此 <strong>您只能将此数据集用于研究目的。</strong></p>
 
 <p>如您有任何疑问和想法，欢迎来信交流 :email: yidazhang1@gmail.com</p>
 
