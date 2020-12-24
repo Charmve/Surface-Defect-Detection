@@ -341,6 +341,13 @@ RSDDs数据集中的这些缺陷已由一些专业的人类观察员在轨道表
 
 <p>如您有任何疑问和想法，欢迎来信交流 :email: yidazhang1@gmail.com</p>
 
+## 🍮 表面缺陷检测交流群
+- Github <a href="https://github.com/Charmve/Surface-Defect-Detection/discussions" target="_blank">discussions 💬</a> or <a href="https://github.com/Charmve/Surface-Defect-Detection/issues" target="_blank">issues 💭</a>
+
+- QQ Group: 734758251 (密码：哈哈哈)
+- Email: yidazhang1#gmail.com 
+
+
 ## 引用方式
 Use this bibtex to cite this repository:
 ```
