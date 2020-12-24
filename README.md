@@ -330,6 +330,12 @@ This work is originally ntributed by lots of great man for their paper work or i
 
 If you have any questions or idea, please let me know :email: yidazhang1@gmail.com
 
+## 🍮 Community
+- Github <a href="https://github.com/Charmve/Surface-Defect-Detection/discussions" target="_blank">discussions 💬</a> or <a href="https://github.com/Charmve/Surface-Defect-Detection/issues" target="_blank">issues 💭</a>
+
+- QQ Group: 734758251 (password：哈哈哈)
+- Email: yidazhang1#gmail.com 
+
 ## Citation
 Use this bibtex to cite this repository:
 ```
