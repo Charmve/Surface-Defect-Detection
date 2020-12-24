@@ -40,6 +40,7 @@ Important critical papers from year 2017 have been collected and compiled, which
 - [Acknowledgements](#acknowledgements)
 - [Download](#download)
 - [Notification](#notification)
+- [Community](#-community)
 
 
 ## 1. Key Issues in Surface Defect Detection
