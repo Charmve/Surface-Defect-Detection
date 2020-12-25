@@ -327,7 +327,7 @@ Go to <a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/P
 
 ## Notification
 
-This work is originally ntributed by lots of great man for their paper work or industry application. <strong>You can only use this dataset for research purpose.</strong>
+This work is originally contributed by lots of great man for their paper work or industry application. <strong>You can only use this dataset for research purpose.</strong>
 
 If you have any questions or idea, please let me know :email: yidazhang1@gmail.com
 
