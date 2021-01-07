@@ -83,7 +83,7 @@ NEU-CLS can be used for classification and positioning tasks.
 
 - Official Link：http://faculty.neu.edu.cn/yunhyan/NEU_surface_defect_database.html
 
-<div align=center><img src="https://mmbiz.qpic.cn/mmbiz_png/Z8w2ExrFgDwNaIgv9VUHeCAeXfauWU8dV2r2icJmopdRh7QRQyiaibjbUyxdDkBt6vXzL3icyBEYIQHlLBT322D5kg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></div>
+<div align=center><img src="https://img-blog.csdnimg.cn/20200927223042720.png"></div>
 
 <p>The surface defect dataset released by Northeastern University (NEU) collects six typical surface defects of hot-rolled steel strips, namely rolling scale (RS), plaque (Pa), cracking (Cr), pitting surface (PS), inclusions (In) and scratches (Sc). The dataset includes 1,800 grayscale images, six different types of typical surface defects each of which contains 300 samples. For defect detection tasks, the dataset provides annotations that indicate the category and location of the defect in each image. For each defect, the yellow box is the border indicating its location, and the green label is the category score.</p>
 
