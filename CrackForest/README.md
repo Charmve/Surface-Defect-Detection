@@ -8,25 +8,25 @@ CrackForest Dataset is an annotated road crack image database which can reflect 
 If you use this crack image dataset, we appreciate it if you cite an appropriate subset of the following papers:
 
 ```
-@article{shi2016automatic,<br />
-&nbsp;&nbsp;title={Automatic road crack detection using random structured forests},<br />
-&nbsp;&nbsp;author={Shi, Yong and Cui, Limeng and Qi, Zhiquan and Meng, Fan and Chen, Zhensong},<br />
-&nbsp;&nbsp;journal={IEEE Transactions on Intelligent Transportation Systems},<br />
-&nbsp;&nbsp;volume={17},<br />
-&nbsp;&nbsp;number={12},<br />
-&nbsp;&nbsp;pages={3434--3445},<br />
-&nbsp;&nbsp;year={2016},<br />
-&nbsp;&nbsp;publisher={IEEE}<br />
+@article{shi2016automatic,
+     title={Automatic road crack detection using random structured forests},
+     author={Shi, Yong and Cui, Limeng and Qi, Zhiquan and Meng, Fan and Chen, Zhensong},
+     journal={IEEE Transactions on Intelligent Transportation Systems},
+     volume={17},
+     number={12},
+     pages={3434--3445},
+     year={2016},
+     publisher={IEEE}
 }
 ```
 ```
-@inproceedings{cui2015pavement,<br />
-&nbsp;&nbsp;title={Pavement Distress Detection Using Random Decision Forests},<br />
-&nbsp;&nbsp;author={Cui, Limeng and Qi, Zhiquan and Chen, Zhensong and Meng, Fan and Shi, Yong},<br />
-&nbsp;&nbsp;booktitle={International Conference on Data Science},<br />
-&nbsp;&nbsp;pages={95--102},<br />
-&nbsp;&nbsp;year={2015},<br />
-&nbsp;&nbsp;organization={Springer}<br />
+@inproceedings{cui2015pavement,
+     title={Pavement Distress Detection Using Random Decision Forests},
+     author={Cui, Limeng and Qi, Zhiquan and Chen, Zhensong and Meng, Fan and Shi, Yong},
+     booktitle={International Conference on Data Science},
+     pages={95--102},
+     year={2015},
+     organization={Springer}
 }
 ```
 
