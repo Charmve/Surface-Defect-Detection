@@ -7,6 +7,7 @@ CrackForest Dataset is an annotated road crack image database which can reflect 
 
 If you use this crack image dataset, we appreciate it if you cite an appropriate subset of the following papers:
 
+```
 @article{shi2016automatic,<br />
 &nbsp;&nbsp;title={Automatic road crack detection using random structured forests},<br />
 &nbsp;&nbsp;author={Shi, Yong and Cui, Limeng and Qi, Zhiquan and Meng, Fan and Chen, Zhensong},<br />
@@ -17,7 +18,8 @@ If you use this crack image dataset, we appreciate it if you cite an appropriate
 &nbsp;&nbsp;year={2016},<br />
 &nbsp;&nbsp;publisher={IEEE}<br />
 }
-
+```
+```
 @inproceedings{cui2015pavement,<br />
 &nbsp;&nbsp;title={Pavement Distress Detection Using Random Decision Forests},<br />
 &nbsp;&nbsp;author={Cui, Limeng and Qi, Zhiquan and Chen, Zhensong and Meng, Fan and Shi, Yong},<br />
@@ -26,7 +28,7 @@ If you use this crack image dataset, we appreciate it if you cite an appropriate
 &nbsp;&nbsp;year={2015},<br />
 &nbsp;&nbsp;organization={Springer}<br />
 }
-
+```
 
 ## 2.License.
 
