@@ -1,12 +1,9 @@
+[简体中文](https://github.com/Charmve/Surface-Defect-Detection/blob/master/ReadmeChinese.md)
+
 # Surface Defect Detection: Dataset & Papers
 
 <p>🐎📈 Constantly summarizing open source data sets in the field of surface defect research is very important. 
 Important critical papers from year 2017 have been collected and compiled, which can be viewed in the <a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers">:open_file_folder: [<b><i>Papers</i></b>]</a> folder. 🐋 </p>
-
-<p align="center">
-  <a href="https://github.com/Charmve/Surface-Defect-Detection/blob/master/README.md"><img src="https://img.shields.io/badge/language-English-green" alt="English Version"></a>
-  <a href="https://github.com/Charmve/Surface-Defect-Detection/blob/master/ReadmeChinese.md"><img src="https://img.shields.io/badge/language-Chinese-red" alt="Chinese Version"></a>
-</p>
 
 <div align=center><img src="metal_surface.png"></div>
 <br>
