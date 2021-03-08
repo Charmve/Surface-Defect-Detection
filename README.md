@@ -8,6 +8,8 @@ Important critical papers from year 2017 have been collected and compiled, which
 <div align=center><img src="metal_surface.png"></div>
 <br>
 
+[dataset](#3) | [paper](https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers)
+
 ## Introduction
 
 <p>At present, surface defect equipment based on machine vision has widely replaced artificial visual inspection in various industrial fields, including 3C, automobiles, home appliances, machinery manufacturing, semiconductors and electronics, chemical, pharmaceutical, aerospace, light industry and other industries. Traditional surface defect detection methods based on machine vision often use conventional image processing algorithms or artificially designed features plus classifiers. Generally speaking, imaging schemes are usually designed by using the different properties of the inspected surface or defects. A reasonable imaging scheme helps to obtain images with uniform illumination and clearly reflect the surface defects of the object. In recent years, many defect detection methods based on deep learning have also been widely used in various industrial scenarios.</p>
