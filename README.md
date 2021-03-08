@@ -9,7 +9,8 @@ Important critical papers from year 2017 have been collected and compiled, which
 <br>
 
 <p align="center">
-  [dataset](https://github.com/Charmve/Surface-Defect-Detection/discussions/3) | [paper](https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers)
+  <a href="https://drive.google.com/drive/folders/1LQBXq8IY5GBuI_PtDvrj0TsB2mRRiXEz">Google Drive</a> | 
+  <a href="https://pan.baidu.com/s/1GWQ_acTF5BnJgpJRSw8BKA">百度云盘 ``o7p5``</a>
 </p>
 
 ## Introduction
