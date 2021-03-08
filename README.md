@@ -354,6 +354,11 @@ Use this bibtex to cite this repository:
 ```
 
 <br>
+<p align="center">Feel free to ask any questions, open a PR if you feel something can be done differently!</p>
+<h2 align="center">🌟Star this repository🌟</h2>
+<p align="center">Created by <a href="https://github.com/Charmve">Charmve</a> & <a href="https://github.com/MaiweiAI">maiwei.ai</a> Community | Deployed on <a href="https://www.kaggle.com/yidazhang07/bridge-cracks-image">Kaggle</a></p>
+
+<br>
 * <i>Update on Dec 21，2020 @<a href="https://github.com/Charmve" target="_blank">Charmve</a>, 
     <a class="github-button"
         href="https://github.com/Charmve/Surface-Defect-Detection"
@@ -365,8 +370,3 @@ Use this bibtex to cite this repository:
         data-icon="octicon-repo-forked" data-show-count="true"
         aria-label="Fork Charmve/Surface-Defect-Detection on GitHub">Fork</a>
 </i>
-
-<br>
-<p align="center">Feel free to ask any questions, open a PR if you feel something can be done differently!</p>
-<h2 align="center">🌟Star this repository🌟</h2>
-<p align="center">Created by <a href="https://github.com/Charmve">Charmve</a> & <a href="https://github.com/MaiweiAI">maiwei.ai</a> Community | Deployed on <a href="https://www.kaggle.com/yidazhang07/bridge-cracks-image">Kaggle</a></p>
