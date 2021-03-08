@@ -8,7 +8,9 @@ Important critical papers from year 2017 have been collected and compiled, which
 <div align=center><img src="metal_surface.png"></div>
 <br>
 
-[dataset](#3) | [paper](https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers)
+<p align="center">
+  [dataset](https://github.com/Charmve/Surface-Defect-Detection/discussions/3) | [paper](https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers)
+</p>
 
 ## Introduction
 
