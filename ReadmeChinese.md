@@ -1,11 +1,10 @@
+<div align="right">
+  <a href="https://github.com/Charmve/Surface-Defect-Detection">English</a> | 简体中文
+</div>
+
 # 工业场景表面缺陷检测数据集及论文集
 
-🐎📈 我不断总结表面缺陷研究领域中的开源数据集（这个非常关键），收集整理了自17年以来的重要论文，可以在<a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers">:open_file_folder: [<b><i>Papers</i></b>]</a>文件夹下查看。 🐋
-
-<p align="center">
-  <a href="https://github.com/Charmve/Surface-Defect-Detection/blob/master/README.md"><img src="https://img.shields.io/badge/language-English-green" alt="English Version"></a>
-  <a href="https://github.com/Charmve/Surface-Defect-Detection/blob/master/ReadmeChinese.md"><img src="https://img.shields.io/badge/language-Chinese-red" alt="Chinese Version"></a>
-</p>
+我不断总结表面缺陷研究领域中的开源数据集（这个非常关键），收集整理了自17年以来的重要论文，可以在<a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers">:open_file_folder: [<b><i>Papers</i></b>]</a>文件夹下查看。 🐋
 
 <div align=center><img src="metal_surface.png"></div>
 <br>
