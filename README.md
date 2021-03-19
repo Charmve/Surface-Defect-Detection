@@ -1,4 +1,4 @@
-[简体中文](https://github.com/Charmve/Surface-Defect-Detection/blob/master/ReadmeChinese.md)
+English | [简体中文](https://github.com/Charmve/Surface-Defect-Detection/blob/master/ReadmeChinese.md)
 
 # Surface Defect Detection: Dataset & Papers
 
