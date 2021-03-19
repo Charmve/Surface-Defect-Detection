@@ -1,5 +1,5 @@
 <div align="right">
-  English | [简体中文](https://github.com/Charmve/Surface-Defect-Detection/blob/master/ReadmeChinese.md)
+  English | <a href="https://github.com/Charmve/Surface-Defect-Detection/blob/master/ReadmeChinese.md">简体中文</a>
 </div>
 
 # Surface Defect Detection: Dataset & Papers
