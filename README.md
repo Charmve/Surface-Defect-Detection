@@ -41,6 +41,7 @@ Important critical papers from year 2017 have been collected and compiled, which
   - [Magnetic Tile Dataset](#10magnetic-tile-dataset)
   - [RSDDs: Rail Surface Defect Datasets](#11rsdds-rail-surface-defect-datasets)
   - [Kylberg Texture Dataset v.1.0](#12kylberg-texture-dataset-v10)
+  - [Repeat the Background Texture Dataset: KTH-TIPS](#13KTH-TIPS-database)
 - [Papers](#3-surface-defect-detection-papers)
 - [Acknowledgements](#acknowledgements)
 - [Download](#download)
@@ -301,6 +302,26 @@ Short description
 - Files are named as follows: ``blanket1-d-p011-r180.png``, where ``blanket1`` is the class name, ``d`` original image sample number (possible values are a, b, c, or d), ``p011`` is patch number 11, ``r180`` patch rotated 180 degrees.
 
 Offical Link: http://www.cb.uu.se/~gustaf/texture/
+<br>
+
+👆 [<b>BACK to Table of Contents</b> -->](#contents)
+
+### 13）KTH-TIPS database
+
+Repeat the background texture data set, the sample picture is as follows
+
+![image](https://user-images.githubusercontent.com/29084184/112747807-4359a600-8fea-11eb-98b1-0656aa3a3ac7.png)
+
+![image](https://user-images.githubusercontent.com/29084184/112747810-4eacd180-8fea-11eb-8aa6-a1b2803fa5c1.png)
+
+- Offical Link:https://www.nada.kth.se/cvap/databases/kth-tips/download.html
+
+- Download Link：
+
+  - dataset1：https://pan.baidu.com/s/173h8V66yRmtVo5rc2P7J4A
+
+  - dataset2：https://pan.baidu.com/s/1dXFKn6v2PV5QS9m8gWlifA
+
 <br>
 
 👆 [<b>BACK to Table of Contents</b> -->](#contents)
