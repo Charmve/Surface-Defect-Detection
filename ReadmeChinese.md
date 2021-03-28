@@ -35,6 +35,7 @@
   - [磁瓦缺陷数据集](#10磁瓦缺陷数据集)
   - [铁轨表面缺陷数据集：RSDDs](#11铁轨表面缺陷数据集rsdds)
   - [Kylberg纹理数据集 v.1.0](#12kylberg纹理数据集-v10)
+  - [重复背景纹理数据集 KTH-TIPS](#13KTH-TIPS-database)
 - [论文集](#三表面缺陷检测论文集)
 - [致谢](#致谢)
 - [下载方式](#下载方式)
@@ -303,6 +304,22 @@ RSDDs数据集中的这些缺陷已由一些专业的人类观察员在轨道表
 - 文件的命名如下：blanket1-d-p011-r180.png，其中``blanket1``是类名，``d``是原始图像样本编号（可能的值是a，b，c或d），``p011``是补丁编号11，``r180``补丁旋转了180度。
 
 官方链接:http://www.cb.uu.se/~gustaf/texture/
+
+👆 [<b>BACK to Table of Contents</b> -->](#目录)
+
+### 13）KTH-TIPS database
+
+重复背景纹理数据集，样例图片如下，官方网址：https://www.nada.kth.se/cvap/databases/kth-tips/download.html
+
+网盘下载链接：
+
+数据集1：https://pan.baidu.com/s/173h8V66yRmtVo5rc2P7J4A
+
+数据集2：https://pan.baidu.com/s/1dXFKn6v2PV5QS9m8gWlifA
+
+![image](https://user-images.githubusercontent.com/29084184/112747807-4359a600-8fea-11eb-98b1-0656aa3a3ac7.png)
+
+![image](https://user-images.githubusercontent.com/29084184/112747810-4eacd180-8fea-11eb-8aa6-a1b2803fa5c1.png)
 
 👆 [<b>BACK to Table of Contents</b> -->](#目录)
 
