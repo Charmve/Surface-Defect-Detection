@@ -120,7 +120,7 @@ All images are normalized with respect to size and perspective. Additionally, an
 
 ### 3）Metal Surface: KolektorSDD
 
-The dataset is constructed from images of defected electrical commutators that were provided and annotated by Kolektor Group d.o.o.. Specifically, microscopic fractions or cracks were observed on the surface of the plastic embedding in electrical commutators. The surface area of each commutator was captured in eight non-overlapping images. The images were captured in a controlled environment.
+The dataset is constructed from images of defected electrical commutators that were provided and annotated by Kolektor Group. Specifically, microscopic fractions or cracks were observed on the surface of the plastic embedding in electrical commutators. The surface area of each commutator was captured in eight non-overlapping images. The images were captured in a controlled environment.
 
 <div align=center><img src="metal_surface.png"></div>
 <br>
