@@ -42,6 +42,8 @@ Important critical papers from year 2017 have been collected and compiled, which
   - [RSDDs: Rail Surface Defect Datasets](#11rsdds-rail-surface-defect-datasets)
   - [Kylberg Texture Dataset v.1.0](#12kylberg-texture-dataset-v10)
   - [Repeat the Background Texture Dataset: KTH-TIPS](#13KTH-TIPS-database)
+  - [Escalator Step Defect Dataset](#14Escalator-Step-Defect-Dataset) 
+  - [Transmission Line Insulator Dataset](#15Transmission-Line-Insulator-Dataset)
 - [Papers](#3-surface-defect-detection-papers)
 - [Acknowledgements](#acknowledgements)
 - [Download](#download)
@@ -93,7 +95,7 @@ NEU-CLS can be used for classification and positioning tasks.
 
 <p>The surface defect dataset released by Northeastern University (NEU) collects six typical surface defects of hot-rolled steel strips, namely rolling scale (RS), plaque (Pa), cracking (Cr), pitting surface (PS), inclusions (In) and scratches (Sc). The dataset includes 1,800 grayscale images, six different types of typical surface defects each of which contains 300 samples. For defect detection tasks, the dataset provides annotations that indicate the category and location of the defect in each image. For each defect, the yellow box is the border indicating its location, and the green label is the category score.</p>
 
-<div align=center><img src="https://mmbiz.qpic.cn/mmbiz_png/Z8w2ExrFgDwNaIgv9VUHeCAeXfauWU8dSjNOVrR5xByfz4FbNj4tibpHkicPrhs8Ku01sp0Y7qjVFb0h2kaxoZQw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></div>
+<div align=center><img src="https://user-images.githubusercontent.com/29084184/114502526-82306280-9c5e-11eb-9d60-011ee100e179.png"></div>
 <br>
 
 👆 [<b>BACK to Table of Contents</b> -->](#contents)
@@ -171,7 +173,7 @@ For each item the defect is only visible in at least one image, while two items 
 
 This dataset consists of 245 4096x256 pixel images with seven different fabric structures. There are 140 non-defect images in the dataset, 20 of each type of fabric. In addition, there are 105 images of different types of fabric defects (12 types) common in the textile industry. The image size allows users to use different window sizes, thereby the number of samples can be increased. The online dataset also contains segmentation masks of all defective images, so that white pixels represent defective areas and the remaining pixels are black.
 
-<div align=center><img src="https://mmbiz.qpic.cn/mmbiz_png/Q0FNTB1XHicxJNERSSNPubP0Ga9pfKj8IkvUic7DWHgQBGDXVjJyJWaIDFkCsPPsjODMqmLrh0ZOIdXOm5ibeFz3w/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></div>
+<div align=center><img src="https://user-images.githubusercontent.com/29084184/114502747-d9363780-9c5e-11eb-9602-2b1b6de4e8d3.png"></div>
 
 <br>
 
@@ -212,7 +214,7 @@ In the dataset of the competition, there are 10,000 pieces of monitoring image d
 
 - Download Link：https://hci.iwr.uni-heidelberg.de/node/3616
 
-<div align=center><img src="https://mmbiz.qpic.cn/mmbiz_png/Z8w2ExrFgDzZJCiczwcBvkghPc7P0sMdkIcMQ8rKaEwhRKhYLnU00KuhweMiaS1Q32ZPGplzYPxyXcicH4zDPFyhQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></div>
+<div align=center><img src="https://user-images.githubusercontent.com/29084184/114502800-ea7f4400-9c5e-11eb-820d-eca9b0390cec.png"></div>
 
 <br>
 
@@ -244,7 +246,8 @@ CrackForest Dataset is an annotated road crack image database which can reflect 
 
 - Download link：https://pan.baidu.com/s/1108j5QbDr7T3XQvDxAzVpg (password：``jajn``)
 
-<div align=center><img src="https://mmbiz.qpic.cn/mmbiz_png/Z8w2ExrFgDzZJCiczwcBvkghPc7P0sMdkqUbL7Yba9cbGtjKU8JnQZkvsodS5b2xpq1ErehtEMO1ZeO52gm537A/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></div>
+<div align=center><img src="https://user-images.githubusercontent.com/29084184/114502822-f2d77f00-9c5e-11eb-8829-202d3c7f43f4.png"></div>
+
 <br>
 
 <p align=center>Figure 2. Cracks on the Bridge(left) and Cracks on the Road Surface.</p>
@@ -327,7 +330,7 @@ Repeat the background texture data set, the sample picture is as follows
 👆 [<b>BACK to Table of Contents</b> -->](#contents)
 
 
-### 14）Escalator Step Defect Dataset
+### 14）Escalator Step Defect Dataset 
 
 Offical Link：https://aistudio.baidu.com/aistudio/datasetdetail/44820
 
@@ -338,7 +341,7 @@ Offical Link：https://aistudio.baidu.com/aistudio/datasetdetail/44820
 
 In the data set, ``Normal_Insulators`` contains 600 insulator images captured by drones. ``Defective_Insulators`` contains defective insulators, and the number of defective images of insulators is 248. The data set includes data sets and labels.
 
-![image](https://user-images.githubusercontent.com/29084184/114502146-e141a780-9c5d-11eb-8763-2808dec6459f.png)
+<div align=center><img src="https://user-images.githubusercontent.com/29084184/114502146-e141a780-9c5d-11eb-8763-2808dec6459f.png"></div>
 
 Offical Link：https://github.com/InsulatorData/InsulatorDataSet
 
