@@ -121,7 +121,7 @@
 - 在八个不重叠的图像中捕获每个换向器的表面积；
 - 在受控环境中捕获图像。
 
-<div align=center><img src="https://mmbiz.qpic.cn/mmbiz_png/Z8w2ExrFgDwNaIgv9VUHeCAeXfauWU8dNvhYK1st5CuJsp4vOzcdj7jnrqy6QV29icM0ugRhHr7UcD04eb4KEIQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></div>
+<div align=center><img src="metal_surface.png"></div>
 <br>
 
 官方链接：https://www.vicos.si/Downloads/KolektorSDD
@@ -174,7 +174,7 @@ https://pan.baidu.com/s/1cfC4Ll5QlnwN5RTuSZ6b7w (提取码：``b9uy``)
 该数据库由七个不同织物结构的245张4096 x 256像素图像组成。数据库中有140个无缺陷图像，每种类型的织物20个，除此之外，有105幅纺织行业中常见的不同类型的织物缺陷（12种缺陷）图像。图像的大尺寸允许用户使用不同的窗口尺寸，从而增加了样本数量。Internet上的数据库还包含所有具有缺陷的图像的分割mask，使得白色像素表示缺陷区域，其余像素为黑色。
 
 
-<div align=center><img src="https://mmbiz.qpic.cn/mmbiz_png/Q0FNTB1XHicxJNERSSNPubP0Ga9pfKj8IkvUic7DWHgQBGDXVjJyJWaIDFkCsPPsjODMqmLrh0ZOIdXOm5ibeFz3w/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></div>
+<div align=center><img src="https://user-images.githubusercontent.com/29084184/114502747-d9363780-9c5e-11eb-9602-2b1b6de4e8d3.png"></div>
 
 <br>
 
@@ -215,7 +215,7 @@ Weakly Supervised Learning for Industrial Optical Inspection
 
 https://hci.iwr.uni-heidelberg.de/node/3616
 
-<div align=center><img src="https://mmbiz.qpic.cn/mmbiz_png/Z8w2ExrFgDzZJCiczwcBvkghPc7P0sMdkIcMQ8rKaEwhRKhYLnU00KuhweMiaS1Q32ZPGplzYPxyXcicH4zDPFyhQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></div>
+<div align=center><img src="https://user-images.githubusercontent.com/29084184/114502800-ea7f4400-9c5e-11eb-820d-eca9b0390cec.png"></div>
 
 <br>
 
@@ -243,9 +243,7 @@ https://hci.iwr.uni-heidelberg.de/node/3616
 
 ``Cracks on the surface of the construction``数据集是github上的一个项目，主要是一些基建（水泥表面裂纹），可以访问项目连接：https://github.com/cuilimeng/CrackForest-dataset 或者百度云链接：https://pan.baidu.com/s/1108j5QbDr7T3XQvDxAzVpg （提取码：``jajn``）下载。
 
-
-
-<div align=center><img src="https://mmbiz.qpic.cn/mmbiz_png/Z8w2ExrFgDzZJCiczwcBvkghPc7P0sMdkqUbL7Yba9cbGtjKU8JnQZkvsodS5b2xpq1ErehtEMO1ZeO52gm537A/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></div>
+<div align=center><img src="https://user-images.githubusercontent.com/29084184/114502822-f2d77f00-9c5e-11eb-8829-202d3c7f43f4.png"></div>
 <br>
 
 <p align=center>图2. 桥梁裂缝（左）和路面裂缝（右）</p>
@@ -338,7 +336,7 @@ RSDDs数据集中的这些缺陷已由一些专业的人类观察员在轨道表
 Defective_Insulators包含有缺陷的绝缘体，绝缘子缺陷图像的数量为248张。
 数据集中包括数据集和标签。
 
-![image](https://user-images.githubusercontent.com/29084184/114502146-e141a780-9c5d-11eb-8763-2808dec6459f.png)
+<div align=center><img src="https://user-images.githubusercontent.com/29084184/114502146-e141a780-9c5d-11eb-8763-2808dec6459f.png"></div>
 
 官方链接：InsulatorData/InsulatorDataSet
 
