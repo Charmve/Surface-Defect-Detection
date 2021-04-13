@@ -75,13 +75,13 @@ Important critical papers from year 2017 have been collected and compiled, which
 
 In the unsupervised model, only normal samples are used for training, so there is no need for defective samples. The semi-supervised method can use unlabeled samples to solve the network training problem in the case of small samples.
 
-👆 [<b>BACK to Table of Contents</b> -->](#contents)
+👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
 
 ### 2）Real-time Problem
 
 <p>The defect detection methods based on deep learning include three main links in industrial applications: <b>data annotation</b>, <b>model training</b>, and <b>model inference</b>. Real-time in actual industrial applications pays more attention to model inference. At present, most defect detection methods are concentrated in the accuracy of classification or recognition, little attention is paid to the efficiency of model inference. There are many methods for accelerating the model, such as model weighting and model pruning. In addition, although the existing deep learning model uses GPU as a general-purpose computing unit(GPGPU), with the development of technology, it is believed that FPGA will become an attractive alternative.</p>
 
-👆 [<b>BACK to Table of Contents</b> -->](#contents)
+👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
 
 ## 2. Common Datasets for Industrial Surface Defect Detection
 
@@ -98,7 +98,7 @@ NEU-CLS can be used for classification and positioning tasks.
 <div align=center><img src="https://user-images.githubusercontent.com/29084184/114502526-82306280-9c5e-11eb-9d60-011ee100e179.png"></div>
 <br>
 
-👆 [<b>BACK to Table of Contents</b> -->](#contents)
+👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
 
 ### 2）Solar Panels: elpv-dataset
 
@@ -116,7 +116,7 @@ All images are normalized with respect to size and perspective. Additionally, an
 
 <br>
 
-👆 [<b>BACK to Table of Contents</b> -->](#contents)
+👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
 
 ### 3）Metal Surface: KolektorSDD
 
@@ -146,7 +146,7 @@ For each item the defect is only visible in at least one image, while two items 
 
 <br>
 
-👆 [<b>BACK to Table of Contents</b> -->](#contents)
+👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
 
 ### 4）PCB Inspection: DeepPCB
 
@@ -164,7 +164,7 @@ For each item the defect is only visible in at least one image, while two items 
 <p align=center>Figure 1. PCB Inspection Dataset.</p>
 <br>
 
-👆 [<b>BACK to Table of Contents</b> -->](#contents)
+👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
 
 ### 5）Fabric Defects Dataset: AITEX
 
@@ -177,7 +177,7 @@ This dataset consists of 245 4096x256 pixel images with seven different fabric s
 
 <br>
 
-👆 [<b>BACK to Table of Contents</b> -->](#contents)
+👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
 
 ### 6）Fabric Defect Dataset (Tianchi)
 
@@ -192,7 +192,7 @@ This dataset covers all kinds of important defects in fabrics in the textile ind
 
 <br>
 
-👆 [<b>BACK to Table of Contents</b> -->](#contents)
+👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
 
 ### 7）Aluminium Profile Surface Defect Dataset（Tianchi）
 
@@ -208,7 +208,7 @@ In the dataset of the competition, there are 10,000 pieces of monitoring image d
 <div align=center><img src="https://mmbiz.qpic.cn/mmbiz_png/Q0FNTB1XHicxJNERSSNPubP0Ga9pfKj8IeudrVjRJ4doibxAtoMqC8LTxZemeZ9SDUzeicSAMrP3yg31MzfD4ygfA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></div>
 <br>
 
-👆 [<b>BACK to Table of Contents</b> -->](#contents)
+👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
 
 ### 8）Weakly Supervised Learning for Industrial Optical Inspection（DAGM 2007） 
 
@@ -236,7 +236,7 @@ Dataset introduction:
 
 <br>
 
-👆 [<b>BACK to Table of Contents</b> -->](#contents)
+👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
 
 ### 9）Cracks on the Surface of the Construction
 
@@ -256,7 +256,7 @@ CrackForest Dataset is an annotated road crack image database which can reflect 
 
 - <b>Crack on road surface</b>. From Shi Yong, and Cui Limeng and Qi Zhiquan and Meng Fan and Chen Zhensong. Original dataset can be reached at https://github.com/Charmve/Surface-Defect-Detection/tree/master/CrackForest. We extract the image files of the pixel level ground truth.
 
-👆 [<b>BACK to Table of Contents</b> -->](#contents)
+👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
 
 ### 10）Magnetic Tile Dataset
 
@@ -269,7 +269,7 @@ Magnetic tile dataset by githuber: abin24, which can be downloaded from [https:/
 This is also the datasets of the paper "Saliency of magnetic tile surface defects". 
 The images of 6 common magnetic tile defects were collected, and their pixel level ground-truth were labeled.
 
-👆 [<b>BACK to Table of Contents</b> -->](#contents)
+👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
 
 ### 11）RSDDs: Rail Surface Defect Datasets
 
@@ -288,7 +288,7 @@ These defects in the RSDDs dataset have been marked by professional human observ
 
 <br>
 
-👆 [<b>BACK to Table of Contents</b> -->](#contents)
+👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
 
 ### 12）Kylberg Texture Dataset v.1.0 
 
@@ -307,7 +307,7 @@ Short description
 Offical Link: http://www.cb.uu.se/~gustaf/texture/
 <br>
 
-👆 [<b>BACK to Table of Contents</b> -->](#contents)
+👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
 
 ### 13）KTH-TIPS database
 
@@ -327,7 +327,7 @@ Repeat the background texture data set, the sample picture is as follows
 
 <br>
 
-👆 [<b>BACK to Table of Contents</b> -->](#contents)
+👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
 
 
 ### 14）Escalator Step Defect Dataset 
@@ -335,7 +335,7 @@ Repeat the background texture data set, the sample picture is as follows
 Offical Link：https://aistudio.baidu.com/aistudio/datasetdetail/44820
 
 
-👆 [<b>BACK to Table of Contents</b> -->](#目录)
+👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
 
 ### 15）Transmission Line Insulator Dataset
 
@@ -346,7 +346,7 @@ In the data set, ``Normal_Insulators`` contains 600 insulator images captured by
 Offical Link：https://github.com/InsulatorData/InsulatorDataSet
 
 
-👆 [<b>BACK to Table of Contents</b> -->](#目录)
+👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
 
 ## 3. Surface Defect Detection Papers
 
@@ -356,7 +356,7 @@ Go to <a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/P
 
 <br>
 
-👆 [<b>BACK to Table of Contents</b> -->](#contents)
+👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
 
 ## Acknowledgements
 
@@ -364,14 +364,14 @@ Go to <a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/P
 
 <p>Finally, I want to thank the open source contributors of the above data set again.</p>
 
-👆 [<b>BACK to Table of Contents</b> -->](#contents)
+👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
 
 ## Download
 - Download ZIP, click [here](https://github.com/Charmve/Surface-Defect-Detection/archive/master.zip)
   <br>or run ```git clone https://github.com/Charmve/Surface-Defect-Detection.git``` in the terminal<br>
 - Chinese Mainland - 百度网盘下载链接 https://pan.baidu.com/s/122WY8F5VKqm3qMirqebRQw ``提取码:i20n``
 
-👆 [<b>BACK to Table of Contents</b> -->](#contents)
+👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
 
 ## Notification
 
