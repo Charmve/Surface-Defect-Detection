@@ -326,6 +326,25 @@ Repeat the background texture data set, the sample picture is as follows
 
 👆 [<b>BACK to Table of Contents</b> -->](#contents)
 
+
+### 14）Escalator Step Defect Dataset
+
+Offical Link：https://aistudio.baidu.com/aistudio/datasetdetail/44820
+
+
+👆 [<b>BACK to Table of Contents</b> -->](#目录)
+
+### 15）Transmission Line Insulator Dataset
+
+In the data set, ``Normal_Insulators`` contains 600 insulator images captured by drones. ``Defective_Insulators`` contains defective insulators, and the number of defective images of insulators is 248. The data set includes data sets and labels.
+
+![image](https://user-images.githubusercontent.com/29084184/114502146-e141a780-9c5d-11eb-8763-2808dec6459f.png)
+
+Offical Link：https://github.com/InsulatorData/InsulatorDataSet
+
+
+👆 [<b>BACK to Table of Contents</b> -->](#目录)
+
 ## 3. Surface Defect Detection Papers
 
 I have collected some articles on surface defect detection. The main objects to be tested are: defects or abnormal objects such as metal surfaces, LCD screens, buildings, and power lines. The methods are mainly classified method, detection method, reconstruction method and generation method. The electronic version (PDF) of the paper is placed under the file named corresponding to the date in the 'Paper' folder.
