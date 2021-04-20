@@ -4,6 +4,8 @@
 
 # Surface Defect Detection: Dataset & Papers
 
+[![License](https://badgen.net/github/license/Charmve/Surface-Defect-Detection)](LICENSE)
+
 <p>🐎📈 Constantly summarizing open source data sets in the field of surface defect research is very important. 
 Important critical papers from year 2017 have been collected and compiled, which can be viewed in the <a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers">:open_file_folder: [<b><i>Papers</i></b>]</a> folder. 🐋 </p>
 
