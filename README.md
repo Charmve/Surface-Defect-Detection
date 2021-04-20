@@ -5,7 +5,7 @@
 # Surface Defect Detection: Dataset & Papers
 <a href="https://github.com/Charmve"><img src="https://img.shields.io/badge/👓-Charmve-blue" alt="GitHub"></a>
 [![License](https://img.shields.io/github/license/Charmve/Surface-Defect-Detection)](LICENSE)
-[![Forks](https://img.shields.io/github/forks/Charmve/Surface-Defect-Detection)](https://github.com/Charmve/Surface-Defect-Detection/edit/master/README.md)
+[![Forks](https://img.shields.io/github/forks/Charmve/Surface-Defect-Detection?style=social)](https://github.com/Charmve/Surface-Defect-Detection/edit/master/README.md)
 [![Stars](https://img.shields.io/github/stars/Charmve/Surface-Defect-Detection?style=social)](https://github.com/Charmve/Surface-Defect-Detection/edit/master/README.md)
 
 <p>🐎📈 Constantly summarizing open source data sets in the field of surface defect research is very important. 
