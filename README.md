@@ -4,6 +4,7 @@
 
 # Surface Defect Detection: Dataset & Papers
 
+![Downloads](https://img.shields.io/github/downloads/Charmve/Surface-Defect-Detection)
 [![Downloads](https://img.shields.io/github/downloads/Charmve/Surface-Defect-Detection)](https://github.com/Charmve/Surface-Defect-Detection/edit/master/README.md)
 [![License](https://img.shields.io/github/license/Charmve/Surface-Defect-Detection)](LICENSE)
 [![Stars](https://img.shields.io/github/stars/Charmve/Surface-Defect-Detection?style=social)](https://github.com/Charmve/Surface-Defect-Detection/edit/master/README.md)
