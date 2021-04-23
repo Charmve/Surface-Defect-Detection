@@ -402,6 +402,10 @@ Use this bibtex to cite this repository:
 }
 ```
 
+## Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/Charmve/Surface-Defect-Detection.svg)](https://starchart.cc/Charmve/Surface-Defect-Detection)
+
 <br>
 <p align="center">Feel free to ask any questions, open a PR if you feel something can be done differently!</p>
 <h2 align="center">🌟Star this repository🌟</h2>
