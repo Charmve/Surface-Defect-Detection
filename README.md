@@ -2,7 +2,7 @@
   English | <a href="https://github.com/Charmve/Surface-Defect-Detection/blob/master/ReadmeChinese.md">简体中文</a>
 </div>
 
-# Surface Defect Detection: Dataset & Papers
+# Surface Defect Detection: Dataset & Papers <sup>📌</sup>
 <a href="https://github.com/Charmve"><img src="https://img.shields.io/badge/👓-Charmve-blue" alt="GitHub"></a>
 [![License](https://img.shields.io/github/license/Charmve/Surface-Defect-Detection)](LICENSE)
 [![Forks](https://img.shields.io/github/forks/Charmve/Surface-Defect-Detection?style=social)](https://github.com/Charmve/Surface-Defect-Detection/edit/master/README.md)
@@ -48,6 +48,7 @@ Important critical papers from year 2017 have been collected and compiled, which
   - [Repeat the Background Texture Dataset: KTH-TIPS](#13KTH-TIPS-database)
   - [Escalator Step Defect Dataset](#14Escalator-Step-Defect-Dataset) 
   - [Transmission Line Insulator Dataset](#15Transmission-Line-Insulator-Dataset)
+  - [MVTEC ITODD](#16MVTEC-ITODD)
 - [Papers](#3-surface-defect-detection-papers)
 - [Acknowledgements](#acknowledgements)
 - [Download](#download)
@@ -93,7 +94,7 @@ In the unsupervised model, only normal samples are used for training, so there i
 
 NEU-CLS can be used for classification and positioning tasks.
 
-- Official Link：http://faculty.neu.edu.cn/yunhyan/NEU_surface_defect_database.html
+- 🔗 Official Link：http://faculty.neu.edu.cn/yunhyan/NEU_surface_defect_database.html
 
 <div align=center><img src="https://img-blog.csdnimg.cn/20200927223042720.png"></div>
 
@@ -108,7 +109,7 @@ NEU-CLS can be used for classification and positioning tasks.
 
 <p>A dataset of functional and defective solar cells extracted from EL images of solar modules.</p>
 
-- link：https://github.com/zae-bayern/elpv-dataset
+- 🔗 link：https://github.com/zae-bayern/elpv-dataset
 
 
 <div align=center><img src="https://img-blog.csdnimg.cn/20200927192329402.png"></div>
@@ -154,7 +155,7 @@ For each item the defect is only visible in at least one image, while two items 
 
 ### 4）PCB Inspection: DeepPCB
 
-- Download Link：https://github.com/Charmve/Surface-Defect-Detection/tree/master/DeepPCB
+- 🔗 Download Link：https://github.com/Charmve/Surface-Defect-Detection/tree/master/DeepPCB
 
 <div align=center><img src="https://github.com/tangsanli5201/DeepPCB/blob/master/fig/test.jpg" width="375" style="margin:20">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -172,7 +173,7 @@ For each item the defect is only visible in at least one image, while two items 
 
 ### 5）Fabric Defects Dataset: AITEX
 
-- Download Link：https://pan.baidu.com/s/1cfC4Ll5QlnwN5RTuSZ6b7w (password：``b9uy``)
+- 🔗 Download Link：https://pan.baidu.com/s/1cfC4Ll5QlnwN5RTuSZ6b7w (password：``b9uy``)
 
 
 This dataset consists of 245 4096x256 pixel images with seven different fabric structures. There are 140 non-defect images in the dataset, 20 of each type of fabric. In addition, there are 105 images of different types of fabric defects (12 types) common in the textile industry. The image size allows users to use different window sizes, thereby the number of samples can be increased. The online dataset also contains segmentation masks of all defective images, so that white pixels represent defective areas and the remaining pixels are black.
@@ -185,7 +186,7 @@ This dataset consists of 245 4096x256 pixel images with seven different fabric s
 
 ### 6）Fabric Defect Dataset (Tianchi)
 
-- Download Link：https://pan.baidu.com/s/1LMbujxvr5iB3SwjFGYHspA (password：``gat2``)
+- 🔗 Download Link：https://pan.baidu.com/s/1LMbujxvr5iB3SwjFGYHspA (password：``gat2``)
 
 
 In the actual production process of cloth, due to the influence of various factors, defects such as stains, holes, lint, etc. will occur. In order to ensure the quality of the product, the cloth needs to be inspected for defects. 
@@ -200,7 +201,7 @@ This dataset covers all kinds of important defects in fabrics in the textile ind
 
 ### 7）Aluminium Profile Surface Defect Dataset（Tianchi）
 
-- Download Link：https://tianchi.aliyun.com/competition/entrance/231682/information
+- 🔗 Download Link：https://tianchi.aliyun.com/competition/entrance/231682/information
 
 Due to the influence of various factors in the actual production process of aluminum profile, the surface of the aluminum profile will have cracks, peeling, scratches and other defects, which will seriously affect the quality of the aluminum profile. To ensure product quality, manual visual inspection is required. However, the surface of the aluminum profile itself contains textures, which are not highly distinguishable from defects. 
 
@@ -216,7 +217,7 @@ In the dataset of the competition, there are 10,000 pieces of monitoring image d
 
 ### 8）Weakly Supervised Learning for Industrial Optical Inspection（DAGM 2007） 
 
-- Download Link：https://hci.iwr.uni-heidelberg.de/node/3616
+- 🔗 Download Link：https://hci.iwr.uni-heidelberg.de/node/3616
 
 <div align=center><img src="https://user-images.githubusercontent.com/29084184/114502800-ea7f4400-9c5e-11eb-820d-eca9b0390cec.png"></div>
 
@@ -308,7 +309,7 @@ Short description
 - One directory per texture class.
 - Files are named as follows: ``blanket1-d-p011-r180.png``, where ``blanket1`` is the class name, ``d`` original image sample number (possible values are a, b, c, or d), ``p011`` is patch number 11, ``r180`` patch rotated 180 degrees.
 
-Offical Link: http://www.cb.uu.se/~gustaf/texture/
+🔗 Offical Link: http://www.cb.uu.se/~gustaf/texture/
 <br>
 
 👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
@@ -336,7 +337,7 @@ Repeat the background texture data set, the sample picture is as follows
 
 ### 14）Escalator Step Defect Dataset 
 
-Offical Link：https://aistudio.baidu.com/aistudio/datasetdetail/44820
+🔗 Offical Link：https://aistudio.baidu.com/aistudio/datasetdetail/44820
 
 
 👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
@@ -347,10 +348,31 @@ In the data set, ``Normal_Insulators`` contains 600 insulator images captured by
 
 <div align=center><img src="https://user-images.githubusercontent.com/29084184/114502146-e141a780-9c5d-11eb-8763-2808dec6459f.png"></div>
 
-Offical Link：https://github.com/InsulatorData/InsulatorDataSet
+🔗 Offical Link：https://github.com/InsulatorData/InsulatorDataSet
 
 
 👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
+
+### 16）MVTEC ITODD
+
+The **MVTec Industrial 3D Object Detection Dataset (MVTec ITODD)** is a public dataset for 3D object detection and pose estimation with a strong focus on industrial settings and applications.
+
+The dataset consists of
+
+- 28 objects and 3500 labeled scenes containing instances of these objects
+- Five sensors (two 3D sensors and three grayscale cameras) observing each scene
+
+More information can be found in [this PDF file](https://www.mvtec.com/fileadmin/Redaktion/mvtec.com/company/research/datasets/mvtec_itodd.pdf) 🔍.
+
+<div align=center>
+  <img src="https://user-images.githubusercontent.com/29084184/116064293-73af6580-a6b8-11eb-881d-92e3943a6be7.png">
+</div>
+
+🔗 Download link https://www.mvtec.com/company/research/datasets/mvtec-itodd
+
+👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
+
+<br>
 
 ## 3. Surface Defect Detection Papers
 
