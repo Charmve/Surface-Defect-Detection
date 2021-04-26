@@ -38,6 +38,7 @@
   - [重复背景纹理数据集 KTH-TIPS](#13KTH-TIPS-database)
   - [手扶电梯梯级缺陷数据集](#14手扶电梯梯级缺陷数据集)
   - [输电线路绝缘子数据集](#15输电线路绝缘子数据集)
+  - [MVTec 异常检测数据集](#16MVTec-异常检测数据集)
 - [论文集](#三表面缺陷检测论文集)
 - [致谢](#致谢)
 - [下载方式](#下载方式)
@@ -201,7 +202,7 @@ https://tianchi.aliyun.com/competition/entrance/231682/information
 
 数据集介绍：在铝型材的实际生产过程中，由于各方面因素的影响，铝型材表面会产生裂纹、起皮、划伤等瑕疵，这些瑕疵会严重影响铝型材的质量。为保证产品质量，需要人工进行肉眼目测。然而，铝型材的表面自身会含有纹路，与瑕疵的区分度不高。传统人工肉眼检查十分费力，不能及时准确的判断出表面瑕疵，质检的效率难以把控。近年来，深度学习在图像识别等领域取得了突飞猛进的成果。铝型材制造商迫切希望采用最新的AI技术来革新现有质检流程，自动完成质检任务，减少漏检发生率，提高产品的质量，使铝型材产品的生产管理者彻底摆脱了无法全面掌握产品表面质量的状态。大赛数据集里有1万份来自实际生产中有瑕疵的铝型材监测影像数据，每个影像包含一个或多种瑕疵。供机器学习的样图会明确标识影像中所包含的瑕疵类型。
 
-<div align=center><img src="https://mmbiz.qpic.cn/mmbiz_png/Q0FNTB1XHicxJNERSSNPubP0Ga9pfKj8IeudrVjRJ4doibxAtoMqC8LTxZemeZ9SDUzeicSAMrP3yg31MzfD4ygfA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></div>
+<div align=center><img src="https://img-blog.csdnimg.cn/20200927192449686.png"></div>
 
 <br>
 
@@ -343,6 +344,18 @@ Defective_Insulators包含有缺陷的绝缘体，绝缘子缺陷图像的数量
 
 👆 [<b>BACK to Table of Contents</b> -->](#目录)
 
+
+### 16）MVTec 异常检测数据集
+
+数据网站：http://www.mvtec.com/company/research/datasets
+
+该数据集包含15个类别的物体和纹理共5K+张彩色图像。15个类别中涵盖了不同类型的规则纹理(地毯，格子)和随机纹理(皮革，瓷砖，木材)。除外还有：瓶子、金属螺母，电缆等。异常样本图像包含多种缺陷，缺陷是手工生成的。所有的图像分辨率都在700×700和1024×1024像素之间。该数据集并给出了ground truth。
+
+<div align=center>
+  <img src="https://user-images.githubusercontent.com/29084184/116064293-73af6580-a6b8-11eb-881d-92e3943a6be7.png">
+</div>
+
+<br>
 
 ## 三、表面缺陷检测论文集
 
