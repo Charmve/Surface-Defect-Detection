@@ -210,7 +210,7 @@ Traditional manual visual inspection methods have many shortcomings, which are v
 In the dataset of the competition, there are 10,000 pieces of monitoring image data from aluminum profiles with defects in actual production, and each image contains one or more defects. The sample image for machine learning will clearly identify the type of defect contained in the image.
 
 
-<div align=center><img src="https://mmbiz.qpic.cn/mmbiz_png/Q0FNTB1XHicxJNERSSNPubP0Ga9pfKj8IeudrVjRJ4doibxAtoMqC8LTxZemeZ9SDUzeicSAMrP3yg31MzfD4ygfA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></div>
+<div align=center><img src="https://img-blog.csdnimg.cn/20200927192449686.png"></div>
 <br>
 
 👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
@@ -318,9 +318,10 @@ Short description
 
 Repeat the background texture data set, the sample picture is as follows
 
-![image](https://user-images.githubusercontent.com/29084184/112747807-4359a600-8fea-11eb-98b1-0656aa3a3ac7.png)
-
-![image](https://user-images.githubusercontent.com/29084184/112747810-4eacd180-8fea-11eb-8aa6-a1b2803fa5c1.png)
+<div align=center>
+  <img src="https://user-images.githubusercontent.com/29084184/112747807-4359a600-8fea-11eb-98b1-0656aa3a3ac7.png">
+  <img src="https://user-images.githubusercontent.com/29084184/112747810-4eacd180-8fea-11eb-8aa6-a1b2803fa5c1.png">
+</div>
 
 - Offical Link:https://www.nada.kth.se/cvap/databases/kth-tips/download.html
 
@@ -339,6 +340,7 @@ Repeat the background texture data set, the sample picture is as follows
 
 🔗 Offical Link：https://aistudio.baidu.com/aistudio/datasetdetail/44820
 
+<br>
 
 👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
 
