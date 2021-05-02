@@ -8,7 +8,7 @@
 [![Forks](https://img.shields.io/github/forks/Charmve/Surface-Defect-Detection?style=social)](https://github.com/Charmve/Surface-Defect-Detection/edit/master/README.md)
 [![Stars](https://img.shields.io/github/stars/Charmve/Surface-Defect-Detection?style=social)](https://github.com/Charmve/Surface-Defect-Detection/edit/master/README.md)
 
-<p>🐎📈 Constantly summarizing open source data sets in the field of surface defect research is very important. 
+<p>📈 Constantly summarizing open source dataset and critical papers in the field of surface defect research which are of great importance.
 Important critical papers from year 2017 have been collected and compiled, which can be viewed in the <a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers">:open_file_folder: [<b><i>Papers</i></b>]</a> folder. 🐋 </p>
 
 <div align=center><img src="metal_surface.png"></div>
