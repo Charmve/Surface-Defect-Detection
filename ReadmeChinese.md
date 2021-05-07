@@ -373,7 +373,8 @@ Defective_Insulators包含有缺陷的绝缘体，绝缘子缺陷图像的数量
 
 > 感谢 @Beñat Gartzia 的推荐和大家的关注和支持!
 
-👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
+
+👆 [<b>BACK to Table of Contents</b> -->](#目录)
 
 <br>
 
