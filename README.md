@@ -49,6 +49,7 @@ Important critical papers from year 2017 have been collected and compiled, which
   - [Escalator Step Defect Dataset](#14Escalator-Step-Defect-Dataset) 
   - [Transmission Line Insulator Dataset](#15Transmission-Line-Insulator-Dataset)
   - [MVTEC ITODD](#16MVTEC-ITODD)
+  - [BSData](#17BSData-dataset-for-Instance-Segmentation-and-industrial-Wear-Forecasting)
 - [Papers](#3-surface-defect-detection-papers)
 - [Acknowledgements](#acknowledgements)
 - [Download](#download)
@@ -374,6 +375,28 @@ More information can be found in [this PDF file](https://www.mvtec.com/fileadmin
 
 👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
 
+### 17）BSData - dataset for Instance Segmentation and industrial Wear Forecasting
+
+The dataset contains 1104 channel 3 images with 394 image-annotations for the surface damage 
+type “pitting”. The annotations made with the annotation tool [labelme](https://github.com/wkentaro/labelme), 
+are available in ``JSON`` format and hence convertible to VOC and COCO format. All images come from two BSD types. 
+
+The other BSD type is shown on 325 images with two image-sizes. Since all images of this type have been taken with continuous 
+time the degree of soiling is evolving.
+
+Also, the dataset contains as above mentioned 27 pitting development sequences with every 69 images.
+
+<p align=center>
+  <img src="https://user-images.githubusercontent.com/29084184/117390517-eaeac200-af20-11eb-83d9-a2db0fc12b21.png">
+  Figure 5. On the left image-examples, on the right associated PNG-Annotations.
+</p>
+
+🔗 Offical link https://github.com/2Obe/BSData
+
+> Sincerely, thank @Beñat Gartzia for his recommendation and all your attention!
+
+👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
+
 <br>
 
 ## 3. Surface Defect Detection Papers
@@ -411,6 +434,7 @@ If you have any questions or idea, please let me know :email: yidazhang1@gmail.c
 - Github <a href="https://github.com/Charmve/Surface-Defect-Detection/discussions" target="_blank">discussions 💬</a> or <a href="https://github.com/Charmve/Surface-Defect-Detection/issues" target="_blank">issues 💭</a>
 
 - QQ Group: 734758251 (password：哈哈哈)
+- WeChat Group ID: Yida_Zhang2
 - Email: yidazhang1#gmail.com 
 
 ## Citation
