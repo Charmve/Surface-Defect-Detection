@@ -39,6 +39,7 @@
   - [手扶电梯梯级缺陷数据集](#14手扶电梯梯级缺陷数据集)
   - [输电线路绝缘子数据集](#15输电线路绝缘子数据集)
   - [MVTec 异常检测数据集](#16MVTec-异常检测数据集)
+  - [BSData-用于实例细分和工业磨损预测的数据集](#17BSData-用于实例细分和工业磨损预测的数据集)
 - [论文集](#三表面缺陷检测论文集)
 - [致谢](#致谢)
 - [下载方式](#下载方式)
@@ -355,6 +356,25 @@ Defective_Insulators包含有缺陷的绝缘体，绝缘子缺陷图像的数量
   <img src="https://user-images.githubusercontent.com/29084184/116064293-73af6580-a6b8-11eb-881d-92e3943a6be7.png">
 </div>
 
+### 17）BSData-用于实例细分和工业磨损预测的数据集
+
+该数据集包含1104个通道3个图像，带有394个图像注释，用于表面损伤输入“点蚀pitting”。 使用注释工具[labelme](https://github.com/wkentaro/labelme) 进行的注释，可提供``JSON``格式，因此可以转换为VOC和COCO格式。 所有图像都来自两种BSD类型。
+
+另一种BSD类型显示在325张具有两种图像尺寸的图像上。 由于所有此类图像都是连续拍摄的，因此有不同程度的污染。
+
+另外，数据集每69张图像包含如上所述的27个点蚀显影序列。
+
+<p align=center>
+  <img src="https://user-images.githubusercontent.com/29084184/117390517-eaeac200-af20-11eb-83d9-a2db0fc12b21.png">
+  Figure 5. On the left image-examples, on the right associated PNG-Annotations.
+</p>
+
+🔗 Offical link https://github.com/2Obe/BSData
+
+> 感谢 @Beñat Gartzia 的推荐和大家的关注和支持!
+
+👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
+
 <br>
 
 ## 三、表面缺陷检测论文集
@@ -369,7 +389,7 @@ Defective_Insulators包含有缺陷的绝缘体，绝缘子缺陷图像的数量
 
 ## 致谢
 
-<p>你能看到这个项目，我们应当感谢上述数据集最初的开源的人，他们给我们的学习和研究工作带来了极大的帮助。这个数据集的收集想法起初来自于看了“AI算法修炼营”SFXiang的一篇关于表面缺陷检测的文章，促使我整理一份更为全面的数据集。论文集来自于一位叫“庆志的小徒弟”的CSDNer，现在论文收集只到19年11月份，之后会继续完善。<strong>同时，希望能有更多小伙伴上传新的数据集。Feel free to <a href="https://github.com/Charmve/Surface-Defect-Detection/blob/master/CONTRIBUTING.md" target="_blank">CONTRIBUTE</a>.</strong></p>
+<p>你能看到这个项目，我们应当感谢上述数据集最初开源的人，他们给我们的学习和研究工作带来了极大的帮助。这个数据集的收集想法起初来自于看了“AI算法修炼营”SFXiang的一篇关于表面缺陷检测的文章，促使我整理一份更为全面的数据集。论文集来自于一位叫“庆志的小徒弟”的CSDNer，现在论文收集只到2019年11月份，之后会继续完善。<strong>同时，希望能有更多小伙伴上传新的数据集。Feel free to <a href="https://github.com/Charmve/Surface-Defect-Detection/blob/master/CONTRIBUTING.md" target="_blank">CONTRIBUTE</a>.</strong></p>
 
 <p>最后，我想再次感谢以上数据集的开源贡献者。</p>
 
@@ -395,9 +415,9 @@ Defective_Insulators包含有缺陷的绝缘体，绝缘子缺陷图像的数量
 ## 🍮 表面缺陷检测交流群
 - Github <a href="https://github.com/Charmve/Surface-Defect-Detection/discussions" target="_blank">discussions 💬</a> or <a href="https://github.com/Charmve/Surface-Defect-Detection/issues" target="_blank">issues 💭</a>
 
-- QQ Group: 734758251 (密码：哈哈哈)
-- Email: yidazhang1#gmail.com 
-
+- QQ群: 734758251 (密码：哈哈哈)
+- 微信群：加我拉你进群 Yida_Zhang2
+- Email: yidazhang1#gmail.com
 
 ## 引用方式
 Use this bibtex to cite this repository:
@@ -411,6 +431,10 @@ Use this bibtex to cite this repository:
   howpublished={\url{https://github.com/Charmve/Surface-Defect-Detection}},
 }
 ```
+
+## Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/Charmve/Surface-Defect-Detection.svg)](https://starchart.cc/Charmve/Surface-Defect-Detection)
 
 <br>
 * <i>Update on Dec 21，2020 @<a href="https://github.com/Charmve" target="_blank">Charmve</a>, 
