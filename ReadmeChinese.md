@@ -24,6 +24,7 @@
   - [实时性问题](#2实时性问题)
 - [常用数据集](#二工业表面缺陷检测常用数据集)
   - [钢材表面数据集：NEU-CLS](#1钢材表面数据集neu-cls)
+  - [钢材表面数据集：Severstal(Kaggle)](#kaggle---钢材表面数据集severstal)
   - [太阳能板数据集：elpv-dataset](#2太阳能板数据集elpv-dataset)
   - [金属表面数据集：KolektorSDD](#3金属表面数据集kolektorsdd)
   - [PCB板检测数据集：DeepPCB](#4pcb板检测数据集deeppcb)
@@ -93,6 +94,7 @@
 
 <div align=center><img src="https://img-blog.csdnimg.cn/20200927192308283.png"></div>
 
+<br>
 <img align="right" alt="Severstal: Steel Defect Detection" src="https://user-images.githubusercontent.com/29084184/119592872-ddcc3f00-be0b-11eb-9d2e-6b1bc9216c89.png" width="150" title="Severstal: Steel Defect Detection">
 
 ### Kaggle - 钢材表面数据集：Severstal
