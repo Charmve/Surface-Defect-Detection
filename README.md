@@ -34,6 +34,7 @@ Important critical papers from year 2017 have been collected and compiled, which
   - [Real-time Problem](#2real-time-problem)
 - [Common Datasets](#2-common-datasets-for-industrial-surface-defect-detection)
   - [Steel Surface: NEU-CLS](#1steel-surface-neu-cls)
+  - [Kaggle - Severstal: Steel Defect Detection](#kaggle---severstal-steel-defect-detection)
   - [Solar Panels: elpv-dataset](#2solar-panels-elpv-dataset)
   - [Metal Surface: KolektorSDD](#3metal-surface-kolektorsdd)
   - [PCB Inspection: DeepPCB](#4pcb-inspection-deeppcb)
@@ -105,7 +106,7 @@ NEU-CLS can be used for classification and positioning tasks.
 
 ### Kaggle - Severstal: Steel Defect Detection
 
-<img align="right" alt="Severstal: Steel Defect Detection" src="https://user-images.githubusercontent.com/29084184/119592872-ddcc3f00-be0b-11eb-9d2e-6b1bc9216c89.png" width="120" title="Severstal: Steel Defect Detection">
+<img align="right" alt="Severstal: Steel Defect Detection" src="https://user-images.githubusercontent.com/29084184/119592872-ddcc3f00-be0b-11eb-9d2e-6b1bc9216c89.png" width="150" title="Severstal: Steel Defect Detection">
 
 Severstal is leading the charge in efficient steel mining and production. They believe the future of metallurgy requires development across the economic, ecological, and social aspects of the industry—and they take corporate responsibility seriously. The company recently created the country’s largest industrial data lake, with petabytes of data that were previously discarded. Severstal is now looking to machine learning to improve automation, increase efficiency, and maintain high quality in their production.
 
