@@ -92,6 +92,15 @@
 由东北大学（NEU）发布的表面缺陷数据库，收集了热轧钢带的六种典型表面缺陷，即轧制氧化皮（RS），斑块（Pa），开裂（Cr），点蚀表面（ PS），内含物（In）和划痕（Sc）。该数据库包括1,800个灰度图像：六种不同类型的典型表面缺陷，每一类缺陷包含300个样本。对于缺陷检测任务，数据集提供了注释，指示每个图像中缺陷的类别和位置。对于每个缺陷，黄色框是指示其位置的边框，绿色标签是类别分数。
 
 <div align=center><img src="https://img-blog.csdnimg.cn/20200927192308283.png"></div>
+
+<img align="right" alt="Severstal: Steel Defect Detection" src="https://user-images.githubusercontent.com/29084184/119592872-ddcc3f00-be0b-11eb-9d2e-6b1bc9216c89.png" width="150" title="Severstal: Steel Defect Detection">
+
+### Kaggle - 钢材表面数据集：Severstal
+
+Severstal在高效的钢矿开采和生产方面处于领先地位。 他们认为，冶金的未来需要在该行业的经济，生态和社会各方面进行发展，并且他们认真对待企业责任。 该公司最近创建了该国最大的工业数据湖，其中存储了PB级的数据，这些数据先前已被丢弃。 Severstal现在正在寻求机器学习，以提高自动化程度，提高效率并保持生产的高质量。
+
+https://www.kaggle.com/c/severstal-steel-defect-detection
+
 <br>
 
 👆 [<b>BACK to Table of Contents</b> -->](#目录)
