@@ -3,7 +3,7 @@
 </div>
 
 # Surface Defect Detection: Dataset & Papers <sup>📌</sup>
-<a href="https://github.com/Charmve"><img src="https://img.shields.io/badge/👓-Charmve-blue" alt="GitHub"></a>
+<a href="https://github.com/Charmve"><img src="https://img.shields.io/badge/GitHub-@Charmve-000000.svg?logo=GitHub" alt="GitHub" target="_blank"></a>
 [![License](https://img.shields.io/github/license/Charmve/Surface-Defect-Detection)](LICENSE)
 [![Forks](https://img.shields.io/github/forks/Charmve/Surface-Defect-Detection?style=social)](https://github.com/Charmve/Surface-Defect-Detection/edit/master/README.md)
 [![Stars](https://img.shields.io/github/stars/Charmve/Surface-Defect-Detection?style=social)](https://github.com/Charmve/Surface-Defect-Detection/edit/master/README.md)
