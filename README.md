@@ -52,7 +52,8 @@ Important critical papers from year 2017 have been collected and compiled, which
   - [Transmission Line Insulator Dataset](#15Transmission-Line-Insulator-Dataset)
   - [MVTEC ITODD](#16MVTEC-ITODD)
   - [BSData](#17bsdata---dataset-for-instance-segmentation-and-industrial-wear-forecasting)
-- [Papers](#3-surface-defect-detection-papers)
+- [More Inventory](#3-more-inventory-of-the-best-data-set-sources)
+- [Papers](#4-surface-defect-detection-papers)
 - [Acknowledgements](#acknowledgements)
 - [Download](#download)
 - [Notification](#notification)
@@ -410,7 +411,25 @@ Also, the dataset contains as above mentioned 27 pitting development sequences w
 
 <br>
 
-## 3. Surface Defect Detection Papers
+## 3. More Inventory of the Best Data Set Sources
+
+I have been collecting surface defect detection data sets, but there are still many data sets that have not been collected. For the data sets not collected in this repo, you can go to the following sites to view. <b>At the same time, everyone is very welcome to share the new data set and become the contributor of this repo.</b>
+
+![Contributions welcome](https://img.shields.io/badge/contributing-👐%20Welcome-orange.svg)
+
+|source|url|Recommended|
+|--|--|--|
+|Kaggle|https://www.kaggle.com/datasets|⭐⭐⭐⭐⭐|
+|Paper With Code |https://paperwithcode.com/sota|⭐⭐⭐⭐⭐|
+|Registry of Open Data on AWS|https://registry.opendata.aws|⭐⭐⭐|
+|Microsoft Research Open Data|https://msropendata.com |⭐⭐⭐|
+|Awesome-public-datasets|https://github.com/awesomedata/awesome-public-datasets |⭐⭐|
+
+👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
+
+<br>
+
+## 4. Surface Defect Detection Papers
 
 I have collected some articles on surface defect detection. The main objects to be tested are: defects or abnormal objects such as metal surfaces, LCD screens, buildings, and power lines. The methods are mainly classified method, detection method, reconstruction method and generation method. The electronic version (PDF) of the paper is placed under the file named corresponding to the date in the 'Paper' folder.
 
@@ -454,6 +473,52 @@ Support this project by becoming a sponsor. Your logo will show up here with a l
 
 <a href="https://opencollective.com/surfacedd#sponsors" target="_blank"><img src="https://opencollective.com/surfacedd/sponsors.svg?width=890"></a>
 
+<br>
+<div class="sponsor-level">
+    <h2 align="center">Our Backers</h2>
+    <h4 align="center"><em>Waiting for you, code with ❤️ ！</em></h4>
+    <!--<h3><em>Waiting for you, Code with ❤️ ！</em></h3>-->
+    <a href="https://opencollective.com/surfacedd#backers" target="_blank"><img src="https://opencollective.com/surfacedd/backers.svg?width=200"></a>
+    <table align="center">
+      <tbody>
+	 <th>
+	   <td>
+		   date 📅 
+	   </td>
+	   <td>
+		   boss 👵 
+	   </td>
+	   <td>
+		   amount 💰
+	   </td>
+	   <td>
+		   way ♥️
+	   </td>
+	   <td>
+		   message :speech_balloon:
+	   </td>
+	 </th>
+	 <tr>
+           <td>
+		   01
+	   </td>
+           <td>
+	   </td>
+           <td>
+	   </td>
+           <td>
+	   </td>
+           <td>
+	   </td>
+           <td>
+	   </td>
+         </tr>
+      </tbody>
+    </table>
+    <br>
+    <sup>* <b>Note</b>: Because WeChat and Alipay do not support personal interface calls, the information on the sponsorship list is manually added by me, and there may be a delay in updating. Just in case, you can also initiate an Issue stating your corresponding sponsorship and the help you want to get. I will close the corresponding Issue after adding/solving.</sup>
+</div>
+
 ## Citation
 Use this bibtex to cite this repository:
 ```
@@ -477,7 +542,7 @@ Use this bibtex to cite this repository:
 <p align="center">Created by <a href="https://github.com/Charmve">Charmve</a> & <a href="https://github.com/MaiweiAI">maiwei.ai</a> Community | Deployed on <a href="https://www.kaggle.com/yidazhang07/bridge-cracks-image">Kaggle</a></p>
 
 <br>
-* <i>Update on Dec 21，2020 @<a href="https://github.com/Charmve" target="_blank">Charmve</a>, 
+* <i>Update on Sep 17, 2021 @<a href="https://github.com/Charmve" target="_blank">Charmve</a>, 
     <a class="github-button"
         href="https://github.com/Charmve/Surface-Defect-Detection"
         data-icon="octicon-star" data-show-count="true"
