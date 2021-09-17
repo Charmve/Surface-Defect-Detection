@@ -2,7 +2,7 @@
   <a href="https://github.com/Charmve/Surface-Defect-Detection">English</a> | 简体中文
 </div>
 
-# 工业场景表面缺陷检测数据集及论文集
+# 工业场景表面缺陷检测数据集及论文集 ![Contributions welcome](https://img.shields.io/badge/contributing-👐%20Welcome-orange.svg)
 
 我不断总结表面缺陷研究领域中的开源数据集（这个非常关键），收集整理了自17年以来的重要论文，可以在<a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers">:open_file_folder: [<b><i>Papers</i></b>]</a>文件夹下查看。 🐋
 
@@ -41,6 +41,7 @@
   - [输电线路绝缘子数据集](#15输电线路绝缘子数据集)
   - [MVTec 异常检测数据集](#16MVTec-异常检测数据集)
   - [BSData-用于实例细分和工业磨损预测的数据集](#17BSData-用于实例细分和工业磨损预测的数据集)
+- [最佳数据集来源盘点](#最佳数据集来源盘点)
 - [论文集](#三表面缺陷检测论文集)
 - [致谢](#致谢)
 - [下载方式](#下载方式)
@@ -389,7 +390,27 @@ Defective_Insulators包含有缺陷的绝缘体，绝缘子缺陷图像的数量
 
 <br>
 
-## 三、表面缺陷检测论文集
+## 三、最佳数据集来源盘点
+
+我一直在收集表面缺陷检测数据集，但依然还有很多方向的数据集未收集到。大家对于本 repo 未收集到的数据集，可以到以下几个站点查看。<b>同时，十分欢迎大家分享新的数据集，成为本项目的共同维护者。</b>
+
+![Contributions welcome](https://img.shields.io/badge/contributing-👐%20Welcome-orange.svg)
+
+|站点|链接|推荐指数|
+|--|--|--|
+|Kaggle|https://www.kaggle.com/datasets|⭐⭐⭐⭐⭐|
+|Paper With Code |https://paperwithcode.com/sota|⭐⭐⭐⭐⭐|
+|亚马逊数据集|https://registry.opendata.aws|⭐⭐⭐|
+|UCI机器学习库|https://archive.ics.uci.edu/ml/datasets.html |⭐⭐⭐|
+|谷歌的数据集搜索引擎|https://toolbox.google.com/datasetsearch |⭐⭐⭐⭐|
+|微软数据集|https://msropendata.com |⭐⭐⭐|
+|Awesome公共数据集|https://github.com/awesomedata/awesome-public-datasets |⭐⭐|
+
+👆 [<b>BACK to Table of Contents</b> -->](#目录)
+
+<br>
+
+## 四、表面缺陷检测论文集
 
 收集一些表面缺陷检测的文章，主要检测对象是：金属表面、LCD屏、建筑、输电线等缺陷或异常检物。方法以分类方法、检测方法、重构方法、生成方法为主。电子版论文放在了paper文件的对应日期文件下。
 
