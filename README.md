@@ -447,6 +447,27 @@ Go to <a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/P
 
 👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
 
+<br>
+
+<a href="https://charmve.github.io/sponsor.html"><img align="left" alt="Go for it!" src="https://github.com/Charmve/computer-vision-in-action/blob/main/res/ui/frontpage/2020-sponsors.svg" height="120" title="Do what you like, and do it best!"/></a>
+
+## &nbsp;&nbsp; Supporting
+
+&nbsp;&nbsp;&nbsp;&nbsp;  Support this project by becoming a sponsor. Your name and/or logo will show up <b>our homepage</b> with a link to your website. 🙏
+
+<br>
+<p align="center">
+    <a href="https://charmve.github.io/sponsor.html" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Sponse this project" width="300" ></a>
+</p>
+
+<div align="left">
+    <a href="https://opencollective.com/surfacedd#sponsors" target="_blank"><img src="https://opencollective.com/l0cv/sponsors.svg?width=200"></a>
+</div>
+
+<br>
+
+👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
+
 ## Download
 - Download ZIP, click [here](https://github.com/Charmve/Surface-Defect-Detection/archive/master.zip)
   <br>or run ```git clone https://github.com/Charmve/Surface-Defect-Detection.git``` in the terminal<br>
