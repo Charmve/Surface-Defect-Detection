@@ -352,7 +352,7 @@ Defective_Insulators包含有缺陷的绝缘体，绝缘子缺陷图像的数量
 
 <div align=center><img src="https://user-images.githubusercontent.com/29084184/114502146-e141a780-9c5d-11eb-8763-2808dec6459f.png"></div>
 
-官方链接：InsulatorData/InsulatorDataSet
+官方链接：https://github.com/InsulatorData/InsulatorDataSet
 
 
 👆 [<b>BACK to Table of Contents</b> -->](#目录)
@@ -425,6 +425,27 @@ Defective_Insulators包含有缺陷的绝缘体，绝缘子缺陷图像的数量
 <p>你能看到这个项目，我们应当感谢上述数据集最初开源的人，他们给我们的学习和研究工作带来了极大的帮助。这个数据集的收集想法起初来自于看了“AI算法修炼营”SFXiang的一篇关于表面缺陷检测的文章，促使我整理一份更为全面的数据集。论文集来自于一位叫“庆志的小徒弟”的CSDNer，现在论文收集只到2019年11月份，之后会继续完善。<strong>同时，希望能有更多小伙伴上传新的数据集。Feel free to <a href="https://github.com/Charmve/Surface-Defect-Detection/blob/master/CONTRIBUTING.md" target="_blank">CONTRIBUTE</a>.</strong></p>
 
 <p>最后，我想再次感谢以上数据集的开源贡献者。</p>
+
+<br>
+
+👆 [<b>BACK to Table of Contents</b> -->](#目录)
+
+<br>
+
+<a href="https://charmve.github.io/sponsor.html"><img align="left" alt="Go for it!" src="https://github.com/Charmve/computer-vision-in-action/blob/main/res/ui/frontpage/2020-sponsors.svg" height="120" title="Do what you like, and do it best!"/></a>
+
+## &nbsp;&nbsp; Supporting
+
+&nbsp;&nbsp;&nbsp;&nbsp;  Support this project by becoming a sponsor. Your logo will show up <b>our homepage</b> with a link to your website. 🙏
+
+<br>
+<p align="center">
+    <a href="https://charmve.github.io/sponsor.html" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Sponse this project" width="300" ></a>
+</p>
+
+<div align="left">
+    <a href="https://opencollective.com/surfacedd#sponsors" target="_blank"><img src="https://opencollective.com/l0cv/sponsors.svg?width=200"></a>
+</div>
 
 <br>
 
