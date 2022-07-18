@@ -87,7 +87,9 @@
 
 <b>（可用于分类、定位任务）</b>
 
-地址：http://faculty.neu.edu.cn/yunhyan/NEU_surface_defect_database.html
+- :x: 地址：http://faculty.neu.edu.cn/yunhyan/NEU_surface_defect_database.html 
+
+<b> 最新可用地址 🔗 http://faculty.neu.edu.cn/songkechen/zh_CN/zdylm/263270/list/ - ([#16](https://github.com/Charmve/Surface-Defect-Detection/issues/16)) </b>
 
 <div align=center><img src="https://img-blog.csdnimg.cn/20200927223042720.png"></div>
 
