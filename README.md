@@ -98,7 +98,9 @@ In the unsupervised model, only normal samples are used for training, so there i
 
 NEU-CLS can be used for classification and positioning tasks.
 
-- 🔗 Official Link：http://faculty.neu.edu.cn/yunhyan/NEU_surface_defect_database.html
+- :x: Official Link：http://faculty.neu.edu.cn/yunhyan/NEU_surface_defect_database.html 
+
+<b> latest access 🔗  - ([#16](https://github.com/Charmve/Surface-Defect-Detection/issues/16)) </b>
 
 <div align=center><img src="https://img-blog.csdnimg.cn/20200927223042720.png"></div>
 
