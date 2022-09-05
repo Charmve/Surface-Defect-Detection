@@ -479,10 +479,11 @@ If you have any questions or idea, please let me know :email: yidazhang1@gmail.c
 
 &nbsp;&nbsp;&nbsp;&nbsp;  Support this project by becoming a sponsor. Your name and/or logo will show up <b>our homepage</b> with a link to your website. 🙏
 
-<br>
 <p align="center">
-    <a href="https://charmve.github.io/sponsor.html" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Sponse this project" width="300" ></a>
+    <a href="https://charmve.github.io/sponsor.html" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Sponse this project" width="280" ></a>
 </p>
+
+<!-- Backers
 
 <div align="left">
     <a href="https://opencollective.com/surfacedd#sponsors" target="_blank"><img src="https://opencollective.com/l0cv/sponsors.svg?width=200"></a>
@@ -493,7 +494,7 @@ If you have any questions or idea, please let me know :email: yidazhang1@gmail.c
 <div class="sponsor-level">
     <h2 align="center">Our Backers</h2>
     <h4 align="center"><em>Waiting for you, code with ❤️ ！</em></h4>
-    <!--<h3><em>Waiting for you, Code with ❤️ ！</em></h3>-->
+    <!-- <h3><em>Waiting for you, Code with ❤️ ！</em></h3> --
     <a href="https://opencollective.com/surfacedd#backers" target="_blank"><img src="https://opencollective.com/surfacedd/backers.svg?width=200"></a>
     <table align="center">
       <tbody>
@@ -557,6 +558,8 @@ If you have any questions or idea, please let me know :email: yidazhang1@gmail.c
     <br>
     <sup>* <b>Note</b>: Because WeChat and Alipay do not support personal interface calls, the information on the sponsorship list is manually added by me, and there may be a delay in updating. Just in case, you can also initiate an Issue stating your corresponding sponsorship and the help you want to get. I will close the corresponding Issue after adding/solving.</sup>
 </div>
+
+--->
 
 ## Citation
 Use this bibtex to cite this repository:
