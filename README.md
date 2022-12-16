@@ -150,6 +150,7 @@ The dataset is constructed from images of defected electrical commutators that w
 
 - Download Link：https://pan.baidu.com/share/init?surl=HSzHC1ltHvt1hSJh_IY4Jg (password：``1zlb``)
 
+- Implementation： https://github.com/skokec/segdec-net-jim2019
 
 The dataset consists of:
 
