@@ -413,6 +413,33 @@ Also, the dataset contains as above mentioned 27 pitting development sequences w
 
 👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
 
+### 18）The Gear Inspection Dataset (GID)
+
+The Gear Inspection Dataset (GID) is a dataset for a competition held by Baidu (China) Co., called the "National Artificial Intelligence Innovation Application Competition." It has two thousand grayscale images with 28575 annotations for three types of defects from a real-world source. Each picture includes defects described in a separate JSON file with the image name, label categories, bounding boxes, and polygons for segmentation. Nevertheless, the tags for labeling categories do not include specific information about their type but only numbers, so spotting their similarities with other related datasets is challenging. Since the JSON file could be hard to understand, you can find the labels for each image in the Darknet format here.
+
+Also, the dataset contains as above mentioned 27 pitting development sequences with every 69 images.
+
+<p align=center>
+  ![val_batch0_labels](https://user-images.githubusercontent.com/19402707/214772689-5233695c-32ff-4109-80a6-3b054c997ce7.jpg)
+  Figure 5. Examples of validation test images and their labels.
+</p>
+
+🔗 Offical link http://www.aiinnovation.com.cn/#/dataDetail?id=34
+
+- Download Link：
+  - Gear Detection Training Dataset: https://pan.baidu.com/s/17HoFfBUQGeX7G0ibkPExrw (passwprd: hm7k) 
+  - Gear detection A list evaluation dataset: https://pan.baidu.com/s/157Zf7hcTM78GhXtXI5ySFQ (pass: 2R6K)
+  - Gear detection B list evaluation dataset: https://pan.baidu.com/s/1OjOZotqlRSvsYLA_qH2nXA (pass: hypd)
+  
+- Mirrors:
+  - Gear Detection Training Dataset: https://drive.google.com/file/d/1CZo-Ab5BXkTjV-b1-NIFzYMjfJQMl4nG/view?usp=share_link
+  - Gear detection A list evaluation dataset: https://drive.google.com/file/d/1-0sSrmhElBseeZWICu77lzTxoOiRD8yG/view?usp=share_link
+  - Gear detection B list evaluation dataset: N/A.
+  
+ Note: The contest dataset is not for commercial use.
+
+👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
+
 <br>
 
 ## 3. More Inventory of the Best Data Set Sources
