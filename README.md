@@ -53,6 +53,7 @@ Important critical papers from year 2017 have been collected and compiled, which
   - [Transmission Line Insulator Dataset](#15Transmission-Line-Insulator-Dataset)
   - [MVTEC ITODD](#16MVTEC-ITODD)
   - [BSData](#17bsdata---dataset-for-instance-segmentation-and-industrial-wear-forecasting)
+  - [GID: The Gear Inspection Dataset](#18the-gear-inspection-dataset)
 - [More Inventory](#3-more-inventory-of-the-best-data-set-sources)
 - [Papers](#4-surface-defect-detection-papers)
 - [Acknowledgements](#acknowledgements)
@@ -413,13 +414,13 @@ Also, the dataset contains as above mentioned 27 pitting development sequences w
 
 👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
 
-### 18）The Gear Inspection Dataset (GID)
+### 18）The Gear Inspection Dataset
 
 The Gear Inspection Dataset (GID) is a dataset for a competition held by Baidu (China) Co., called the "National Artificial Intelligence Innovation Application Competition." It has two thousand grayscale images with 28575 annotations for three types of defects from a real-world source. Each picture includes defects described in a separate JSON file with the image name, label categories, bounding boxes, and polygons for segmentation. Nevertheless, the tags for labeling categories do not include specific information about their type but only numbers, so spotting their similarities with other related datasets is challenging.
 
 <p align=center>
-  ![val_batch0_labels](https://user-images.githubusercontent.com/19402707/214772689-5233695c-32ff-4109-80a6-3b054c997ce7.jpg)
-  Figure 5. Examples of validation test images and their labels.
+    <img src="https://user-images.githubusercontent.com/19402707/214772689-5233695c-32ff-4109-80a6-3b054c997ce7.jpg">
+    Figure 6. Examples of validation test images and their labels.
 </p>
 
 🔗 Offical link http://www.aiinnovation.com.cn/#/dataDetail?id=34

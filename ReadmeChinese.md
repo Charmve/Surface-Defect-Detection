@@ -41,6 +41,7 @@
   - [输电线路绝缘子数据集](#15输电线路绝缘子数据集)
   - [MVTec 异常检测数据集](#16MVTec-异常检测数据集)
   - [BSData-用于实例细分和工业磨损预测的数据集](#17BSData-用于实例细分和工业磨损预测的数据集)
+  - [GID-齿轮检测数据集](#18齿轮检测数据集)
 - [最佳数据集来源盘点](#三最佳数据集来源盘点)
 - [论文集](#四表面缺陷检测论文集)
 - [致谢](#致谢)
@@ -390,13 +391,13 @@ Defective_Insulators包含有缺陷的绝缘体，绝缘子缺陷图像的数量
 
 👆 [<b>BACK to Table of Contents</b> -->](#目录)
 
-### 18）The Gear Inspection Dataset (GID)
+### 18）GID 齿轮检测数据集
 
 齿轮检测数据集（GID）是为百度（中国）有限公司举办的 "全国人工智能创新应用大赛 "的数据集。它有两千张灰度图片，有28575个注释，用于描述来自真实世界的三类缺陷。每张图片都包括在一个单独的JSON文件中描述的缺陷，包括图片名称、标签类别、边界框和用于分割的多边形。然而，标记类别的标签并不包括关于其类型的具体信息，而只是数字，因此发现它们与其他相关数据集的相似性是具有挑战性的。
 
 <p align=center>
-  ![val_batch0_labels](https://user-images.githubusercontent.com/19402707/214772689-5233695c-32ff-4109-80a6-3b054c997ce7.jpg)
-  图5. 验证测试图像的例子和它们的标签。
+  <img src="https://user-images.githubusercontent.com/19402707/214772689-5233695c-32ff-4109-80a6-3b054c997ce7.jpg">
+  图6. 验证测试图像的例子和它们的标签。
 </p>
 
 🔗 Offical link http://www.aiinnovation.com.cn/#/dataDetail?id=34
