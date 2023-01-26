@@ -390,6 +390,31 @@ Defective_Insulators包含有缺陷的绝缘体，绝缘子缺陷图像的数量
 
 👆 [<b>BACK to Table of Contents</b> -->](#目录)
 
+### 18）The Gear Inspection Dataset (GID)
+
+齿轮检测数据集（GID）是为百度（中国）有限公司举办的 "全国人工智能创新应用大赛 "的数据集。它有两千张灰度图片，有28575个注释，用于描述来自真实世界的三类缺陷。每张图片都包括在一个单独的JSON文件中描述的缺陷，包括图片名称、标签类别、边界框和用于分割的多边形。然而，标记类别的标签并不包括关于其类型的具体信息，而只是数字，因此发现它们与其他相关数据集的相似性是具有挑战性的。
+
+<p align=center>
+  ![val_batch0_labels](https://user-images.githubusercontent.com/19402707/214772689-5233695c-32ff-4109-80a6-3b054c997ce7.jpg)
+  图5. 验证测试图像的例子和它们的标签。
+</p>
+
+🔗 Offical link http://www.aiinnovation.com.cn/#/dataDetail?id=34
+
+- 下载链接：
+  - 齿轮检测训练数据集: https://pan.baidu.com/s/17HoFfBUQGeX7G0ibkPExrw (密码: hm7k) 
+  - 齿轮检测A榜评测数据集: https://pan.baidu.com/s/157Zf7hcTM78GhXtXI5ySFQ (密码: 2R6K)
+  - 齿轮检测B榜评测数据集: https://pan.baidu.com/s/1OjOZotqlRSvsYLA_qH2nXA (密码: hypd)
+  
+- Mirrors:
+  - 齿轮检测训练数据集: https://drive.google.com/file/d/1CZo-Ab5BXkTjV-b1-NIFzYMjfJQMl4nG/view?usp=share_link
+  - 齿轮检测A榜评测数据集: https://drive.google.com/file/d/1-0sSrmhElBseeZWICu77lzTxoOiRD8yG/view?usp=share_link
+  - 齿轮检测B榜评测数据集: N/A.
+  
+ 注意：竞赛数据集不用于商业用途。
+
+👆 [<b>BACK to Table of Contents</b> -->](#目录)
+
 <br>
 
 ## 三、最佳数据集来源盘点
