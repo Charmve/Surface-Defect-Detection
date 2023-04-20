@@ -28,6 +28,16 @@ Important critical papers from year 2017 have been collected and compiled, which
 
 <p>Compared with the clear classification, detection and segmentation tasks in computer vision, the requirements for defect detection are very general. In fact, its requirements can be divided into three different levels: "what is the defect" (<strong>classification</strong>), "where is the defect" (<strong>positioning</strong>) and "How many defects are" (<strong>split</strong>).</p>
 
+<div align="center">
+
+*** 本项目会持续更新，右上角收藏防丢失 Star :star: ~ ***
+
+<b>Star anti-lost</b>
+
+<i>喜欢这个项目吗？请考虑 :heart: 赞助本项目 以帮助长期维护！</i>
+
+</div>
+
 # Table of Contents
 
 - [Introduction](#introduction)
