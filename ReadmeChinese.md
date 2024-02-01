@@ -42,6 +42,8 @@
   - [MVTec 异常检测数据集](#16MVTec-异常检测数据集)
   - [BSData-用于实例细分和工业磨损预测的数据集](#17BSData-用于实例细分和工业磨损预测的数据集)
   - [GID-齿轮检测数据集](#18齿轮检测数据集)
+  - [AeBAD航空发动机叶片异常检测数据集](#19AeBAD航空发动机叶片异常检测数据集)
+  - [BeanTech 异常检测数据集](#20BeanTech-异常检测数据集)
 - [最佳数据集来源盘点](#三最佳数据集来源盘点)
 - [论文集](#四表面缺陷检测论文集)
 - [致谢](#致谢)
@@ -388,7 +390,6 @@ Defective_Insulators包含有缺陷的绝缘体，绝缘子缺陷图像的数量
 
 > 感谢 @Beñat Gartzia 的推荐和大家的关注和支持!
 
-
 👆 [<b>BACK to Table of Contents</b> -->](#目录)
 
 ### 18）GID 齿轮检测数据集
@@ -413,6 +414,25 @@ Defective_Insulators包含有缺陷的绝缘体，绝缘子缺陷图像的数量
   - 齿轮检测B榜评测数据集: N/A.
   
  注意：竞赛数据集不用于商业用途。
+
+👆 [<b>BACK to Table of Contents</b> -->](#目录)
+
+
+### 19）AeBAD航空发动机叶片异常检测数据集 
+数据集下载链接：http://suo.nz/2IU48P
+
+真实世界的航空发动机叶片异常检测（AeBAD）数据集，由两个子数据集组成：单叶片数据集（AeBAD-S）和叶片视频异常检测数据集（AeBAD-V）。与现有数据集相比，AeBAD具有以下两个特点：1.）目标样本未对齐且处于不同的尺度。2.) 测试集和训练集中正态样本的分布存在域偏移，其中域偏移主要是由光照和视图的变化引起的。
+
+![image](https://github.com/Charmve/Surface-Defect-Detection/assets/29084184/746e2264-c232-426f-8b7e-897a02b31800)
+
+👆 [<b>BACK to Table of Contents</b> -->](#目录)
+
+### 20）BeanTech 异常检测数据集
+数据集下载链接：http://suo.nz/2JEGEi
+
+BTAD （beanTech 异常检测）数据集是真实世界的工业异常数据集。该数据集包含 3 种工业产品的总共 2830 张真实世界图像。
+
+![image](https://github.com/Charmve/Surface-Defect-Detection/assets/29084184/3167de0b-bdf9-4b0a-b99e-fb4791fd1510)
 
 👆 [<b>BACK to Table of Contents</b> -->](#目录)
 
