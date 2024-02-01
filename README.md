@@ -530,7 +530,6 @@ If you have any questions or idea, please let me know :email: yidazhang1@gmail.c
 - WeChat Group ID: Yida_Zhang2
 - Email: yidazhang1#gmail.com 
 
-
 <br>
 
 <a href="https://charmve.github.io/sponsor.html"><img align="left" alt="Go for it!" src="https://github.com/Charmve/computer-vision-in-action/blob/main/res/ui/frontpage/2020-sponsors.svg" height="120" title="Do what you like, and do it best!"/></a>
