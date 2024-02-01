@@ -64,6 +64,8 @@ Important critical papers from year 2017 have been collected and compiled, which
   - [MVTEC ITODD](#16MVTEC-ITODD)
   - [BSData](#17bsdata---dataset-for-instance-segmentation-and-industrial-wear-forecasting)
   - [GID: The Gear Inspection Dataset](#18the-gear-inspection-dataset)
+  - [AeBAD aircraft engine blade anomaly detection](#19AeBAD-aircraft-engine-blade-anomaly-detection)
+  - [BeanTech Anomaly Detection(BTAD)](#20BeanTech-Anomaly-Detection(BTAD))
 - [More Inventory](#3-more-inventory-of-the-best-data-set-sources)
 - [Papers](#4-surface-defect-detection-papers)
 - [Acknowledgements](#acknowledgements)
@@ -446,6 +448,27 @@ The Gear Inspection Dataset (GID) is a dataset for a competition held by Baidu (
   - Gear detection B list evaluation dataset: N/A.
   
  Note: The contest dataset is not for commercial use.
+
+👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
+
+
+### 19）AeBAD Aircraft Engine Blade Anomaly Detection
+
+Download link: http://suo.nz/2IU48P
+
+The real-world aero-engine blade anomaly detection (AeBAD) data set consists of two sub-data sets: the single blade data set (AeBAD-S) and the blade video anomaly detection data set (AeBAD-V). Compared with existing datasets, AeBAD has the following two characteristics: 1.) The target samples are not aligned and at different scales. 2.) There is a domain shift in the distribution of normal samples in the test set and training set, where the domain shift is mainly caused by changes in illumination and view.
+
+![image](https://github.com/Charmve/Surface-Defect-Detection/assets/29084184/746e2264-c232-426f-8b7e-897a02b31800)
+
+👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
+
+### 20）BeanTech Anomaly Detection(BTAD)
+
+Download Link：http://suo.nz/2JEGEi
+
+The BTAD (BeanTech Anomaly Detection) dataset is a real-world industrial anomaly dataset. This dataset contains a total of 2830 real-world images of 3 industrial products.
+
+![image](https://github.com/Charmve/Surface-Defect-Detection/assets/29084184/3167de0b-bdf9-4b0a-b99e-fb4791fd1510)
 
 👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
 
