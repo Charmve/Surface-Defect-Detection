@@ -1,0 +1,4 @@
+[upstream]
+origin_type = "github"
+user_name = "Charmve"
+repo_name = "Surface-Defect-Detection"
